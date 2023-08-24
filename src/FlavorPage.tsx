@@ -24,8 +24,9 @@ export default function FlavorPage() {
     eatingInstruction:
       "After the removal from -18 degree Celcius, wait for the ideal texture: a soft one yet resistant upon pressing.",
   };
+  document.body.classList.add("bg-matcha");
   return (
-    <div className="flex flex-col font-serif bg-matcha text-slate-50">
+    <div className="flex flex-col mb-3 font-serif bg-matcha text-slate-50">
       <div className="flex flex-col h-80">
         <div className="absolute border-2 border-border inset-x-3 inset-y-3 h-72"></div>
         <img

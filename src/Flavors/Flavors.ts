@@ -2,7 +2,7 @@ import { FlavorConfig, FlavorVariationConfig, VariationConfig } from "./type";
 
 const FlavorConfigMap: { [key: string]: FlavorConfig } = {
   "specialty-coffee": {
-    coverImageSource: "images/coffee.png",
+    coverImageSource: "/images/coffee.png",
     colorClass: {
       background: "bg-[#cc9023]",
       header: "text-[#ffffff]",

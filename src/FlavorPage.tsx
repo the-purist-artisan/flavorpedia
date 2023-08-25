@@ -1,19 +1,19 @@
+import { useLocation, useParams } from "react-router-dom";
 import { getFlavorVariationConfig } from "./Flavors";
 
-const getFlavor = () => {
-  return window.location.pathname.split("/flavorpedia/")[1];
-};
-
-const getType = (): string => {
-  const query = new URLSearchParams(window.location.search);
+const getType = (search: string): string => {
+  const query = new URLSearchParams(search);
+  console.log(query);
   return query.get("type") || "";
 };
 
 export default function FlavorPage() {
-  const flavor = getFlavor();
-  const type = getType();
+  const params = useParams();
+  const { search } = useLocation();
+
+  const flavor = params["flavor"] || "";
+  const type = getType(search);
   const config = getFlavorVariationConfig(flavor, type);
-  document.body.classList.add("bg-matcha");
 
   return (
     // Default text color: text-slate-50

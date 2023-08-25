@@ -1,3 +1,4 @@
-import { getFlavorVariationConfig } from "./Flavors";
+import { FlavorConfigMap, getFlavorVariationConfig } from "./Flavors";
 
 export { getFlavorVariationConfig };
+export { FlavorConfigMap };

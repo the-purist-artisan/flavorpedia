@@ -1,9 +1,8 @@
 import { useLocation, useParams } from "react-router-dom";
-import { getFlavorVariationConfig } from "./Flavors";
+import { FlavorConfigMap, getFlavorVariationConfig } from "./Flavors";
 
 const getType = (search: string): string => {
   const query = new URLSearchParams(search);
-  console.log(query);
   return query.get("type") || "";
 };
 
@@ -13,6 +12,10 @@ export default function FlavorPage() {
 
   const flavor = params["flavor"] || "";
   const type = getType(search);
+
+  if (!(flavor in FlavorConfigMap)) {
+    return <>Hello</>;
+  }
   const config = getFlavorVariationConfig(flavor, type);
 
   return (

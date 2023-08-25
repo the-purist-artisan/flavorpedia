@@ -31,12 +31,14 @@ export default function FlavorPage() {
           }
           alt="artwork"
         />
-        <div className={"mx-6 mt-2 " + config.colorClass.header}>
+        <div
+          className={"bg-[#ffffff] px-6 pt-2 pb-8 " + config.colorClass.header}
+        >
           <p className="text-2xl font-bold">{config.formalName}</p>
           <p className="text-lg">{config.name}</p>
         </div>
       </div>
-      <div className="px-3">
+      <div className="px-3 pt-4">
         <div className={"italic mb-4 " + config.colorClass.quote}>
           <p className="text-base">&ldquo;{config.quote}&rdquo;</p>
           <p>&mdash;&nbsp;{config.quoteBy}</p>

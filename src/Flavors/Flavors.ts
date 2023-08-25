@@ -5,7 +5,7 @@ const FlavorConfigMap: { [key: string]: FlavorConfig } = {
     coverImageSource: "/images/matcha.png",
     colorClass: {
       background: "bg-[#2c8d2b]",
-      header: "text-[#ffffff]",
+      header: "text-[#2c4b2b]",
       quote: "text-[#2c4b2b]",
       title: "text-[#0c1d10]",
       text: "text-[#ffffff]",

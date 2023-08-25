@@ -15,7 +15,7 @@ export type FlavorConfig = {
   formalName: string;
   name: string;
   quote: string;
-  quoteBy: string;
+  quoteBy?: string;
   note: string;
   eatingInstruction: string;
 };

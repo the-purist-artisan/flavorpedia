@@ -1,6 +1,22 @@
 import { FlavorConfig, FlavorVariationConfig, VariationConfig } from "./type";
 
 const FlavorConfigMap: { [key: string]: FlavorConfig } = {
+  "specialty-coffee": {
+    coverImageSource: "images/coffee.png",
+    colorClass: {
+      background: "bg-[#cc9023]",
+      header: "text-[#ffffff]",
+      quote: "text-[#875c3b]",
+      title: "text-orange-200",
+      text: "text-[#ffffff]",
+    },
+    formalName: "Enigmatic Aroma",
+    name: "Milked Brewed Specialty Coffee",
+    quote: "A proper day is incomplete without coffee",
+    note: "The basic enigma of coffee remains how intoxicating its complex and evocative notes can kindle our emotions, leaving a lingering yet comfortable presence in our memory. Here, the unique cultivation and extraction methods are performed by the Purist during the stage that all the aromas of specialty coffee beans are released into our milk and cream.",
+    eatingInstruction:
+      "After the removal from -18 degree Celcius for 5 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
+  },
   matcha: {
     coverImageSource: "/images/matcha.png",
     colorClass: {
@@ -17,7 +33,7 @@ const FlavorConfigMap: { [key: string]: FlavorConfig } = {
     quoteBy: "Adapted from Edgar Allan Poe",
     note: "Resplendent in the unadulterated chlorophyll colour, this heritage grade matcha ice cream is poised between unraffled serenity and absolute divinity of Kyoto's finest green tea. The palate will be immersed in concentrated umami in contrast with the freshness and the silky texture that prove effortless to enjoy.",
     eatingInstruction:
-      "After the removal from -18 degree Celcius, wait for the ideal texture: a soft one yet resistant upon pressing.",
+      "After the removal from -18 degree Celcius for 5 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
   },
 };
 

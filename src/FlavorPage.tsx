@@ -39,7 +39,7 @@ export default function FlavorPage() {
       <div className="px-3">
         <div className={"italic mb-4 " + config.colorClass.quote}>
           <p className="text-base">&ldquo;{config.quote}&rdquo;</p>
-          <p>&mdash;&nbsp;{config.quoteBy}</p>
+          {config.quoteBy ? <p>&mdash;&nbsp;{config.quoteBy}</p> : null}
         </div>
         <div className="flex flex-col gap-2">
           <div>

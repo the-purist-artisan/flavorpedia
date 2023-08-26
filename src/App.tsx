@@ -1,10 +1,14 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import FlavorPage from "./FlavorPage";
 
 export default function App() {
   return (
-    <div>
-      <FlavorPage />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<>Hello</>} />
+        <Route path="/:flavor" element={<FlavorPage />} />
+      </Routes>
+    </>
   );
 }

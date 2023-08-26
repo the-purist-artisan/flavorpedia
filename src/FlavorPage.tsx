@@ -1,19 +1,22 @@
-import { getFlavorVariationConfig } from "./Flavors";
+import { useLocation, useParams } from "react-router-dom";
+import { FlavorConfigMap, getFlavorVariationConfig } from "./Flavors";
 
-const getFlavor = () => {
-  return window.location.pathname.split("/flavorpedia/")[1];
-};
-
-const getType = (): string => {
-  const query = new URLSearchParams(window.location.search);
+const getType = (search: string): string => {
+  const query = new URLSearchParams(search);
   return query.get("type") || "";
 };
 
 export default function FlavorPage() {
-  const flavor = getFlavor();
-  const type = getType();
+  const params = useParams();
+  const { search } = useLocation();
+
+  const flavor = params["flavor"] || "";
+  const type = getType(search);
+
+  if (!(flavor in FlavorConfigMap)) {
+    return <>Hello</>;
+  }
   const config = getFlavorVariationConfig(flavor, type);
-  document.body.classList.add("bg-matcha");
 
   return (
     // Default text color: text-slate-50
@@ -41,7 +44,7 @@ export default function FlavorPage() {
       <div className="px-3 pt-4">
         <div className={"italic mb-4 " + config.colorClass.quote}>
           <p className="text-base">&ldquo;{config.quote}&rdquo;</p>
-          <p>&mdash;&nbsp;{config.quoteBy}</p>
+          {config.quoteBy ? <p>&mdash;&nbsp;{config.quoteBy}</p> : null}
         </div>
         <div className="flex flex-col gap-2">
           <div>

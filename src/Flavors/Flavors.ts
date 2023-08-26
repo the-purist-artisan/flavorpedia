@@ -35,6 +35,109 @@ export const FlavorConfigMap: { [key: string]: FlavorConfig } = {
     eatingInstruction:
       "After the removal from -18 degree Celcius for 5 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
   },
+  "dark-chocolate": {
+    coverImageSource: "/images/matcha.png",
+    colorClass: {
+      background: "bg-[#6a3817]",
+      header: "text-[#ffffff]",
+      quote: "text-[#2c4b2b]",
+      title: "text-[#0c1d10]",
+      text: "text-[#ffffff]",
+    },
+    formalName: "Ganache De Varsailles",
+    name: "Chocolate Ganache Ice Cream",
+    quote:
+      "All that we see or seem is but dark chocolate ice cream within dark chocolate ice cream.",
+    quoteBy: "Adapted from Edgar Allan Poe",
+    note: "I consider hand-crafted dark chocolate ice cream to be a holy revelation of emotions and passion. This 70% transcontinental blended dark chocolate with fresh cream and milk will take you on an immersive and alluring journey, accompanied by the deep aroma of theobromine. Prepare your refined senses for the subtle notes of coffee and nuts and that add to the velvety and lasting finish.",
+    eatingInstruction:
+      "After the removal from -18 degree Celcius for 7 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
+  },
+  "chocolate-sorbet": {
+    coverImageSource: "/images/matcha.png",
+    colorClass: {
+      background: "bg-[#382d2b]",
+      header: "text-[#ffffff]",
+      quote: "text-[#2c4b2b]",
+      title: "text-[#0c1d10]",
+      text: "text-[#ffffff]",
+    },
+    formalName: "Dark Universe",
+    name: "Dark Chocolate Sorbet",
+    quote:
+      "Chocolate ice cream can be more than just chocolate ice cream. It's ice cream chocolate.",
+    note: "This 70% single-origin Criollo dark chocolate melted in mineral water invites every chocolate connoisseur and ice cream pundit into a parallel universe where infinitely deep and wide layers of theobromine are faithfully expressed. Align the palate with the dark indulgence in eager anticipation for layered notes of red fruits and a touch of earthy spice characteristic of bean-to-bar chocolate.",
+    eatingInstruction:
+      "After the removal from -18 degree Celcius for 6 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
+  },
+  "western-milk-brewed-tea": {
+    coverImageSource: "/images/matcha.png",
+    colorClass: {
+      background: "bg-[#d07c32]",
+      header: "text-[#ffffff]",
+      quote: "text-[#2c4b2b]",
+      title: "text-[#0c1d10]",
+      text: "text-[#ffffff]",
+    },
+    formalName: "Afternoon Delight",
+    name: "Milk-Brewed Western Tea",
+    quote:
+      "At half-past three, everything stops for tea.",
+    note: "Rituals of high tea are presumed to begin with the pleasures of aristocratic afternoons back in the early 1800s when Anna, the seventh Duchess of Bedford, wished to assuage herself of a sinking feeling. This fashionable practice soon extended across all classes and continents, developing into an institution steeped in tradition and history.",
+    eatingInstruction:
+      "After the removal from -18 degree Celcius for 5 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
+  },
+  "vanilla": {
+    coverImageSource: "/images/matcha.png",
+    colorClass: {
+      background: "bg-[#2c8d2b]",
+      header: "text-[#ffffff]",
+      quote: "text-[#2c4b2b]",
+      title: "text-[#0c1d10]",
+      text: "text-[#ffffff]",
+    },
+    formalName: "300+ Constituents",
+    name: "Vanilla",
+    quote:
+      "Whoever first used vanilla in desserts deserves a Nobel Prize.",
+    note: "Efface your memory of the ethyl alcoholic extract, for the beans of Vanilla planifolia and Vanilla tahitensis contain more than 300 organic compounds that confer a plethora of flavours and aromas irreproducible by any artificially synthesised substance.",
+    eatingInstruction:
+      "After the removal from -18 degree Celcius for 5 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
+  },
+  "pistachio": {
+    coverImageSource: "/images/matcha.png",
+    colorClass: {
+      background: "bg-[#b49c3e]",
+      header: "text-[#ffffff]",
+      quote: "text-[#2c4b2b]",
+      title: "text-[#0c1d10]",
+      text: "text-[#ffffff]",
+    },
+    formalName: "Sicily's Emerald Gold",
+    name: "Bronte Pistachio",
+    quote:
+      "There is a reason why Sicilian people call Bronte pistachios green gold",
+    note: "On the steep and stony foothills of Mount Etna stand pistachio trees, the green gold, as the denizens of Sicily call it, born only on volcanic soil, thriving there uncontested with their sought-after aroma and taste, Bronte's symbolic power of longevity and willpower, all the legendary tales told through this ice cream.",
+    eatingInstruction:
+      "After the removal from -18 degree Celcius for 5 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
+  },
+  "mythical-desire": {
+    coverImageSource: "/images/matcha.png",
+    colorClass: {
+      background: "bg-[#00306d]",
+      header: "text-[#ffffff]",
+      quote: "text-[#2c4b2b]",
+      title: "text-[#0c1d10]",
+      text: "text-[#ffffff]",
+    },
+    formalName: "Mythical Desire",
+    name: "The Purist's Selection",
+    quote:
+      "In a world full of trends, we want not to remain but to reinvent the classics.",
+    note: "To obtain the mastery of artisanal ice cream, the supremacy of quality is the baseline upon which core values are built. We emphasise our vision of the ideal texture that ice cream ought to be appreciated. We let our world heritage-grade ingredients speak for themselves. These are not just a marketing slogan but words to live by.",
+    eatingInstruction:
+      "After the removal from -18 degree Celcius for 5 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
+  },
 };
 
 const VariationConfigMap: { [key: string]: VariationConfig } = {

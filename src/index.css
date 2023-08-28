@@ -15,3 +15,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.full-vh {
+  height: 100vh;
+}
+
+/* sm-md */
+@layer utilities {
+  .artwork-frame-sm-md {
+    /* 1.78 = image ratio */
+    height: calc((1 / 1.78) * 100vw + 100px - 0.75rem * 2);
+  }
+
+  /* lg */
+  .artwork-frame-lg {
+    height: calc(100vh - 0.75rem * 2);
+    width: calc(50vw - 0.75rem * 2);
+  }
+}

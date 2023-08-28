@@ -72,18 +72,23 @@ export default function FlavorPage() {
         <div
           className={"flex flex-col gap-2 lg:gap-10 " + config.colorClass.text}
         >
-          <div>
-            <p className={"font-semibold " + config.colorClass.title}>
-              VARIATION
-            </p>
-            <p>{config.variationName}</p>
-          </div>
-          <div>
-            <p className={"font-semibold " + config.colorClass.title}>
-              TASTE NOTE
-            </p>
-            <p>{config.tasteNote}</p>
-          </div>
+          {config.variationName ? (
+            <div>
+              <p className={"font-semibold " + config.colorClass.title}>
+                VARIATION
+              </p>
+              <p>{config.variationName}</p>
+            </div>
+          ) : null}
+          {config.tasteNote ? (
+            <div>
+              <p className={"font-semibold " + config.colorClass.title}>
+                TASTE NOTE
+              </p>
+              <p>{config.tasteNote}</p>
+            </div>
+          ) : null}
+
           <div>
             <p className={"font-semibold " + config.colorClass.title}>
               NOTE FROM OUR MAKER

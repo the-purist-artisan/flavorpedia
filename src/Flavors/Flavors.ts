@@ -270,7 +270,8 @@ export const getFlavorVariationConfig = (
   variation: string
 ): FlavorVariationConfig => {
   const flavorConfig = FlavorConfigMap[flavor];
-  const variationConfig = VariationConfigMap[variation];
+  const variationConfig: VariationConfig | undefined =
+    VariationConfigMap[variation];
   return {
     coverImageSource: flavorConfig.coverImageSource,
     colorClass: flavorConfig.colorClass,
@@ -278,8 +279,8 @@ export const getFlavorVariationConfig = (
     name: flavorConfig.name,
     quote: flavorConfig.quote,
     quoteBy: flavorConfig.quoteBy,
-    variationName: variationConfig.variationName,
-    tasteNote: variationConfig.tasteNote,
+    variationName: variationConfig?.variationName,
+    tasteNote: variationConfig?.tasteNote,
     note: flavorConfig.note,
     eatingInstruction: flavorConfig.eatingInstruction,
   };

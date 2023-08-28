@@ -1,7 +1,5 @@
 import { useLocation, useParams } from "react-router-dom";
 import { FlavorConfigMap, getFlavorVariationConfig } from "./Flavors";
-import { useSyncExternalStore } from "react";
-import { useWindowDimensions } from "./useWindowDimensions";
 
 const getType = (search: string): string => {
   const query = new URLSearchParams(search);
@@ -11,9 +9,6 @@ const getType = (search: string): string => {
 export default function FlavorPage() {
   const params = useParams();
   const { search } = useLocation();
-  // const { width, height } = useWindowDimensions();
-
-  // console.log("width:", width);
 
   const flavor = params["flavor"] || "";
   const type = getType(search);
@@ -74,19 +69,26 @@ export default function FlavorPage() {
           <p className="text-base">&ldquo;{config.quote}&rdquo;</p>
           {config.quoteBy ? <p>&mdash;&nbsp;{config.quoteBy}</p> : null}
         </div>
-        <div className="flex flex-col gap-2 lg:gap-10">
-          <div>
-            <p className={"font-semibold " + config.colorClass.title}>
-              VARIATION
-            </p>
-            <p>{config.variationName}</p>
-          </div>
-          <div>
-            <p className={"font-semibold " + config.colorClass.title}>
-              TASTE NOTE
-            </p>
-            <p>{config.tasteNote}</p>
-          </div>
+        <div
+          className={"flex flex-col gap-2 lg:gap-10 " + config.colorClass.text}
+        >
+          {config.variationName ? (
+            <div>
+              <p className={"font-semibold " + config.colorClass.title}>
+                VARIATION
+              </p>
+              <p>{config.variationName}</p>
+            </div>
+          ) : null}
+          {config.tasteNote ? (
+            <div>
+              <p className={"font-semibold " + config.colorClass.title}>
+                TASTE NOTE
+              </p>
+              <p>{config.tasteNote}</p>
+            </div>
+          ) : null}
+
           <div>
             <p className={"font-semibold " + config.colorClass.title}>
               NOTE FROM OUR MAKER

@@ -2,11 +2,11 @@ import { FlavorConfig, FlavorVariationConfig, VariationConfig } from "./type";
 
 export const FlavorConfigMap: { [key: string]: FlavorConfig } = {
   "specialty-coffee": {
-    coverImageSource: "/images/coffee.png",
+    coverImageSource: "/images/specialty-coffee.png",
     colorClass: {
       background: "bg-[#cc9023]",
-      header: "text-[#ffffff]",
-      quote: "text-[#875c3b]",
+      header: "text-[#bd7d4b]",
+      quote: "text-[#D9D9D9]",
       title: "text-orange-200",
       text: "text-[#ffffff]",
     },
@@ -17,11 +17,11 @@ export const FlavorConfigMap: { [key: string]: FlavorConfig } = {
     eatingInstruction:
       "After the removal from -18 degree Celcius for 5 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
   },
-  matcha: {
-    coverImageSource: "/images/matcha.png",
+  "ceremonial-matcha": {
+    coverImageSource: "/images/ceremonial-matcha.png",
     colorClass: {
       background: "bg-[#2c8d2a]",
-      header: "text-[#000000]",
+      header: "text-[#2b4b28]",
       quote: "text-[#D9D9D9]",
       title: "text-[#0c1d10]",
       text: "text-[#ffffff]",
@@ -36,13 +36,13 @@ export const FlavorConfigMap: { [key: string]: FlavorConfig } = {
       "After the removal from -18 degree Celcius for 5 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
   },
   "dark-chocolate": {
-    coverImageSource: "/images/matcha.png",
+    coverImageSource: "/images/dark-chocolate.png",
     colorClass: {
-      background: "bg-[#6a3817]",
-      header: "text-[#ffffff]",
-      quote: "text-[#2c4b2b]",
-      title: "text-[#0c1d10]",
-      text: "text-[#ffffff]",
+      background: "bg-[#4b2511]",
+      header: "text-[#4b2511]",
+      quote: "text-[#D9D9D9]",
+      title: "text-[#825c43]",
+      text: "text-[#e1c4a2]",
     },
     formalName: "Ganache De Varsailles",
     name: "Chocolate Ganache Ice Cream",
@@ -53,14 +53,14 @@ export const FlavorConfigMap: { [key: string]: FlavorConfig } = {
     eatingInstruction:
       "After the removal from -18 degree Celcius for 7 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
   },
-  "chocolate-sorbet": {
-    coverImageSource: "/images/matcha.png",
+  "dark-chocolate-sorbet": {
+    coverImageSource: "/images/dark-chocolate-sorbet.png",
     colorClass: {
       background: "bg-[#382d2b]",
-      header: "text-[#ffffff]",
-      quote: "text-[#2c4b2b]",
-      title: "text-[#0c1d10]",
-      text: "text-[#ffffff]",
+      header: "text-[#3e1d0b]",
+      quote: "text-[#D9D9D9]",
+      title: "text-[#645043]",
+      text: "text-[#dfc6a2]",
     },
     formalName: "Dark Universe",
     name: "Dark Chocolate Sorbet",
@@ -71,47 +71,45 @@ export const FlavorConfigMap: { [key: string]: FlavorConfig } = {
       "After the removal from -18 degree Celcius for 6 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
   },
   "western-milk-brewed-tea": {
-    coverImageSource: "/images/matcha.png",
+    coverImageSource: "/images/western-milk-brewed-tea.png",
     colorClass: {
-      background: "bg-[#d07c32]",
-      header: "text-[#ffffff]",
-      quote: "text-[#2c4b2b]",
-      title: "text-[#0c1d10]",
+      background: "bg-[#c87638]",
+      header: "text-[#bd9a6e]",
+      quote: "text-[#D9D9D9]",
+      title: "text-[#e0b087]",
       text: "text-[#ffffff]",
     },
     formalName: "Afternoon Delight",
     name: "Milk-Brewed Western Tea",
-    quote:
-      "At half-past three, everything stops for tea.",
+    quote: "At half-past three, everything stops for tea.",
     note: "Rituals of high tea are presumed to begin with the pleasures of aristocratic afternoons back in the early 1800s when Anna, the seventh Duchess of Bedford, wished to assuage herself of a sinking feeling. This fashionable practice soon extended across all classes and continents, developing into an institution steeped in tradition and history.",
     eatingInstruction:
       "After the removal from -18 degree Celcius for 5 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
   },
-  "vanilla": {
-    coverImageSource: "/images/matcha.png",
+  vanilla: {
+    coverImageSource: "/images/vanilla.png",
     colorClass: {
-      background: "bg-[#2c8d2b]",
-      header: "text-[#ffffff]",
-      quote: "text-[#2c4b2b]",
-      title: "text-[#0c1d10]",
-      text: "text-[#ffffff]",
+      background: "bg-[#fddea9]",
+      header: "text-[#b1742d]",
+      quote: "text-[#655b5b]",
+      title: "text-[#b1742d]",
+      text: "text-[#4d4242]",
     },
     formalName: "300+ Constituents",
     name: "Vanilla",
-    quote:
-      "Whoever first used vanilla in desserts deserves a Nobel Prize.",
+    quote: "Whoever first used vanilla in desserts deserves a Nobel Prize.",
     note: "Efface your memory of the ethyl alcoholic extract, for the beans of Vanilla planifolia and Vanilla tahitensis contain more than 300 organic compounds that confer a plethora of flavours and aromas irreproducible by any artificially synthesised substance.",
     eatingInstruction:
       "After the removal from -18 degree Celcius for 5 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
   },
-  "pistachio": {
-    coverImageSource: "/images/matcha.png",
+  "bronte-pistachio": {
+    coverImageSource: "/images/bronte-pistachio.png",
     colorClass: {
-      background: "bg-[#b49c3e]",
-      header: "text-[#ffffff]",
-      quote: "text-[#2c4b2b]",
-      title: "text-[#0c1d10]",
-      text: "text-[#ffffff]",
+      background: "bg-[#b29c43]",
+      header: "text-[#a99360]",
+      quote: "text-[#D9D9D9]",
+      title: "text-[#7e6a2b]",
+      text: "text-[#352208]",
     },
     formalName: "Sicily's Emerald Gold",
     name: "Bronte Pistachio",
@@ -122,12 +120,12 @@ export const FlavorConfigMap: { [key: string]: FlavorConfig } = {
       "After the removal from -18 degree Celcius for 5 minutes, wait for the ideal texture: a soft one yet resistant upon pressing.",
   },
   "mythical-desire": {
-    coverImageSource: "/images/matcha.png",
+    coverImageSource: "/images/mythical-desire.png",
     colorClass: {
       background: "bg-[#00306d]",
-      header: "text-[#ffffff]",
-      quote: "text-[#2c4b2b]",
-      title: "text-[#0c1d10]",
+      header: "text-[#1e499b]",
+      quote: "text-[#D9D9D9]",
+      title: "text-[#6f87a9]",
       text: "text-[#ffffff]",
     },
     formalName: "Mythical Desire",

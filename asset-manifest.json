@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/flavorpedia/static/css/main.9599da0d.css",
-    "main.js": "/flavorpedia/static/js/main.eebe70fb.js",
+    "main.css": "/flavorpedia/static/css/main.166b483b.css",
+    "main.js": "/flavorpedia/static/js/main.bef92def.js",
     "static/js/787.287ee712.chunk.js": "/flavorpedia/static/js/787.287ee712.chunk.js",
     "index.html": "/flavorpedia/index.html",
-    "main.9599da0d.css.map": "/flavorpedia/static/css/main.9599da0d.css.map",
-    "main.eebe70fb.js.map": "/flavorpedia/static/js/main.eebe70fb.js.map",
+    "main.166b483b.css.map": "/flavorpedia/static/css/main.166b483b.css.map",
+    "main.bef92def.js.map": "/flavorpedia/static/js/main.bef92def.js.map",
     "787.287ee712.chunk.js.map": "/flavorpedia/static/js/787.287ee712.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9599da0d.css",
-    "static/js/main.eebe70fb.js"
+    "static/css/main.166b483b.css",
+    "static/js/main.bef92def.js"
   ]
 }

@@ -20,8 +20,8 @@ code {
   height: 100vh;
 }
 
-/* sm-md */
 @layer utilities {
+  /* sm-md */
   .artwork-frame-sm-md {
     /* 1.78 = image ratio */
     height: calc((1 / 1.78) * 100vw + 100px - 0.75rem * 2);
@@ -30,6 +30,7 @@ code {
   /* lg */
   .artwork-frame-lg {
     height: calc(100vh - 0.75rem * 2);
+    /* height: 100vh; */
     width: calc(50vw - 0.75rem * 2);
   }
 }

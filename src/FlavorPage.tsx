@@ -27,7 +27,7 @@ export default function FlavorPage() {
     // Default text color: text-slate-50
     <div
       className={
-        "flex flex-col lg:h-[100vh] lg:flex-row font-serif text-slate-50 " +
+        "flex flex-col lg:h-[100vh] lg:flex-row font-serif text-slate-50 lg:overflow-y-auto " +
         config.colorClass.background
       }
     >
@@ -47,7 +47,7 @@ export default function FlavorPage() {
         <div
           id="header"
           className={
-            "bg-[#ffffff] lg:grow px-6 lg:px-[4rem] pt-2 lg:pt-[4rem] pb-8 " +
+            "bg-[#ffffff] lg:grow px-6 lg:px-[4rem] pt-2 lg:pt-[2rem] pb-8 " +
             config.colorClass.header
           }
         >
@@ -55,7 +55,7 @@ export default function FlavorPage() {
           <p className="text-lg">{config.name}</p>
           <div
             className={
-              "hidden lg:block italic leading-7 lg:mt-[4rem] " +
+              "hidden lg:block italic leading-7 lg:mt-[2rem] " +
               config.colorClass.quote
             }
           >
@@ -64,7 +64,7 @@ export default function FlavorPage() {
           </div>
         </div>
       </div>
-      <div className="px-3 pt-4 mb-6 lg:basis-1/2">
+      <div className="flex flex-col px-3 lg:px-10 pt-4 mb-6 lg:basis-1/2 lg:justify-center lg:items-center">
         <div
           id="quote-container"
           className={
@@ -74,7 +74,7 @@ export default function FlavorPage() {
           <p className="text-base">&ldquo;{config.quote}&rdquo;</p>
           {config.quoteBy ? <p>&mdash;&nbsp;{config.quoteBy}</p> : null}
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 lg:gap-10">
           <div>
             <p className={"font-semibold " + config.colorClass.title}>
               VARIATION

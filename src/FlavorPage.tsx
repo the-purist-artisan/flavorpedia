@@ -22,12 +22,12 @@ export default function FlavorPage() {
     // Default text color: text-slate-50
     <div
       className={
-        "flex flex-col pb-6 font-serif text-slate-50 " +
+        "flex flex-col md:flex-row md:h-full pb-6 font-serif text-slate-50 " +
         config.colorClass.background
       }
     >
-      <div className="flex flex-col h-80">
-        <div className="absolute border-2 border-[#000001] inset-x-3 inset-y-3 h-72"></div>
+      <div className="flex flex-col md:basis-1/2">
+        <div className="absolute border-2 border-[#000001] inset-x-3 inset-y-3 h-72 md:w-[47.75%]"></div>
         <img
           src={
             window.location.origin + "/flavorpedia/" + config.coverImageSource
@@ -35,14 +35,14 @@ export default function FlavorPage() {
           alt="artwork"
         />
         <div
-          className={"bg-[#ffffff] px-6 pt-2 pb-8 " + config.colorClass.header}
+          className={"bg-[#ffffff] md:grow px-6 pt-2 pb-8 " + config.colorClass.header}
         >
           <p className="text-2xl font-bold">{config.formalName}</p>
           <p className="text-lg">{config.name}</p>
         </div>
       </div>
-      <div className="px-3 pt-4">
-        <div className={"italic mb-4 " + config.colorClass.quote}>
+      <div className="px-3 pt-4 md:basis-1/2">
+        <div className={"italic leading-7 mb-4 " + config.colorClass.quote}>
           <p className="text-base">&ldquo;{config.quote}&rdquo;</p>
           {config.quoteBy ? <p>&mdash;&nbsp;{config.quoteBy}</p> : null}
         </div>

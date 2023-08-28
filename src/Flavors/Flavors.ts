@@ -20,9 +20,9 @@ export const FlavorConfigMap: { [key: string]: FlavorConfig } = {
   matcha: {
     coverImageSource: "/images/matcha.png",
     colorClass: {
-      background: "bg-[#2c8d2b]",
-      header: "text-[#ffffff]",
-      quote: "text-[#2c4b2b]",
+      background: "bg-[#2c8d2a]",
+      header: "text-[#000000]",
+      quote: "text-[#D9D9D9]",
       title: "text-[#0c1d10]",
       text: "text-[#ffffff]",
     },

@@ -13,6 +13,20 @@ module.exports = {
         76: "19rem",
         "90%": "90%",
       },
+      colors: {
+        white: "#ffffff",
+        "menu-background": "#263165",
+      },
+      fontFamily: {
+        serif: ["adobe-garamond-pro", "serif"],
+        eng: ["benaco-one", "MyFont"],
+      },
+      fontSize: {
+        "key-header": "44px",
+      },
+      lineHeight: {
+        "key-header": "40px",
+      },
     },
   },
   plugins: [],

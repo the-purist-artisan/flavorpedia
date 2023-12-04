@@ -34,3 +34,11 @@ code {
     width: calc(50vw - 0.75rem * 2);
   }
 }
+
+@font-face {
+  font-family: "benaco-one";
+  src: local("benaco-one"),
+    url(./fonts/benaco-one-regular.otf) format("opentype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}

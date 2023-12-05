@@ -30,9 +30,10 @@ module.exports = {
         "classic-text": "#251F1F",
       },
       fontFamily: {
-        serif: ["adobe-garamond-pro", "serif"],
+        // serif: ["adobe-garamond-pro", "serif"],
+        "gt-super-text-bold": ["gt-super-text-bold", "sans-serif"],
         "benaco-one": ["benaco-one", "MyFont"],
-        "ibm-plex-thai": ["ibm-plex-thai-looped", "sans-serif"],
+        "ibm-plex-thai": ["ibm-plex-sans-thai-looped", "sans-serif"],
       },
       fontSize: {
         "key-header": "44px",

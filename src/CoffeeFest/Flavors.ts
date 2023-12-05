@@ -26,8 +26,7 @@ const coffee: Flavor = {
       name: "Panama Geisha La Esmeralda Special Lot 4S PA",
       description:
         "กาแฟ Geisha จากไร่ดังของ Panama มีมิติของกลิ่นและ รสที่ซับซ้อน ละมุน เต็มไปด้วยดอกไม้และผลไม้หลากชนิด ทิ้งรสชาติไว้ที่คอได้อย่างยอดเยี่ยม และยาวนาน",
-      tasteNote:
-        "Taste note: เสาวรส สัปปะรด วานิลลา เชอร์รี่ พลัม บลูเบอร์รี่ คาราเมลน้ำตาลทรายแดง เรดเคอแรนต์",
+      tasteNote: "Taste note: ดอกมะลิ ส้มโอแดง เบอร์กามอต ส้ม เสาวรส",
       price: 400,
     },
   ],
@@ -55,6 +54,7 @@ const westernTea: Flavor = {
   id: "western-tea",
   categoryButtonText: "หมวด ชานมตะวันตก",
   backgroundColorClass: "bg-western-tea-bg",
+  textColorClass: "text-western-tea-text",
   imageName: "western-tea",
   name: "ชานมตะวันตก",
   items: [
@@ -123,6 +123,7 @@ const classic: Flavor = {
   id: "classic",
   categoryButtonText: "หมวด รส Classic",
   backgroundColorClass: "bg-classic-bg",
+  textColorClass: "text-classic-text",
   imageName: "classic",
   name: "รสชาติ Classic ของ The Purist",
   items: [

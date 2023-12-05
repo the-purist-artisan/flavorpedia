@@ -100,7 +100,7 @@ export default function CoffeeFestMenu() {
               }
             }}
             key={flavor.name}
-            className={`py-10 px-6 flex flex-col items-center text-center text-white gap-y-6 ${flavor.backgroundColorClass} ${textColorClassName}`}
+            className={`py-10 px-6 flex flex-col items-center text-center gap-y-6 ${flavor.backgroundColorClass} ${textColorClassName}`}
           >
             {/* Cup image */}
             <img

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/flavorpedia/static/css/main.b3964fbb.css",
-    "main.js": "/flavorpedia/static/js/main.914389da.js",
+    "main.css": "/flavorpedia/static/css/main.f4cd5f38.css",
+    "main.js": "/flavorpedia/static/js/main.1bfd99dd.js",
     "static/js/787.3d15642f.chunk.js": "/flavorpedia/static/js/787.3d15642f.chunk.js",
     "static/media/benaco-one-regular.otf": "/flavorpedia/static/media/benaco-one-regular.3ad9f61ae246c6e04678.otf",
     "index.html": "/flavorpedia/index.html",
-    "main.b3964fbb.css.map": "/flavorpedia/static/css/main.b3964fbb.css.map",
-    "main.914389da.js.map": "/flavorpedia/static/js/main.914389da.js.map",
+    "main.f4cd5f38.css.map": "/flavorpedia/static/css/main.f4cd5f38.css.map",
+    "main.1bfd99dd.js.map": "/flavorpedia/static/js/main.1bfd99dd.js.map",
     "787.3d15642f.chunk.js.map": "/flavorpedia/static/js/787.3d15642f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3964fbb.css",
-    "static/js/main.914389da.js"
+    "static/css/main.f4cd5f38.css",
+    "static/js/main.1bfd99dd.js"
   ]
 }

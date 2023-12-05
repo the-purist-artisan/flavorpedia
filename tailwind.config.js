@@ -15,11 +15,24 @@ module.exports = {
       },
       colors: {
         white: "#ffffff",
-        "menu-background": "#263165",
+        // background
+        "menu-bg": "#263165",
+        "coffee-bg": "#B66E3F",
+        "matcha-bg": "#608326",
+        "western-tea-bg": "#D6A77C",
+        "eastern-tea-bg": "#90765F",
+        "chocolate-bg": "#633313",
+        "fruits-bg": "#E9642A",
+        "classic-bg": "#E3DFBA",
+        "special-bg": "#263165",
+        // text
+        "western-tea-text": "#251F1F",
+        "classic-text": "#251F1F",
       },
       fontFamily: {
         serif: ["adobe-garamond-pro", "serif"],
-        eng: ["benaco-one", "MyFont"],
+        "benaco-one": ["benaco-one", "MyFont"],
+        "ibm-plex-thai": ["ibm-plex-thai-looped", "sans-serif"],
       },
       fontSize: {
         "key-header": "44px",

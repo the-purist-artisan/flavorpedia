@@ -66,13 +66,13 @@ export default function CoffeeFestMenu() {
         <div className="font-gt-super-text-bold text-lg mb-6">Menu</div>
         {coffeeFestFlavors.map((flavor) => {
           return (
-            <div
+            <button
               key={`${flavor.id}-category-button`}
               onClick={() => scrollToFlavor(flavor.id)}
               className="border-solid border border-white text-white mb-6 last:mb-0 px-4 py-2 w-fit text-lg leading-5 rounded-3xl"
             >
               {flavor.categoryButtonText}
-            </div>
+            </button>
           );
         })}
         <div>

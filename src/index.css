@@ -34,3 +34,27 @@ code {
     width: calc(50vw - 0.75rem * 2);
   }
 }
+
+@font-face {
+  font-family: "benaco-one";
+  src: local("benaco-one"),
+    url(./fonts/benaco-one-regular.otf) format("opentype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "ibm-plex-sans-thai-looped";
+  src: local("ibm-plex-sans-thai-looped"),
+    url(./fonts/ibm-plex-sans-thai-looped.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "gt-super-text-bold";
+  src: local("gt-super-text-bold"),
+    url(./fonts/gt-super-text-bold.otf) format("opentype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}

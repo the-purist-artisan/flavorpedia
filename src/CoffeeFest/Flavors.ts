@@ -151,7 +151,7 @@ const westernTea: Flavor = {
   items: [
     {
       name: "Marco Polo Sublime",
-      description: "ชาดำเรือธง กลิ่นผลไม้ และดอกไม้นานาชนิต จาก Mariage Frères",
+      description: "ชาดำเรือธง กลิ่นผลไม้ และดอกไม้นานาชนิด จาก Mariage Frères",
       tasteNote:
         "Taste note: แพร์ ลิ้นจี่ สตอเบอร์รี่ แครนเบอร์รี่ เมล่อน ครีม มอลต์",
       price: 300,
@@ -221,7 +221,7 @@ const chocolate: Flavor = {
       name: "Ecuador Nacional Arriba (TO’AK Powder) Ganache",
       description:
         "ช็อกโกแลตสายพันธุ์ Nacional Arriba พันธุ์แห่งชาติของประเทศ Ecuador โดยแบรนด์ระดับโลก TO’AK",
-      tasteNote: "Taste note: ดอกไม้ป่า ผลไม้ซิตรัส เครื่องเทศหน้าหนาว",
+      tasteNote: "Taste note: ดอกไม้ป่า ผลไม้ซิตรัส เครื่องเทศฤดูหนาว",
       price: 300,
     },
     {

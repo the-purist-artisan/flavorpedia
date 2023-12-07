@@ -300,7 +300,7 @@ const classic: Flavor = {
     {
       name: "Tahitian Raiatea Black Pearl Grand Cru Vanilla",
       description:
-        "วานิลลาสายพันธุ์ Tahitian จากเกาะ Raiatea มีความหอมจากกลิ่นของเครื่องเทศ ทำให้แตกต่างจากวนิลาสายพันธุ์อื่น",
+        "วานิลลาสายพันธุ์ Tahitian จากเกาะ Raiatea มีความหอมจากกลิ่นของเครื่องเทศ ทำให้แตกต่างจากวานิลลาสายพันธุ์อื่น",
       tasteNote:
         "Taste note: วานิลลาที่มีกลิ่นเครื่องเทศ ขนมปังขิง อบเชย และดอกไม้นานาๆ ชนิด",
       price: 350,

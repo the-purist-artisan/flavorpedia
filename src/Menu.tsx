@@ -1,6 +1,6 @@
 import { useRef } from "react";
-import { Flavor } from "./CoffeeFest/Flavors";
 import "./index.css";
+import { Flavor } from "./MenuFlavors/types";
 
 interface MenuProps {
   headerText: string;

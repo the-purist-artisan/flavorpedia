@@ -2,7 +2,8 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import FlavorPage from "./FlavorPage";
 import Menu from "./Menu";
-import { coffeeFestFlavors } from "./CoffeeFest/Flavors";
+import { coffeeFestFlavors } from "./MenuFlavors/CoffeeFest/Flavors";
+import { yearEndFlavors } from "./MenuFlavors/YearEnd/Flavors";
 
 export default function App() {
   return (
@@ -18,6 +19,10 @@ export default function App() {
               flavors={coffeeFestFlavors}
             />
           }
+        />
+        <Route
+          path="/year-end-2023"
+          element={<Menu headerText="Year End 2023" flavors={yearEndFlavors} />}
         />
       </Routes>
     </>

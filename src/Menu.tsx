@@ -1,8 +1,13 @@
 import { useRef } from "react";
-import { coffeeFestFlavors } from "./CoffeeFest/Flavors";
 import "./index.css";
+import { Flavor } from "./MenuFlavors/types";
 
-export default function CoffeeFestMenu() {
+interface MenuProps {
+  headerText: string;
+  flavors: Flavor[];
+}
+
+export default function Menu({ headerText, flavors }: MenuProps) {
   const topRef = useRef<HTMLDivElement | null>(null);
   const itemsRef = useRef<Map<string, HTMLDivElement> | null>(null);
 
@@ -38,10 +43,7 @@ export default function CoffeeFestMenu() {
         }}
       >
         <img
-          src={
-            window.location.origin +
-            "/flavorpedia/images/coffee-fest/up-arrow.svg"
-          }
+          src={window.location.origin + "/flavorpedia/images/menu/up-arrow.svg"}
           width={"40px"}
         />
       </div>
@@ -51,20 +53,15 @@ export default function CoffeeFestMenu() {
       >
         <div className="mb-6">
           <img
-            src={
-              window.location.origin +
-              "/flavorpedia/images/coffee-fest/logo.svg"
-            }
+            src={window.location.origin + "/flavorpedia/images/menu/logo.svg"}
             height={"100px"}
           />
         </div>
-        <div className="menu-header font-benaco-one mb-6 w-fit text-center font-normal text-key-header leading-key-header">
-          Thailand Coffee
-          <br />
-          Fest 2023
+        <div className="menu-header font-benaco-one mb-6 w-fit text-center font-normal text-key-header leading-key-header whitespace-pre-line">
+          {headerText}
         </div>
         <div className="font-gt-super-text-bold text-lg mb-6">Menu</div>
-        {coffeeFestFlavors.map((flavor) => {
+        {flavors.map((flavor) => {
           return (
             <button
               key={`${flavor.id}-category-button`}
@@ -78,14 +75,13 @@ export default function CoffeeFestMenu() {
         <div>
           <img
             src={
-              window.location.origin +
-              "/flavorpedia/images/coffee-fest/down-arrow.svg"
+              window.location.origin + "/flavorpedia/images/menu/down-arrow.svg"
             }
             height={"27px"}
           />
         </div>
       </div>
-      {coffeeFestFlavors.map((flavor) => {
+      {flavors.map((flavor) => {
         const textColorClassName = flavor.textColorClass
           ? flavor.textColorClass
           : "text-white";
@@ -104,7 +100,7 @@ export default function CoffeeFestMenu() {
           >
             {/* Cup image */}
             <img
-              src={`${window.location.origin}/flavorpedia/images/coffee-fest/cups/${flavor.imageName}.png`}
+              src={`${window.location.origin}/flavorpedia/images/menu/cups/${flavor.imageName}.png`}
               width={"240px"}
             />
             {/* Flavor name */}

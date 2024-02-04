@@ -5,11 +5,20 @@ import { Flavor } from "./MenuFlavors/types";
 interface MenuProps {
   headerText: string;
   flavors: Flavor[];
+  menuBackgroundColorClass?: string;
 }
 
-export default function Menu({ headerText, flavors }: MenuProps) {
+export default function Menu({
+  headerText,
+  flavors,
+  menuBackgroundColorClass: menuBackgroundColor,
+}: MenuProps) {
   const topRef = useRef<HTMLDivElement | null>(null);
   const itemsRef = useRef<Map<string, HTMLDivElement> | null>(null);
+
+  const backgroundColorClass = menuBackgroundColor
+    ? menuBackgroundColor
+    : "bg-menu-bg"; // default dark blue
 
   const getMap = () => {
     if (!itemsRef.current) {
@@ -49,7 +58,7 @@ export default function Menu({ headerText, flavors }: MenuProps) {
       </div>
       <div
         ref={topRef}
-        className={"bg-menu-bg py-8 flex flex-col items-center text-white"}
+        className={`${backgroundColorClass} py-8 flex flex-col items-center text-white`}
       >
         <div className="mb-6">
           <img

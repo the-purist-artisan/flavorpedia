@@ -28,6 +28,8 @@ module.exports = {
         // text
         "western-tea-text": "#251F1F",
         "classic-text": "#251F1F",
+        // special
+        "cny-2024-bg": "#D73B3B",
       },
       fontFamily: {
         // serif: ["adobe-garamond-pro", "serif"],

@@ -5,6 +5,7 @@ import Menu from "./Menu";
 import { coffeeFestFlavors } from "./MenuFlavors/CoffeeFest/Flavors";
 import { yearEndFlavors } from "./MenuFlavors/YearEnd/Flavors";
 import { chineseNewYearFlavors } from "./MenuFlavors/ChineseNewYear/Flavors";
+import { tasteOfTeaFlavors } from "./MenuFlavors/TasteOfTea/Flavors";
 
 export default function App() {
   return (
@@ -12,6 +13,12 @@ export default function App() {
       <Routes>
         <Route path="/" element={<>Hello</>} />
         <Route path="/:flavor" element={<FlavorPage />} />
+        <Route
+          path="/ctw-tea-2024"
+          element={
+            <Menu headerText="Taste of Tea 2024" flavors={tasteOfTeaFlavors} />
+          }
+        />
         <Route
           path="/coffee-fest-menu"
           element={

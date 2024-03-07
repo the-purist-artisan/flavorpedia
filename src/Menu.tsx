@@ -105,7 +105,7 @@ export default function Menu({
               }
             }}
             key={flavor.name}
-            className={`py-10 px-6 flex flex-col items-center text-center gap-y-6 ${flavor.backgroundColorClass} ${textColorClassName}`}
+            className={`py-10 px-8 flex flex-col items-center text-center gap-y-6 ${flavor.backgroundColorClass} ${textColorClassName}`}
           >
             {/* Cup image */}
             <img
@@ -113,26 +113,26 @@ export default function Menu({
               width={"240px"}
             />
             {/* Flavor name */}
-            <div className="font-ibm-plex-thai text-2xl font-semibold leading-7">
+            <div className="font-ibm-plex-thai text-5xl font-semibold leading-relaxed">
               {flavor.name}
             </div>
             {/* Menu items */}
             {flavor.items.map((item) => {
               return (
                 <div key={item.name} className="flex flex-col">
-                  <div className="font-gt-super-text-bold text-base leading-5 mb-6 underline">
+                  <div className="font-gt-super-text-bold text-4xl leading-relaxed mb-6 underline">
                     {item.name}
                   </div>
-                  <div className="font-ibm-plex-thai text-sm font-normal leading-[18px]">
+                  <div className="font-ibm-plex-thai text-2xl font-normal leading-[32px]">
                     {item.description}
                   </div>
                   {/* Taste note and price */}
                   {item.tasteNote ? (
-                    <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">
+                    <div className="mt-1 font-ibm-plex-thai text-2xl font-bold leading-[32px]">
                       {item.tasteNote}
                     </div>
                   ) : null}
-                  <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">
+                  <div className="mt-1 font-ibm-plex-thai text-2xl font-bold leading-[32px]">
                     {item.price}.-
                   </div>
                 </div>

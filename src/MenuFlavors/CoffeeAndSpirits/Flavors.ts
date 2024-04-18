@@ -310,9 +310,9 @@ const classic: Flavor = {
   name: "รสชาติ Classic ของ The Purist",
   items: [
     {
-      name: "Tahitian Vanilla Bora Bora",
+      name: "Tahitian Vanilla Grand Cru Taha’a",
       description:
-        "วานิลลาสายพันธุ์ Tahitian จากเกาะ Bora Bora บริเวณ French Polynesia",
+        "วานิลลาสายพันธุ์ Tahitian จากเกาะ Taha’a บริเวณ French Polynesia ",
       tasteNote:
         "Taste note: กลิ่นหอมอ่อนและนุ่มนวลของลูกพรุน ชะเอมเทศ และช็อกโกแลต",
       price: 350,
@@ -441,10 +441,10 @@ const durians: Flavor = {
       price: 400,
     },
     {
-      name: "Piang Phorn",
+      name: "Nok Krajib",
       description:
-        "เพียงพร จากสวนจันทวิสูตร ให้ความคัสตาร์ดหวานมันลงตัว หอมมันเนย",
-      price: 400,
+        "นกกระจิบ จากสวนคุณไพบูลย์ หวานมันหอมลงคอ สดชื่นด้วยกลิ่นดอกไม้ ทานง่าย",
+      price: 350,
     },
     {
       name: "Med Nai Yai Prang",

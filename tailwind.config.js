@@ -23,11 +23,13 @@ module.exports = {
         "eastern-tea-bg": "#90765F",
         "chocolate-bg": "#633313",
         "fruits-bg": "#E9642A",
+        "durians-bg": "#FFDE59",
         "classic-bg": "#E3DFBA",
         "special-bg": "#263165",
         // text
         "western-tea-text": "#251F1F",
         "classic-text": "#251F1F",
+        "durians-text": "#6B4726",
         // special
         "cny-2024-bg": "#D73B3B",
       },

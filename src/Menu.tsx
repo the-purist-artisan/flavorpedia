@@ -66,7 +66,7 @@ export default function Menu({
             height={"100px"}
           />
         </div>
-        <div className="menu-header font-benaco-one mb-6 w-fit text-center font-normal text-key-header leading-key-header whitespace-pre-line">
+        <div className="menu-header font-benaco-one mb-6 pl-6 pr-6 w-fit text-center font-normal text-key-header leading-key-header whitespace-pre-line">
           {headerText}
         </div>
         <div className="font-gt-super-text-bold text-lg mb-6">Menu</div>

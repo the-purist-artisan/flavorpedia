@@ -78,7 +78,7 @@ export default function Menu({
           <div className="font-ibm-plex-thai text-lg mb-4 text-center">
             {"เราขอแนะนำไอศกรีมทั้งหมด"}
           </div>
-          <div className="text-7xl font-benaco-one mb-4 w-fit text-center font-normal text-key-header leading-10 whitespace-pre-line">
+          <div className="text-7xl font-benaco-one mb-4 w-fit text-center font-normal leading-10 whitespace-pre-line">
             {totalFlavors}
           </div>
           <div className="font-ibm-plex-thai text-lg">{"รสชาติ"}</div>

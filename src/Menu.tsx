@@ -38,6 +38,11 @@ export default function Menu({
       });
   };
 
+  // count total flavors
+  const totalFlavors = flavors
+    .map((f) => f.items.length)
+    .reduceRight((p, c) => p + c);
+
   return (
     <div className="">
       <div
@@ -63,11 +68,20 @@ export default function Menu({
         <div className="mb-6">
           <img
             src={window.location.origin + "/flavorpedia/images/menu/logo.svg"}
-            height={"100px"}
+            style={{ height: "150px" }}
           />
         </div>
-        <div className="menu-header font-benaco-one mb-6 pl-6 pr-6 w-fit text-center font-normal text-key-header leading-key-header whitespace-pre-line">
+        <div className="menu-header font-benaco-one mb-8 pl-6 pr-6 w-fit text-center font-normal text-key-header leading-key-header whitespace-pre-line">
           {headerText}
+        </div>
+        <div className="flex flex-col items-center mb-8 pl-6 pr-6">
+          <div className="font-ibm-plex-thai text-lg mb-4 text-center">
+            {"เราขอแนะนำไอศกรีมทั้งหมด"}
+          </div>
+          <div className="text-7xl font-benaco-one mb-4 w-fit text-center font-normal text-key-header leading-10 whitespace-pre-line">
+            {totalFlavors}
+          </div>
+          <div className="font-ibm-plex-thai text-lg">{"รสชาติ"}</div>
         </div>
         <div className="font-gt-super-text-bold text-lg mb-6">Menu</div>
         {flavors.map((flavor) => {
@@ -120,12 +134,29 @@ export default function Menu({
             {flavor.items.map((item) => {
               return (
                 <div key={item.name} className="flex flex-col">
-                  <div className="font-gt-super-text-bold text-base leading-5 mb-6 underline">
-                    {item.name}
-                  </div>
+                  {item.isSoldOut ? (
+                    <>
+                      <div className="font-gt-super-text-bold text-base leading-5 mb-2 underline">
+                        {item.name}
+                      </div>
+                      <div className="mb-2">
+                        <span className="rounded-full w-auto bg-slate-800 text-slate-200 px-3 py-1">
+                          Sold out
+                        </span>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className="font-gt-super-text-bold text-base leading-5 mb-6 underline">
+                        {item.name}
+                      </div>
+                    </>
+                  )}
+
                   <div className="font-ibm-plex-thai text-sm font-normal leading-[18px]">
                     {item.description}
                   </div>
+
                   {/* Taste note and price */}
                   {item.tasteNote ? (
                     <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">

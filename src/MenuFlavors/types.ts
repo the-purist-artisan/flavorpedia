@@ -3,6 +3,7 @@ export interface Item {
   description: string;
   tasteNote?: string;
   price: number;
+  isSoldOut?: boolean;
 }
 
 export interface Flavor {

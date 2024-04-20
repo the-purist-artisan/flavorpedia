@@ -6,6 +6,7 @@ import { yearEndFlavors } from "./MenuFlavors/YearEnd/Flavors";
 import { chineseNewYearFlavors } from "./MenuFlavors/ChineseNewYear/Flavors";
 import { tasteOfTeaFlavors } from "./MenuFlavors/TasteOfTea/Flavors";
 import { midtownCoffeeAndSpirit } from "./MenuFlavors/CoffeeAndSpirits/Flavors";
+import Menu from "./Menu";
 import PrintableMenu from "./PrintableMenu";
 
 export default function App() {
@@ -17,16 +18,13 @@ export default function App() {
         <Route
           path="/ctw-tea-2024"
           element={
-            <PrintableMenu
-              headerText="Taste of Tea 2024"
-              flavors={tasteOfTeaFlavors}
-            />
+            <Menu headerText="Taste of Tea 2024" flavors={tasteOfTeaFlavors} />
           }
         />
         <Route
           path="/coffee-fest-menu"
           element={
-            <PrintableMenu
+            <Menu
               headerText="Thailand Coffee Fest 2023"
               flavors={coffeeFestFlavors}
             />
@@ -34,17 +32,12 @@ export default function App() {
         />
         <Route
           path="/year-end-2023"
-          element={
-            <PrintableMenu
-              headerText="Year End 2023"
-              flavors={yearEndFlavors}
-            />
-          }
+          element={<Menu headerText="Year End 2023" flavors={yearEndFlavors} />}
         />
         <Route
           path="/chinese-new-year-2024"
           element={
-            <PrintableMenu
+            <Menu
               headerText="Chinese New Year 2024"
               flavors={chineseNewYearFlavors}
               menuBackgroundColorClass="bg-cny-2024-bg"
@@ -53,6 +46,15 @@ export default function App() {
         />
         <Route
           path="/midtown-coffee-spirit-2024"
+          element={
+            <Menu
+              headerText="Midtown Coffee & Spirit 2024"
+              flavors={midtownCoffeeAndSpirit}
+            />
+          }
+        />
+        <Route
+          path="/print"
           element={
             <PrintableMenu
               headerText="Midtown Coffee & Spirit 2024"

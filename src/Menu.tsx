@@ -8,7 +8,7 @@ interface MenuProps {
   menuBackgroundColorClass?: string;
 }
 
-export default function PrintableMenu({
+export default function Menu({
   headerText,
   flavors,
   menuBackgroundColorClass: menuBackgroundColor,
@@ -119,7 +119,7 @@ export default function PrintableMenu({
               }
             }}
             key={flavor.name}
-            className={`py-10 px-8 flex flex-col items-center text-center gap-y-6 ${flavor.backgroundColorClass} ${textColorClassName}`}
+            className={`py-10 px-6 flex flex-col items-center text-center gap-y-6 ${flavor.backgroundColorClass} ${textColorClassName}`}
           >
             {/* Cup image */}
             <img
@@ -127,7 +127,7 @@ export default function PrintableMenu({
               width={"240px"}
             />
             {/* Flavor name */}
-            <div className="font-ibm-plex-thai text-5xl font-semibold leading-relaxed">
+            <div className="font-ibm-plex-thai text-2xl font-semibold leading-7">
               {flavor.name}
             </div>
             {/* Menu items */}
@@ -136,7 +136,7 @@ export default function PrintableMenu({
                 <div key={item.name} className="flex flex-col">
                   {item.isSoldOut ? (
                     <>
-                      <div className="font-gt-super-text-bold text-4xl leading-relaxed mb-6 underline">
+                      <div className="font-gt-super-text-bold text-base leading-5 mb-2 underline">
                         {item.name}
                       </div>
                       <div className="mb-2">
@@ -147,23 +147,23 @@ export default function PrintableMenu({
                     </>
                   ) : (
                     <>
-                      <div className="font-gt-super-text-bold text-4xl leading-relaxed mb-6 underline">
+                      <div className="font-gt-super-text-bold text-base leading-5 mb-6 underline">
                         {item.name}
                       </div>
                     </>
                   )}
 
-                  <div className="font-ibm-plex-thai text-2xl font-normal leading-[32px]">
+                  <div className="font-ibm-plex-thai text-sm font-normal leading-[18px]">
                     {item.description}
                   </div>
 
                   {/* Taste note and price */}
                   {item.tasteNote ? (
-                    <div className="mt-1 font-ibm-plex-thai text-2xl font-bold leading-[32px]">
+                    <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">
                       {item.tasteNote}
                     </div>
                   ) : null}
-                  <div className="mt-1 font-ibm-plex-thai text-2xl font-bold leading-[32px]">
+                  <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">
                     {item.price}.-
                   </div>
                 </div>

@@ -46,22 +46,6 @@ export default function PrintableMenu({
   return (
     <div className="">
       <div
-        className="fixed bottom-10 right-10"
-        onClick={() => {
-          if (topRef.current)
-            topRef.current.scrollIntoView({
-              behavior: "smooth",
-              block: "start",
-              inline: "nearest",
-            });
-        }}
-      >
-        <img
-          src={window.location.origin + "/flavorpedia/images/menu/up-arrow.svg"}
-          width={"40px"}
-        />
-      </div>
-      <div
         ref={topRef}
         className={`${backgroundColorClass} py-8 flex flex-col items-center text-white`}
       >

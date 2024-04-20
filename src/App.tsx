@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import FlavorPage from "./FlavorPage";
-import Menu from "./Menu";
 import { coffeeFestFlavors } from "./MenuFlavors/CoffeeFest/Flavors";
 import { yearEndFlavors } from "./MenuFlavors/YearEnd/Flavors";
 import { chineseNewYearFlavors } from "./MenuFlavors/ChineseNewYear/Flavors";
 import { tasteOfTeaFlavors } from "./MenuFlavors/TasteOfTea/Flavors";
 import { midtownCoffeeAndSpirit } from "./MenuFlavors/CoffeeAndSpirits/Flavors";
+import PrintableMenu from "./PrintableMenu";
 
 export default function App() {
   return (
@@ -17,13 +17,16 @@ export default function App() {
         <Route
           path="/ctw-tea-2024"
           element={
-            <Menu headerText="Taste of Tea 2024" flavors={tasteOfTeaFlavors} />
+            <PrintableMenu
+              headerText="Taste of Tea 2024"
+              flavors={tasteOfTeaFlavors}
+            />
           }
         />
         <Route
           path="/coffee-fest-menu"
           element={
-            <Menu
+            <PrintableMenu
               headerText="Thailand Coffee Fest 2023"
               flavors={coffeeFestFlavors}
             />
@@ -31,12 +34,17 @@ export default function App() {
         />
         <Route
           path="/year-end-2023"
-          element={<Menu headerText="Year End 2023" flavors={yearEndFlavors} />}
+          element={
+            <PrintableMenu
+              headerText="Year End 2023"
+              flavors={yearEndFlavors}
+            />
+          }
         />
         <Route
           path="/chinese-new-year-2024"
           element={
-            <Menu
+            <PrintableMenu
               headerText="Chinese New Year 2024"
               flavors={chineseNewYearFlavors}
               menuBackgroundColorClass="bg-cny-2024-bg"
@@ -46,7 +54,7 @@ export default function App() {
         <Route
           path="/midtown-coffee-spirit-2024"
           element={
-            <Menu
+            <PrintableMenu
               headerText="Midtown Coffee & Spirit 2024"
               flavors={midtownCoffeeAndSpirit}
             />

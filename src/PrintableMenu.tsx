@@ -8,7 +8,7 @@ interface MenuProps {
   menuBackgroundColorClass?: string;
 }
 
-export default function Menu({
+export default function PrintableMenu({
   headerText,
   flavors,
   menuBackgroundColorClass: menuBackgroundColor,

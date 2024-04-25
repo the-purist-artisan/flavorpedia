@@ -120,6 +120,7 @@ const westernTea: Flavor = {
         "ชาดำเบลนด์ชื่อ “ฤดูใบไม้ผลิสีแดง” มีโทนหอมเกาลัดเชื่อม หายากจาก Mariage Frère",
       tasteNote: "Taste note: เกาลัดเชื่อม วานิลลา เครื่องเทศฤดูร้อนอ่อนๆ",
       price: 300,
+      isSoldOut: true,
     },
     {
       name: "Paris-Ginza",
@@ -127,6 +128,7 @@ const westernTea: Flavor = {
         "ชาดำเบลนด์สไตล์ล้ำแฟชั่นแรงบันดาลใจจากย่านกินซ่าและปารีสจาก Mariage Frères",
       tasteNote: "Taste note: ผลไม้สีแดง ครีมคาราเมล หอมสดชื่น",
       price: 300,
+      isSoldOut: true,
     },
     {
       name: "Countess Grey",
@@ -167,6 +169,7 @@ const matcha: Flavor = {
         "มัทฉะเกรดพิธีชงสูงสุด ชนะรางวัล Japanese Ministry of Agriculture, Forestry, Fisheries 2023 ผลผลิตเพียง 6 กิโลกรัม",
       tasteNote: "Taste note: ความอูมามิและนุ่มนวลที่เสมือนอยู่ชั่วนิรันดร",
       price: 690,
+      isSoldOut: true,
     },
     {
       name: "Asa Hikari",
@@ -175,6 +178,7 @@ const matcha: Flavor = {
       tasteNote:
         "Taste note: สาหร่ายทะเลย่าง ซุปผักยอดหน่อไม้ฝรั่งอ่อน ธัญพืช หอมหวานอูมามิคาราเมลช็อกโกแลตทิ้งท้าย",
       price: 600,
+      isSoldOut: true,
     },
     {
       name: "Zuisho Shogyokuen",
@@ -190,6 +194,7 @@ const matcha: Flavor = {
       tasteNote:
         "Taste note: ความอูมามิที่นุ่มนวลแต่ทรงพลัง กลมกล่อม ลมทะเลและผักใบเขียวที่แฝงไปด้วยความหอมวานิลลา",
       price: 580,
+      isSoldOut: true,
     },
     {
       name: "Uji Hikari Gokasho",
@@ -290,6 +295,7 @@ const chocolate: Flavor = {
       description: "ช็อกโกแลตจากแบรนด์ชั้นนำ Chocolat Madagascar",
       tasteNote: "Taste note: เบอร์รีสีแดง เครื่องเทศ หอมความละมุนในปาก",
       price: 300,
+      isSoldOut: true,
     },
     {
       name: "Rio Caribe Venezuelan Black Sorbet",
@@ -334,6 +340,7 @@ const classic: Flavor = {
       description:
         "ถั่วแมคาเดเมีย นำเข้าจาก Australia ถิ่นกำเนิดดั้งเดิมของพืชชนิดนี้ หอมหวานมันเนยกว่าทุกพื้นที่ปลูก",
       price: 300,
+      isSoldOut: true,
     },
   ],
 };
@@ -356,6 +363,7 @@ const fruits: Flavor = {
       description:
         "เมล่อนสีส้ม มรดกจากสรวงสวรรค์ของฝรั่งเศส หวานพอเหมาะ และกลิ่นหอมฟุ้งเอกลักษณ์เหนือสายพันธุ์อื่นๆ",
       price: 300,
+      isSoldOut: true,
     },
     {
       name: "Tropi-Berta Yellow Peach Sorbet",
@@ -374,6 +382,7 @@ const fruits: Flavor = {
       description:
         "มะม่วงไข่พระอาทิตย์ สายพันธุ์ที่แพงที่สุดในญี่ปุ่น หวานหอมสดชื่น มีปลายกลิ่นกะทิและสัปปะรด",
       price: 250,
+      isSoldOut: true,
     },
     {
       name: "Mahachanok Mango Sorbet",
@@ -427,6 +436,7 @@ const durians: Flavor = {
       description:
         "หนามดำ สายพันธุ์ดังจากมาเลเซีย รสชาติซับซ้อน คัสตาร์ด คาราเมลดาร์คช็อกโกแลตปลายเป็นไวน์",
       price: 450,
+      isSoldOut: true,
     },
     {
       name: "Kob Phikul",
@@ -439,6 +449,7 @@ const durians: Flavor = {
       description:
         "กบสุวรรณ รสชาติจริตกบผู้ดี หวานอ่อนละมุน กลิ่นนวลกลม ความมันถั่วตามเบาๆ",
       price: 400,
+      isSoldOut: true,
     },
     {
       name: "Nok Krajib",
@@ -456,6 +467,7 @@ const durians: Flavor = {
       name: "Thong Lin Jong",
       description: "ทองลินจง หอมหวานเข้มข้น มีความมันหอม เหมือนน้ำกะทิทุเรียน",
       price: 350,
+      isSoldOut: true,
     },
     {
       name: "Black Chanee",

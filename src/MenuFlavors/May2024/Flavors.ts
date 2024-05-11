@@ -31,6 +31,7 @@ const durians: Flavor = {
       description:
         "สุดยอดสายพันธุ์ทุเรียนไทย ครองใจทุกวัย หอมมันนำหวาน ทานง่ายกลิ่น delicate กลมกล่อมมาก จากสวนเฮียลิ้ม",
       price: 400,
+      isSoldOut: true,
     },
     {
       name: "กบพิกุล",
@@ -96,6 +97,7 @@ const classic: Flavor = {
       description:
         "พิสตาชีโอจากเมือง Bronte ใกล้เนินเขาของภูเขาไฟ Etna ในอิตาลี ที่เป็นแหล่งเพาะปลูกพิสตาชีโอมายาวนานหลายร้อยปี จนขนานนามว่าเป็น “ทองสีเขียว” แร่ธาตุจากภูเขาไฟทำให้รสชาติของถั่วเข้ม พุ่ง และหอมไม่เหมือนใคร",
       price: 300,
+      isSoldOut: true,
     },
     {
       name: "Tahitian Vanilla Grand Cru Taha’a",
@@ -104,6 +106,7 @@ const classic: Flavor = {
       tasteNote:
         "Taste note: กลิ่นหอมอ่อนและนุ่มนวลของลูกพรุน ชะเอมเทศ และช็อกโกแลต",
       price: 350,
+      isSoldOut: true,
     },
   ],
 };
@@ -171,6 +174,7 @@ const easternTea: Flavor = {
       tasteNote:
         "Taste note: กลิ่นหอมโทนส้มแห้ง มีกลิ่นอายของเครื่องเทศฤดูร้อน",
       price: 350,
+      isSoldOut: true,
     },
   ],
 };
@@ -189,6 +193,7 @@ const westernTea: Flavor = {
         "ชาดำเบลนด์สุดหอมรุ่น Exclusive จาก Mariage Frères แรงบันดาลใจจากพื้นที่สามเหลี่ยมทองคำ",
       tasteNote: "Taste note: ลิ้นจี่ กุหลาบ เสาวรส",
       price: 300,
+      isSoldOut: true,
     },
   ],
 };
@@ -213,6 +218,7 @@ const coffee: Flavor = {
         "กาแฟ Geisha จากทางตะวันตกเฉียงใต้ของ Ethiopia โดดเด่นเรื่องกลิ่นโทนดอกไม้ ทานง่าย",
       tasteNote: "ดอกไม้หวาน และ grapefruit เบาสบาย",
       price: 350,
+      isSoldOut: true,
     },
   ],
 };

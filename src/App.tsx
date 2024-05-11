@@ -7,6 +7,7 @@ import { yearEndFlavors } from "./MenuFlavors/YearEnd/Flavors";
 import { chineseNewYearFlavors } from "./MenuFlavors/ChineseNewYear/Flavors";
 import { tasteOfTeaFlavors } from "./MenuFlavors/TasteOfTea/Flavors";
 import { midtownCoffeeAndSpirit } from "./MenuFlavors/CoffeeAndSpirits/Flavors";
+import { may2024Flavours } from "./MenuFlavors/May2024/Flavors";
 
 export default function App() {
   return (
@@ -50,6 +51,12 @@ export default function App() {
               headerText="Midtown Coffee & Spirit 2024"
               flavors={midtownCoffeeAndSpirit}
             />
+          }
+        />
+        <Route
+          path="/may-2024"
+          element={
+            <Menu headerText="May 2024 Menu" flavors={may2024Flavours} />
           }
         />
       </Routes>

@@ -19,6 +19,7 @@ const durians: Flavor = {
       description:
         "เป็นที่ชื่นชอบของเซียนชิมทุเรียนทั่วประเทศ อันดับหนึ่งเรื่องความหวาน คาราเมลน้ำตาลปี๊ป หอมดอกไม้อ่อน จากสวนบ้านหลินลับแล เจ้าของต้นพันธุ์ชนะรางวัลจากปู่หลิน ปันลาด ปี พ.ศ.2520",
       price: 450,
+      isSoldOut: true,
     },
     {
       name: "ทับทิมทอง",
@@ -124,6 +125,7 @@ const chocolate: Flavor = {
         "ช็อกโกแลตจาก Domori ผู้ผลิตช็อกโกแลตสายพันธุ์ Criollo ชั้นนำ สายพันธุ์ย่อย Ocumare รสชาติคลาสสิกเข้ากับนม",
       tasteNote: "Taste note: คาราเมล ถั่ว หอมกลิ่นคั่ว",
       price: 300,
+      isSoldOut: true,
     },
     {
       name: "Pacari Nacional Arriba Ganache",
@@ -156,6 +158,7 @@ const matcha: Flavor = {
       tasteNote:
         "Taste note: ถั่วลันเตา สาหร่ายอ่อน มะม่วง มะพร้าวอ่อน ความอูมามิพุ่งพล่าน หวานและค้างอยู่ในปากยาวนาน",
       price: 590,
+      isSoldOut: true,
     },
   ],
 };
@@ -235,6 +238,7 @@ const fruits: Flavor = {
       description:
         "มังคุดต้นร้อยปี จากจันทบุรี รสชาติระเบิดมีจริตของดอกไม้ที่หาได้ยากในมังคุดทั่วไป",
       price: 250,
+      isSoldOut: true,
     },
     {
       name: "Mahachanok Mango Sorbet",

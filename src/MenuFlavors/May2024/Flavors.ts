@@ -57,12 +57,14 @@ const durians: Flavor = {
       description:
         "หอมดอกไม้สวย กุหลาบขาวอ่อน มะลิ ไลแล็ค หวานมันพอดี จากสวน My Garden ผู้สรรหาทุเรียนคุณภาพจากทั่วไทย",
       price: 400,
+      isSoldOut: true,
     },
     {
       name: "ทองกมล",
       description:
         "หอมจริต Jo Malone แพร์อังกฤษ ลิลลี่ หวานมันพอดี จากสวนลุงเสริม แชมป์ประกวดระดับตำนานจากระยอง",
       price: 400,
+      isSoldOut: true,
     },
     {
       name: "หลงลับแล",
@@ -214,6 +216,7 @@ const coffee: Flavor = {
         "กาแฟ Geisha รุ่น Special มีมิติของกลิ่น และรสที่ซับซ้อน ละมุน เต็มไปด้วยดอกไม้ และผลไม้หลากชนิด",
       tasteNote: "Taste note: ดอกมะลิ ส้มเบอกาม็อท ผลไม้ตระกูลซิตรัส",
       price: 700,
+      isSoldOut: true,
     },
     {
       name: "Ethiopia Bench Maji G1 Geisha",
@@ -251,6 +254,7 @@ const fruits: Flavor = {
       description:
         "พีชเหลืองสายพันธุ์ที่หอมฉ่ำจับต้องง่าย ปลูกที่ยอดดอยขุนแจ๋ จังหวัดเชียงใหม่",
       price: 250,
+      isSoldOut: true,
     },
   ],
 };

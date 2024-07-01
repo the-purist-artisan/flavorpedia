@@ -1,4 +1,4 @@
-import { Flavor } from "../types";
+import { Flavor, SOLDOUT_TYPE } from "../types";
 
 const coffee: Flavor = {
   id: "coffee",
@@ -120,7 +120,7 @@ const westernTea: Flavor = {
         "ชาดำเบลนด์ชื่อ “ฤดูใบไม้ผลิสีแดง” มีโทนหอมเกาลัดเชื่อม หายากจาก Mariage Frère",
       tasteNote: "Tasting notes: เกาลัดเชื่อม วานิลลา เครื่องเทศฤดูร้อนอ่อนๆ",
       price: 300,
-      isSoldOut: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Paris-Ginza",
@@ -128,7 +128,7 @@ const westernTea: Flavor = {
         "ชาดำเบลนด์สไตล์ล้ำแฟชั่นแรงบันดาลใจจากย่านกินซ่าและปารีสจาก Mariage Frères",
       tasteNote: "Tasting notes: ผลไม้สีแดง ครีมคาราเมล หอมสดชื่น",
       price: 300,
-      isSoldOut: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Countess Grey",
@@ -169,7 +169,7 @@ const matcha: Flavor = {
         "มัทฉะเกรดพิธีชงสูงสุด ชนะรางวัล Japanese Ministry of Agriculture, Forestry, Fisheries 2023 ผลผลิตเพียง 6 กิโลกรัม",
       tasteNote: "Tasting notes: ความอูมามิและนุ่มนวลที่เสมือนอยู่ชั่วนิรันดร",
       price: 690,
-      isSoldOut: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Asa Hikari",
@@ -178,7 +178,7 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: สาหร่ายทะเลย่าง ซุปผักยอดหน่อไม้ฝรั่งอ่อน ธัญพืช หอมหวานอูมามิคาราเมลช็อกโกแลตทิ้งท้าย",
       price: 600,
-      isSoldOut: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Zuisho Shogyokuen",
@@ -194,7 +194,7 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: ความอูมามิที่นุ่มนวลแต่ทรงพลัง กลมกล่อม ลมทะเลและผักใบเขียวที่แฝงไปด้วยความหอมวานิลลา",
       price: 580,
-      isSoldOut: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Uji Hikari Gokasho",
@@ -295,7 +295,7 @@ const chocolate: Flavor = {
       description: "ช็อกโกแลตจากแบรนด์ชั้นนำ Chocolat Madagascar",
       tasteNote: "Tasting notes: เบอร์รีสีแดง เครื่องเทศ หอมความละมุนในปาก",
       price: 300,
-      isSoldOut: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Rio Caribe Venezuelan Black Sorbet",
@@ -340,7 +340,7 @@ const classic: Flavor = {
       description:
         "ถั่วแมคาเดเมีย นำเข้าจาก Australia ถิ่นกำเนิดดั้งเดิมของพืชชนิดนี้ หอมหวานมันเนยกว่าทุกพื้นที่ปลูก",
       price: 300,
-      isSoldOut: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -363,7 +363,7 @@ const fruits: Flavor = {
       description:
         "เมล่อนสีส้ม มรดกจากสรวงสวรรค์ของฝรั่งเศส หวานพอเหมาะ และกลิ่นหอมฟุ้งเอกลักษณ์เหนือสายพันธุ์อื่นๆ",
       price: 300,
-      isSoldOut: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Tropi-Berta Yellow Peach Sorbet",
@@ -382,7 +382,7 @@ const fruits: Flavor = {
       description:
         "มะม่วงไข่พระอาทิตย์ สายพันธุ์ที่แพงที่สุดในญี่ปุ่น หวานหอมสดชื่น มีปลายกลิ่นกะทิและสัปปะรด",
       price: 250,
-      isSoldOut: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Mahachanok Mango Sorbet",
@@ -436,7 +436,7 @@ const durians: Flavor = {
       description:
         "หนามดำ สายพันธุ์ดังจากมาเลเซีย รสชาติซับซ้อน คัสตาร์ด คาราเมลดาร์คช็อกโกแลตปลายเป็นไวน์",
       price: 450,
-      isSoldOut: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Kob Phikul",
@@ -449,7 +449,7 @@ const durians: Flavor = {
       description:
         "กบสุวรรณ รสชาติจริตกบผู้ดี หวานอ่อนละมุน กลิ่นนวลกลม ความมันถั่วตามเบาๆ",
       price: 400,
-      isSoldOut: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Nok Krajib",
@@ -467,7 +467,7 @@ const durians: Flavor = {
       name: "Thong Lin Jong",
       description: "ทองลินจง หอมหวานเข้มข้น มีความมันหอม เหมือนน้ำกะทิทุเรียน",
       price: 350,
-      isSoldOut: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Black Chanee",

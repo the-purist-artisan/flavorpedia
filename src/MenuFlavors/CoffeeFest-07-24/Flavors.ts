@@ -1,4 +1,4 @@
-import { Flavor } from "../types";
+import { Flavor, SOLDOUT_TYPE } from "../types";
 
 const coffee: Flavor = {
   id: "coffee",
@@ -449,6 +449,7 @@ const fruits: Flavor = {
       description:
         "สตอเบอร์รีจากฝรั่งเศส สายพันธุ์เก่าแก่ แต่มีความพรีเมี่ยมได้ที่รับการยอมรับจากเชฟมิชลินทั่วโลก มีกลิ่นหอมดอกไม้ซิตรัส รสเปรี้ยวนำหวาน ทิ้งท้ายกลิ่นหอมยาวนาน",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "British Strawberry Sorbet",

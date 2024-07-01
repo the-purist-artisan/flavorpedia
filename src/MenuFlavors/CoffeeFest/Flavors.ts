@@ -12,7 +12,7 @@ const coffee: Flavor = {
       description:
         "กาแฟ Geisha จากไร่ดังของ Panama มีมิติของกลิ่น และรสที่ซับซ้อน ละมุน เต็มไปด้วยดอกไม้ และผลไม้หลากชนิด ทิ้งรสชาติไว้ที่คอได้อย่างยอดเยี่ยม และยาวนาน",
       tasteNote:
-        "Taste note: ดอกมะลิ ส้มโอแดง ส้มเบอกาม็อท เสาวรส ผลไม้ตระกูลซิตรัส",
+        "Tasting notes: ดอกมะลิ ส้มโอแดง ส้มเบอกาม็อท เสาวรส ผลไม้ตระกูลซิตรัส",
       price: 450,
     },
     {
@@ -20,7 +20,7 @@ const coffee: Flavor = {
       description:
         "กาแฟ Geisha จากประเทศ Guatemala ไร่ Montaña Helada รางวัลประกวดจากหน่วยงาน Alliance For Coffee Excellence ผ่านการคัดเลือกตั้งแต่ต้นน้ำถึงปลายน้ำ และ Cupping จากผู้เชี่ยวชาญ",
       tasteNote:
-        "Taste note: เสาวรส สัปปะรด วานิลลา เชอร์รี พลัม บลูเบอร์รี คาราเมลน้ำตาลทรายแดง เรดเคอร์แรนท์",
+        "Tasting notes: เสาวรส สัปปะรด วานิลลา เชอร์รี พลัม บลูเบอร์รี คาราเมลน้ำตาลทรายแดง เรดเคอร์แรนท์",
       price: 400,
     },
     {
@@ -28,49 +28,49 @@ const coffee: Flavor = {
       description:
         "กาแฟ Geisha จากไร่ Ninety Plus โดดเด่นด้วยรสชาติ และกลิ่นผลไม้รสเปรี้ยวสุก ที่มาจากการหมักบ่มแบบพิเศษของไร่",
       tasteNote:
-        "Taste note: มะม่วงสุก มะขามเปียก ลาเวนเดอร์ แบล็กเบอร์รี บรั่นดี พลัม ยี่หร่าฝรั่ง",
+        "Tasting notes: มะม่วงสุก มะขามเปียก ลาเวนเดอร์ แบล็กเบอร์รี บรั่นดี พลัม ยี่หร่าฝรั่ง",
       price: 400,
     },
     {
       name: "Panama Geisha 90+ Perci",
       description:
         "กาแฟ Geisha จากไร่ Ninety Plus โดดเด่นด้วยรสชาติ และกลิ่นคล้ายช็อคโกแลต มีรสอมเปรี้ยวที่มาจากการหมักบ่มแบบพิเศษของไร่",
-      tasteNote: "Taste note: เชอร์รี่ ทับทิม ช็อกโกแลต ลูกกระวาน",
+      tasteNote: "Tasting notes: เชอร์รี่ ทับทิม ช็อกโกแลต ลูกกระวาน",
       price: 400,
     },
     {
       name: "Jamaica Blue Mountain",
       description:
         "กาแฟ Blue Mountain จาก Jamaica ที่คนไทยคุ้นเคย รสคลาสสิก มีความหอมจากกลิ่นคั่วชัด รสสัมผัสปลายที่ละเอียด นุ่ม ละมุน",
-      tasteNote: "Taste note: คาราเมล ช็อกโกแลต ถั่ว",
+      tasteNote: "Tasting notes: คาราเมล ช็อกโกแลต ถั่ว",
       price: 400,
     },
     {
       name: "Hawaii Kona Extra Fancy",
       description:
         "กาแฟที่ปลูกบริเวณ Kona coffee belt ใน Hawaii รสชาติคลาสสิก รสสัมผัสปลายเนียน และมีรสอมเปรี้ยวเล็กๆของเปลือกผลไม้ซิตรัส",
-      tasteNote: "Taste note: คาราเมลน้ำตาลทรายแดง เปลือกผลไม้ซิตรัส",
+      tasteNote: "Tasting notes: คาราเมลน้ำตาลทรายแดง เปลือกผลไม้ซิตรัส",
       price: 400,
     },
     {
       name: "Columbia Geisha El Roble LOD#6",
       description:
         "กาแฟ Geisha จากประเทศ Columbia ไร่ El Roble มีจุดเด่นของดินในฟาร์มเป็นดินร่วนปนทราย ล้อมด้วยป่าบนภูเขาสูงและแหล่งน้ำธรรมชาติ",
-      tasteNote: "Taste note: พีชโซดา ลิ้นจี่ องุ่นเขียวมัสแคท เยลลี่",
+      tasteNote: "Tasting notes: พีชโซดา ลิ้นจี่ องุ่นเขียวมัสแคท เยลลี่",
       price: 400,
     },
     {
       name: "Columbia Rum Barrel Finca San Jose",
       description:
         "กาแฟจากไร่แรกที่คิดค้นวิธีการหมักบ่มในถังเหล้ารัมที่ใช้แล้ว ทำให้กาแฟมีกลิ่นเหล้ารัมที่หอมอย่างโดดเด่น",
-      tasteNote: "Taste note: เชอร์รี รัม วานิลลา ทิรามิสุ",
+      tasteNote: "Tasting notes: เชอร์รี รัม วานิลลา ทิรามิสุ",
       price: 350,
     },
     {
       name: "Panama Geisha Volcan Baru",
       description:
         "กาแฟ Geisha ปลูกบริเวณภูเขาไฟ Volcan Baru ใน Panama ทำให้กาแฟได้รับแร่ธาตุจากภูเขาไฟ",
-      tasteNote: "Taste note: ดอกมะลิ แอพริคอต ส้มเบอกาม็อท พีช ชาอู่หลง",
+      tasteNote: "Tasting notes: ดอกมะลิ แอพริคอต ส้มเบอกาม็อท พีช ชาอู่หลง",
       price: 300,
     },
     {
@@ -78,7 +78,7 @@ const coffee: Flavor = {
       description:
         "กาแฟ Geisha จากประเทศ Costa Rica มีความครีมมี่ บอดี้แน่น คงรสชาติตอนท้ายยาวนาน",
       tasteNote:
-        "Taste note: เมเปิ้ลไซรัป แอปเปิ้ลเขียว แครนเบอร์รี ชาดำ อัลมอนด์",
+        "Tasting notes: เมเปิ้ลไซรัป แอปเปิ้ลเขียว แครนเบอร์รี ชาดำ อัลมอนด์",
       price: 250,
     },
   ],
@@ -96,7 +96,7 @@ const matcha: Flavor = {
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Narino จากแบรนด์ Horii Shichimeien",
       tasteNote:
-        "Taste note: ไวท์ช็อกโกแลต เนย ขนมปัง รสสัมผัสในปากที่ครีมมี่ด้วยความอูมามิที่เข้มข้น ความฝาดน้อยแทบไม่มี",
+        "Tasting notes: ไวท์ช็อกโกแลต เนย ขนมปัง รสสัมผัสในปากที่ครีมมี่ด้วยความอูมามิที่เข้มข้น ความฝาดน้อยแทบไม่มี",
       price: 600,
     },
     {
@@ -104,7 +104,7 @@ const matcha: Flavor = {
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Uji Hikari จากแบรนด์ Shogyokuen",
       tasteNote:
-        "Taste note: ถั่วลันเตา คาวทะเลสาหร่าย มะม่วง มะพร้าวเล็กๆ ความอูมามิพุ่งพล่าน และค้างอยู่ในปากยาวนาน",
+        "Tasting notes: ถั่วลันเตา คาวทะเลสาหร่าย มะม่วง มะพร้าวเล็กๆ ความอูมามิพุ่งพล่าน และค้างอยู่ในปากยาวนาน",
       price: 590,
     },
     {
@@ -112,7 +112,7 @@ const matcha: Flavor = {
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Asahi จากไร่รางวัลประกวดแข่งขัน ใช้วิธีคลุมใบชาพรางแบบ Honzu 6 สัปดาห์",
       tasteNote:
-        "Taste note: สาหร่าย ผลไม้แห้ง อูมามิหนัก และแน่น ทิ้งรสชาติเค็มแบบสุภาพ",
+        "Tasting notes: สาหร่าย ผลไม้แห้ง อูมามิหนัก และแน่น ทิ้งรสชาติเค็มแบบสุภาพ",
       price: 560,
     },
     {
@@ -120,7 +120,7 @@ const matcha: Flavor = {
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Saemidori จากไร่รางวัลประกวดแข่งขัน",
       tasteNote:
-        "Taste note: เปลือกซิตรัส สัมผัสฝาดบางๆ ให้กลิ่นน้ำทะเล รสสัมผัสนุ่ม ครีมมี่ หวาน นวลคล้ายขนมปังธัญพืช",
+        "Tasting notes: เปลือกซิตรัส สัมผัสฝาดบางๆ ให้กลิ่นน้ำทะเล รสสัมผัสนุ่ม ครีมมี่ หวาน นวลคล้ายขนมปังธัญพืช",
       price: 550,
     },
   ],
@@ -138,27 +138,27 @@ const westernTea: Flavor = {
       name: "Marco Polo Sublime",
       description: "ชาดำเรือธง กลิ่นผลไม้ และดอกไม้นานาชนิด จาก Mariage Frères",
       tasteNote:
-        "Taste note: แพร์ ลิ้นจี่ สตอเบอร์รี่ แครนเบอร์รี่ เมล่อน ครีม มอลต์",
+        "Tasting notes: แพร์ ลิ้นจี่ สตอเบอร์รี่ แครนเบอร์รี่ เมล่อน ครีม มอลต์",
       price: 300,
     },
     {
       name: "Fortnum Mason Countess Grey",
       description:
         "ชาดำเอิร์ลเกรย์จาก Fortnum & Mason ที่เพิ่มลูกเล่นด้วยกลิ่นของผลไม้ตระกูลซิตรัส",
-      tasteNote: "Taste note: ผลไม้ตระกูลซิตรัส",
+      tasteNote: "Tasting notes: ผลไม้ตระกูลซิตรัส",
       price: 300,
     },
     {
       name: "Salpicon de Fruitas",
       description:
         "ชาดำกลิ่นผลไม้ ดัดแปลงจากเครื่องดื่มดั้งเดิมของ Colombia ผสมโดย Mariage Frères",
-      tasteNote: "Taste note: สับปะรดสุก ค็อกเทลเมืองร้อน ช็อกโกแลต",
+      tasteNote: "Tasting notes: สับปะรดสุก ค็อกเทลเมืองร้อน ช็อกโกแลต",
       price: 300,
     },
     {
       name: "Christmas Tea Pleine Lune",
       description: "ชาดำกลิ่นอายของเทศกาลคริสต์มาส ผสมโดย Mariage Frères",
-      tasteNote: "Taste note: อัลมอนด์ อบเชย เครื่องเทศหวานนานาชนิด",
+      tasteNote: "Tasting notes: อัลมอนด์ อบเชย เครื่องเทศหวานนานาชนิด",
       price: 300,
     },
   ],
@@ -175,14 +175,14 @@ const easternTea: Flavor = {
       name: "Classic Dong Fang Mei Ren (東方美人)",
       description:
         "ชาอู่หลงจากไต้หวัน รสชาติละมุน สดชื่น ที่ผ่านการหมักบ่มตั้งแต่บนต้น ทำให้มีกลิ่นเอกลักษณ์ที่หอมหวานเหมือนน้ำผึ้ง",
-      tasteNote: "Taste note: น้ำผึ้ง ดอกไม้ป่า ผลไม้สุก พีช แพร์",
+      tasteNote: "Tasting notes: น้ำผึ้ง ดอกไม้ป่า ผลไม้สุก พีช แพร์",
       price: 350,
     },
     {
       name: "Jin Xuan Tie Guan Yin (鐵觀音)",
       description:
         "ชาอู่หลงจากไต้หวัน ผ่านกรรมวิธีการหมักบ่มชาแบบดั้งเดิม ทำให้ได้รสชาที่เข้ม หอมคล้ายกลิ่นของผลไม้ และดอกไม้อบ",
-      tasteNote: "Taste note: กลิ่นย่าง กลิ่นดอกไม้ ผลไม้อบ คาราเมล",
+      tasteNote: "Tasting notes: กลิ่นย่าง กลิ่นดอกไม้ ผลไม้อบ คาราเมล",
       price: 300,
     },
   ],
@@ -199,14 +199,14 @@ const chocolate: Flavor = {
       name: "Domori Venezuela Classic Ocumare Ganache",
       description:
         "ช็อกโกแลตจาก Domori ผู้ผลิตช็อกโกแลตสายพันธุ์ Criollo ชั้นนำ สายพันธุ์ย่อย Ocumare รสชาติคลาสสิกเข้ากับนม",
-      tasteNote: "Taste note: คาราเมล ถั่ว กลิ่นคั่ว",
+      tasteNote: "Tasting notes: คาราเมล ถั่ว กลิ่นคั่ว",
       price: 300,
     },
     {
       name: "Ecuador Nacional Arriba (TO’AK Powder) Ganache",
       description:
         "ช็อกโกแลตสายพันธุ์ Nacional Arriba พันธุ์แห่งชาติของประเทศ Ecuador โดยแบรนด์ระดับโลก TO’AK",
-      tasteNote: "Taste note: ดอกไม้ป่า ผลไม้ซิตรัส เครื่องเทศฤดูหนาว",
+      tasteNote: "Tasting notes: ดอกไม้ป่า ผลไม้ซิตรัส เครื่องเทศฤดูหนาว",
       price: 300,
     },
     {
@@ -214,7 +214,7 @@ const chocolate: Flavor = {
       description:
         "ช็อกโกแลต Criollo จาก Domori ผสมกับน้ำแร่ ชูเอกลักษณ์ของสายพันธุ์ย่อย Chuao ที่มีความนุ่มนวล โดยไม่ถูกบดบังด้วยรสนม",
       tasteNote:
-        "Taste note: รสชาตินุ่มนวล แต่ซับซ้อน มีความหอมจากกลิ่นโกโก้ชัดเจน อมเปรี้ยวเล็กน้อยจากผลไม้แห้งหลายชนิด",
+        "Tasting notes: รสชาตินุ่มนวล แต่ซับซ้อน มีความหอมจากกลิ่นโกโก้ชัดเจน อมเปรี้ยวเล็กน้อยจากผลไม้แห้งหลายชนิด",
       price: 300,
     },
     {
@@ -222,7 +222,7 @@ const chocolate: Flavor = {
       description:
         "ช็อกโกแลต Criollo จาก Duffy’s ผู้ผลิตชั้นนำของอังกฤษ เมล็ดปลูกในประเทศ Guatemala รสชาติผลไม้ซับซ้อน อมเปรี้ยว",
       tasteNote:
-        "Taste note: เรดเคอร์แรนท์ เปลือกส้ม ทอฟฟี น้ำผึ้ง องุ่นรสเปรี้ยว",
+        "Tasting notes: เรดเคอร์แรนท์ เปลือกส้ม ทอฟฟี น้ำผึ้ง องุ่นรสเปรี้ยว",
       price: 300,
     },
   ],
@@ -287,7 +287,7 @@ const classic: Flavor = {
       description:
         "วานิลลาสายพันธุ์ Tahitian จากเกาะ Raiatea มีความหอมจากกลิ่นของเครื่องเทศ ทำให้แตกต่างจากวานิลลาสายพันธุ์อื่น",
       tasteNote:
-        "Taste note: วานิลลาที่มีกลิ่นเครื่องเทศ ขนมปังขิง อบเชย และดอกไม้นานาๆ ชนิด",
+        "Tasting notes: วานิลลาที่มีกลิ่นเครื่องเทศ ขนมปังขิง อบเชย และดอกไม้นานาๆ ชนิด",
       price: 350,
     },
     {
@@ -295,7 +295,7 @@ const classic: Flavor = {
       description:
         "วานิลลาสายพันธุ์ Pompona ผลผลิตเพียงแค่ปีละ 300 กรัม หายากที่สุดในตลาด พื้นที่เพาะปลูกจากเกาะ Guadaloupe",
       tasteNote:
-        "Taste note: เครื่องเทศ ชะเอมเทศ น้ำส้มสายชูหมักบัลซามิก กลิ่นดอกไม้ที่ซับซ้อน และทิ้งกลิ่นยาวนาน",
+        "Tasting notes: เครื่องเทศ ชะเอมเทศ น้ำส้มสายชูหมักบัลซามิก กลิ่นดอกไม้ที่ซับซ้อน และทิ้งกลิ่นยาวนาน",
       price: 800,
     },
     {

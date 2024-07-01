@@ -391,6 +391,7 @@ const classic: Flavor = {
       tasteNote:
         "Tasting notes: เครื่องเทศ ชะเอมเทศ น้ำส้มสายชูหมักบัลซามิก กลิ่นดอกไม้ที่ซับซ้อน และทิ้งกลิ่นยาวนาน",
       price: 800,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Bronte Pistachio D.O.P.",
@@ -437,6 +438,7 @@ const fruits: Flavor = {
       description:
         "ทุเรียนสายพันธุ์ยอดนิยมของคนไทย ต้นตำหรับจากนนทบุรี มีกลิ่นหอมละมุน หวานมันพอดี ทานง่าย ปลูกที่สวนวารินทร์",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Chantaburi 4 Durian",
@@ -510,12 +512,14 @@ const fruits: Flavor = {
       description:
         "มะพร้าวน้ำหอม สวนลุงแดง บางคล้า ฉะเชิงเทรา หอมหวานกลิ่นใบเตยเอกลักษณ์ ไม่เหมือนพื้นที่อื่น",
       price: 250,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Thap Sakae Coconut Milk Sorbet",
       description:
         "มะพร้าวแกง จากไร่พงศ์พระยา ทับสะแก ปีนเก็บคัดลูกแก่ได้ที่ คั้นน้ำกะทิสดด้วยวิธีสกัดเย็น",
       price: 250,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Long Kong Sorbet",
@@ -544,6 +548,7 @@ const special: Flavor = {
       description:
         "รสชาติที่หาทานได้ยาก ทำจากมิ้นต์ 5 สายพันธุ์ และราดด้วยช็อกโกแลตจาก Amedei No.9",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Wimbledon",
@@ -562,6 +567,7 @@ const special: Flavor = {
       description:
         "ดัดแปลงจากขนมเปียกปูนโบราณ ทำจากกาบมะพร้าวเผา เบสกะทิสดทับสะแก ยกระดับความเป็นขนมไทย",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };

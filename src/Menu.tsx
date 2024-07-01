@@ -164,7 +164,11 @@ export default function Menu({
                     </div>
                   ) : null}
                   <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">
-                    {item.price}.-
+                    <div>{item.price}.- </div>
+                    {/* Pre-order price */}
+                    {item.preorderPrice ? (
+                      <div>{`(Pre-order ก่อนวันงาน: ${item.preorderPrice}.-)`}</div>
+                    ) : null}
                   </div>
                 </div>
               );

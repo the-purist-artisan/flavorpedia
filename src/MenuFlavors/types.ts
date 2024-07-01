@@ -4,6 +4,7 @@ export interface Item {
   tasteNote?: string;
   price: number;
   isSoldOut?: boolean;
+  preorderPrice?: number;
 }
 
 export interface Flavor {

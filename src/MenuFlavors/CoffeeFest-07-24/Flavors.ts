@@ -21,7 +21,7 @@ const coffee: Flavor = {
       description:
         "กาแฟ Geisha เกรดประมูลสูงสุดจากไร่ Hacienda La Esmeralda ครองแชมป์รางวัลนับไม่ถ้วน",
       tasteNote:
-        "Tasting notes: ส้มหวาน ส้มสด แยมส้ม ส้มโอสีแดงและขาว ดอกมะลิ เบอร์กามอท ทิ้งรสชาติที่ยอดเยี่ยมยาวนาน",
+        "Tasting notes: ส้มหวาน ส้มสด แยมส้ม ส้มโอสีแดงและขาว ดอกมะลิ เบอกาม็อท ทิ้งรสชาติที่ยอดเยี่ยมยาวนาน",
       price: 850,
     },
     {
@@ -29,7 +29,7 @@ const coffee: Flavor = {
       description:
         "กาแฟ Geisha เกรดประมูลสูงสุดจากไร่ Hacienda La Esmeralda ครองแชมป์รางวัลนับไม่ถ้วน",
       tasteNote:
-        "Tasting notes: เบอร์รีหลากหลายชนิด เชอร์รี พลัม แอปริคอต ดอกมะลิ เบอร์กามอท ทิ้งรสชาติที่ยอดเยี่ยมยาวนาน",
+        "Tasting notes: เบอร์รีหลากหลายชนิด เชอร์รี พลัม แอปริคอต ดอกมะลิ เบอกาม็อท ทิ้งรสชาติที่ยอดเยี่ยมยาวนาน",
       price: 850,
     },
     {
@@ -50,7 +50,7 @@ const coffee: Flavor = {
       name: "Costa Rica Geisha West Valley",
       description: "กาแฟ Geisha รุ่น Special จากคอสตาริกา กรรมวิธี Natural",
       tasteNote:
-        "Tasting notes: ผลไม้ตระกูลเบอร์รีสีแดงและดำ สตอเบอร์รี ราสเบอร์รี เชอร์รี พลัม สัปปะรด คาราเมลน้ำตาล",
+        "Tasting notes: ผลไม้ตระกูลเบอร์รีสีแดงและดำ สตรอว์เบอร์รี ราสเบอร์รี เชอร์รี พลัม สับปะรด คาราเมลน้ำตาล",
       price: 700,
     },
     {
@@ -86,7 +86,7 @@ const coffee: Flavor = {
     {
       name: "Hawaii Kona Extra Fancy",
       description:
-        "กาแฟที่ปลูกบริเวณ Kona coffee belt ใน Hawaii รสชาติคลาสสิก รสสัมผัสปลายเนียน และมีรสอมเปรี้ยวเล็กๆของเปลือกผลไม้ซิตรัส",
+        "กาแฟที่ปลูกบริเวณ Kona Coffee Belt ใน Hawaii รสชาติคลาสสิก รสสัมผัสปลายเนียน และมีรสอมเปรี้ยวเล็กๆของเปลือกผลไม้ซิตรัส",
       tasteNote: "Tasting notes: คาราเมลน้ำตาลทรายแดง เปลือกผลไม้ซิตรัส",
       price: 500,
     },
@@ -101,7 +101,7 @@ const coffee: Flavor = {
       name: "Ethiopia Gesha Village",
       description: "กาแฟจากถิ่นกำเนิดสายพันธุ์ Gesha จากเอธิโอเปีย",
       tasteNote:
-        "Tasting notes: เรซิ่น ชาดำมะลิ ผลไม้ซิตรัส และ stonefuits ทิ้งความหวานเบาและนุ่ม",
+        "Tasting notes: เรซิ่น ชาดำมะลิ ผลไม้ซิตรัส และ stonefruits ทิ้งความหวานเบาและนุ่ม",
       price: 400,
     },
   ],
@@ -120,7 +120,7 @@ const westernTea: Flavor = {
       description:
         "ชาดำเรือธงในตำนาน จาก Mariage Frères ผสมผสานอย่างลงตัวด้วยกลิ่นผลไม้ ดอกไม้ และมอลต์",
       tasteNote:
-        "Tasting notes: แพร์ ลิ้นจี่ สตอเบอร์รี แครนเบอร์รี เมล่อน ครีม มอลต์",
+        "Tasting notes: แพร์ ลิ้นจี่ สตรอว์เบอร์รี แครนเบอร์รี เมล่อน ครีม มอลต์",
       price: 350,
       preorderPrice: 300,
     },
@@ -382,7 +382,7 @@ const classic: Flavor = {
   backgroundColorClass: "bg-classic-bg",
   textColorClass: "text-classic-text",
   imageName: "classic",
-  name: "รสชาติ Classic ของ The Purist",
+  name: "รสชาติคลาสสิกของ The Purist",
   items: [
     {
       name: "Guadeloupe Pompona Schiede Vanilla",
@@ -404,6 +404,7 @@ const classic: Flavor = {
       description:
         "พิสตาชีโอจากอิหร่าน สายพันธุ์ Akbari ซึ่งพรีเมี่ยมที่สุดในบรรดา Iranian Pistachios มีความหวานมันคลาสสิกเอกลักษณ์ถั่วที่ชัดเจนที่สุด ",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Piedmont Hazelnut (Nocciola del Piemonte IGP)",
@@ -432,6 +433,7 @@ const fruits: Flavor = {
       description:
         "ฉายา Hermes แห่งวงการทุเรียน รสชาติหวานมันเข้มข้น ดุดัน full-bodied and คาราเมลถั่ว หาทานยาก และราคาสูงกว่าทุเรียนทั่วไปกว่า 2 เท่าตัว จากสวน My Gardn ทุเรียนคุณภาพ",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Kan Yao Durian",
@@ -445,18 +447,19 @@ const fruits: Flavor = {
       description:
         "ลูกผสมสายพันธุ์ระหว่าง ก้านยาวและหมอนทอง มีความหอมหวานมันลงตัว เนื้อเหนียวละเอียด ทานง่าย จากสวนวารินทร์",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Gariguette Strawberry Sorbet",
       description:
-        "สตอเบอร์รีจากฝรั่งเศส สายพันธุ์เก่าแก่ แต่มีความพรีเมี่ยมได้ที่รับการยอมรับจากเชฟมิชลินทั่วโลก มีกลิ่นหอมดอกไม้ซิตรัส รสเปรี้ยวนำหวาน ทิ้งท้ายกลิ่นหอมยาวนาน",
+        "สตรอว์เบอร์รีจากฝรั่งเศส สายพันธุ์เก่าแก่ แต่มีความพรีเมี่ยมได้ที่รับการยอมรับจากเชฟมิชลินทั่วโลก มีกลิ่นหอมดอกไม้ซิตรัส รสเปรี้ยวนำหวาน ทิ้งท้ายกลิ่นหอมยาวนาน",
       price: 400,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "British Strawberry Sorbet",
       description:
-        "สตอเบอร์รีจากสหราชอาณาจักร สายพันธุ์ Red Diamond ตัวท้อปจาก Marks & Spencer มีกลิ่นหอมหวานที่ฟุ้งชัดโทนขนมทาร์ต มีความหวานฉ่ำ นำความเปรี้ยว",
+        "สตรอว์เบอร์รีจากสหราชอาณาจักร สายพันธุ์ Red Diamond ตัวท้อปจาก Marks & Spencer มีกลิ่นหอมหวานที่ฟุ้งชัดโทนขนมทาร์ต มีความหวานฉ่ำ นำความเปรี้ยว",
       price: 350,
     },
     {
@@ -470,6 +473,7 @@ const fruits: Flavor = {
       description:
         "เมล่อนสีส้ม มรดกจากสรวงสวรรค์ของฝรั่งเศส หวานพอเหมาะ และกลิ่นหอมฟุ้งเอกลักษณ์เหนือสายพันธุ์อื่นๆ",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Red Williams Pear Sorbet",
@@ -498,7 +502,7 @@ const fruits: Flavor = {
     {
       name: "Carabao Mango Sorbet",
       description:
-        "มะม่วงคาราบาว สายพันธุ์อันดับหนึ่งจากฟิลิปินส์ มีความหวานสูงที่สุด บอดี้แน่น หอมผลไม้โทนสัปปะรด",
+        "มะม่วงคาราบาว สายพันธุ์อันดับหนึ่งจากฟิลิปินส์ มีความหวานสูงที่สุด บอดี้แน่น หอมผลไม้โทนสับปะรด",
       price: 250,
     },
     {
@@ -553,7 +557,7 @@ const special: Flavor = {
     {
       name: "Wimbledon",
       description:
-        "ไอศกรีม 2 เลเยอร์ที่ผสมผสานรสชาติของวานิลลาครีม และ สตอเบอร์รีอังกฤษ เหมือนการรับประทานสตอเบอร์รีสดจุ่มครีมหอมๆ ระหว่างการดูทัวร์นาเมนต์เทนนิสวิมเบิลดัน",
+        "ไอศกรีม 2 เลเยอร์ที่ผสมผสานรสชาติของวานิลลาครีม และ สตรอว์เบอร์รีอังกฤษ เหมือนการรับประทานสตรอว์เบอร์รีสดจุ่มครีมหอมๆ ระหว่างการดูทัวร์นาเมนต์เทนนิสวิมเบิลดัน",
       price: 350,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },

@@ -329,6 +329,7 @@ const chocolate: Flavor = {
       tasteNote:
         "Tasting notes: ดอกไม้หลากสี ถั่วคั่ว เปรี้ยวหวานจากผลไม้ป่าและเบอร์รี อย่างลงตัว",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Amedei No.9 Chocolate Sorbet",
@@ -378,7 +379,7 @@ const chocolate: Flavor = {
 
 const classic: Flavor = {
   id: "classic",
-  categoryButtonText: "หมวด รส Classic",
+  categoryButtonText: "หมวด รสคลาสสิก",
   backgroundColorClass: "bg-classic-bg",
   textColorClass: "text-classic-text",
   imageName: "classic",
@@ -461,12 +462,14 @@ const fruits: Flavor = {
       description:
         "สตรอว์เบอร์รีจากสหราชอาณาจักร สายพันธุ์ Red Diamond ตัวท้อปจาก Marks & Spencer มีกลิ่นหอมหวานที่ฟุ้งชัดโทนขนมทาร์ต มีความหวานฉ่ำ นำความเปรี้ยว",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Amalfi Lemon Sorbet",
       description:
         "Lemon อันดับหนึ่ง จากเมือง Amalfi สามารถทานได้ทั้งเนื้อและเปลือก มีความหอมฟุ้งโทนทะเลสดชื่น",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Charentais Melon Sorbet",
@@ -546,6 +549,7 @@ const special: Flavor = {
       description:
         "ถอดรูปจากขนม Lemon Tart สไตล์อังกฤษแต่ใช้ Amalfi Lemon จากอิตาลีเป็นวัตถุดิบหลักเพื่อความหอมที่โดดเด่น",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Mint Chocolate Chips",

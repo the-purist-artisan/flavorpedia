@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import "./index.css";
-import { Flavor } from "./MenuFlavors/types";
+import { Flavor, SOLDOUT_TYPE } from "./MenuFlavors/types";
 
 interface MenuProps {
   headerText: string;
@@ -141,7 +141,12 @@ export default function Menu({
                       </div>
                       <div className="mb-2">
                         <span className="rounded-full w-auto bg-slate-800 text-slate-200 px-3 py-1">
-                          Sold out
+                          {item.isSoldOut === SOLDOUT_TYPE.SOLDOUT
+                            ? "Sold out"
+                            : item.isSoldOut === SOLDOUT_TYPE.RESTOCKING_SOON
+                              ? "Restocking soon"
+                              : ""}
+                          {}
                         </span>
                       </div>
                     </>
@@ -164,7 +169,11 @@ export default function Menu({
                     </div>
                   ) : null}
                   <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">
-                    {item.price}.-
+                    <div>{item.price}.- </div>
+                    {/* Pre-order price */}
+                    {item.preorderPrice ? (
+                      <div>{`(Pre-order ก่อนวันงาน: ${item.preorderPrice}.-)`}</div>
+                    ) : null}
                   </div>
                 </div>
               );

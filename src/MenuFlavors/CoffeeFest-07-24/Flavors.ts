@@ -238,6 +238,7 @@ const matcha: Flavor = {
         "มัทฉะเกรดพิธีสายพันธ์ุคิราริ-31 (Kirari-31) จากเมืองอุจิ จังหวัดเกียวโต ผลิตผ่านวิธีพรางแสงแบบ 2 ชั้นด้วยม่านตาข่าย",
       tasteNote: "Tasting notes: คอมบุดาชิ เต้าหู้ บรีชีส เนย วานิลลา",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -338,6 +339,7 @@ const chocolate: Flavor = {
       tasteNote:
         "Tasting notes: ผลไม้ตระกูลซิตรัส ไม้ป่า อัลมอนด์คั่ว คาราเมล กลิ่นลงท้ายซับซ้อน",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Ecuador Nacional Arriba (TO’AK Powder) Sorbet",

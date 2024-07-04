@@ -361,6 +361,7 @@ const chocolate: Flavor = {
       tasteNote:
         "Tasting notes: แบล็คเคอร์แรนท์ เชอร์รีดำ กลิ่นดอกไม้ปนเครื่องเทศฤดูร้อน",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Pacari Nacional Arriba Ganache",

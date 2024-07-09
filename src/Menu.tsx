@@ -146,7 +146,6 @@ export default function Menu({
                             : item.isSoldOut === SOLDOUT_TYPE.RESTOCKING_SOON
                               ? "Restocking soon"
                               : ""}
-                          {}
                         </span>
                       </div>
                     </>

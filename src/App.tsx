@@ -63,7 +63,7 @@ export default function App() {
             />
           }
         />
-        <Route
+        {/* <Route
           path="/print"
           element={
             <PrintableMenu
@@ -71,7 +71,7 @@ export default function App() {
               flavors={thailandCoffeeFest2024}
             />
           }
-        />
+        /> */}
       </Routes>
     </>
   );

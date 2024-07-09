@@ -118,25 +118,9 @@ export default function PrintableMenu({
             {flavor.items.map((item) => {
               return (
                 <div key={item.name} className="flex flex-col">
-                  {item.isSoldOut ? (
-                    <>
-                      <div className="font-gt-super-text-bold text-4xl leading-relaxed mb-6 underline">
-                        {item.name}
-                      </div>
-                      <div className="mb-2">
-                        <span className="rounded-full w-auto bg-slate-800 text-slate-200 px-3 py-1">
-                          Sold out
-                        </span>
-                      </div>
-                    </>
-                  ) : (
-                    <>
-                      <div className="font-gt-super-text-bold text-4xl leading-relaxed mb-6 underline">
-                        {item.name}
-                      </div>
-                    </>
-                  )}
-
+                  <div className="font-gt-super-text-bold text-4xl leading-relaxed mb-6 underline">
+                    {item.name}
+                  </div>
                   <div className="font-ibm-plex-thai text-2xl font-normal leading-[32px]">
                     {item.description}
                   </div>
@@ -147,7 +131,7 @@ export default function PrintableMenu({
                       {item.tasteNote}
                     </div>
                   ) : null}
-                  <div className="mt-1 font-ibm-plex-thai text-2xl font-bold leading-[32px]">
+                  <div className="mt-2 font-ibm-plex-thai text-3xl font-bold leading-[32px]">
                     {item.price}.-
                   </div>
                 </div>

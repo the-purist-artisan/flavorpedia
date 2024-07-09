@@ -47,10 +47,11 @@ const coffee: Flavor = {
       price: 750,
     },
     {
-      name: "Costa Rica Geisha West Valley",
-      description: "กาแฟ Geisha รุ่น Special จากคอสตาริกา กรรมวิธี Natural",
+      name: "Panama Geisha Cañas Verdes Private Collection",
+      description:
+        "กาแฟ Geisha เกรด private จากฟาร์ม Cañas Verdes ปลูกที่ระดับความสูง 1750 เมตรจากน้ำทะเล",
       tasteNote:
-        "Tasting notes: ผลไม้ตระกูลเบอร์รีสีแดงและดำ สตรอว์เบอร์รี ราสเบอร์รี เชอร์รี พลัม สับปะรด คาราเมลน้ำตาล",
+        "Tasting notes: ดอกมะลิ ดอกกาแฟ เชอร์รี่ ลูกอมผลไม้ ทิ้งรสชาตินุ่มละมุนและยาวนาน",
       price: 700,
     },
     {
@@ -133,8 +134,7 @@ const westernTea: Flavor = {
     },
     {
       name: "T2 Creme Brulee",
-      description:
-        "ชาดำเอิร์ลเกรย์จาก T2 ให้ความหอมหวานดั่งทานอาหารเช้าซีเรียล",
+      description: "ชาดำจาก T2 ให้ความหอมหวานดั่งทานอาหารเช้าซีเรียล",
       tasteNote: "Tasting notes: วานิลลา คาราเมล เฮเซลนัท",
       price: 300,
     },
@@ -391,7 +391,7 @@ const classic: Flavor = {
     {
       name: "Guadeloupe Pompona Schiede Vanilla",
       description:
-        "วานิลลาสายพันธุ์ Pompona ผลผลิตเพียงแค่ปีละ 300 กรัม หายากที่สุดในตลาด พื้นที่เพาะปลูกจากเกาะ Guadaloupe",
+        "วานิลลาสายพันธุ์ Pompona ผลผลิตเพียงแค่ปีละ 300 กรัม หายากที่สุดในตลาด พื้นที่เพาะปลูกจากเกาะ Guadeloupe",
       tasteNote:
         "Tasting notes: เครื่องเทศ ชะเอมเทศ น้ำส้มสายชูหมักบัลซามิก กลิ่นดอกไม้ที่ซับซ้อน และทิ้งกลิ่นยาวนาน",
       price: 800,
@@ -536,6 +536,7 @@ const fruits: Flavor = {
       description:
         "ลองกองเพาะเมล็ดสายพันธุ์กลายจากลองกองตันหยงมัส ปลูกที่ต.คลองนารายณ์ จ.จันทบุรี มีความหวานสดชื่นลงตัว",
       price: 250,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };

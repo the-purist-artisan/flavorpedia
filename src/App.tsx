@@ -63,6 +63,15 @@ export default function App() {
             />
           }
         />
+        <Route
+          path="/print"
+          element={
+            <PrintableMenu
+              headerText="Thailand Coffee Fest 2024"
+              flavors={thailandCoffeeFest2024}
+            />
+          }
+        />
       </Routes>
     </>
   );

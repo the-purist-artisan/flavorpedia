@@ -357,14 +357,14 @@ const fruits: Flavor = {
       price: 350,
     },
     {
-      name: "Orange Candy Melon Sorbet",
-      description: "เมล่อนสีส้ม หอมหวานโทน honeydew มีความฉ่ำน้ำสูง",
+      name: "Piel De Sapo Melon Sorbet",
+      description: "Santa Claus เมล่อนสีเขียว รสชาติหอมโทนน้ำผึ้งและลูกแพร์",
       price: 350,
     },
     {
-      name: "",
-      description: "",
-      price: 0,
+      name: "Orange Candy Melon Sorbet",
+      description: "เมล่อนสีส้ม หอมหวานโทน honeydew มีความฉ่ำน้ำสูง",
+      price: 350,
     },
     {
       name: "Chaunsa Honey Mango Sorbet",

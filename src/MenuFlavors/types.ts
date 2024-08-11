@@ -1,9 +1,15 @@
+export enum SOLDOUT_TYPE {
+  RESTOCKING_SOON,
+  SOLDOUT,
+}
+
 export interface Item {
   name: string;
   description: string;
   tasteNote?: string;
   price: number;
-  isSoldOut?: boolean;
+  isSoldOut?: SOLDOUT_TYPE;
+  preorderPrice?: number;
 }
 
 export interface Flavor {

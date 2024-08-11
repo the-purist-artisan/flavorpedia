@@ -1,12 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import FlavorPage from "./FlavorPage";
-import Menu from "./Menu";
 import { coffeeFestFlavors } from "./MenuFlavors/CoffeeFest/Flavors";
 import { yearEndFlavors } from "./MenuFlavors/YearEnd/Flavors";
 import { chineseNewYearFlavors } from "./MenuFlavors/ChineseNewYear/Flavors";
 import { tasteOfTeaFlavors } from "./MenuFlavors/TasteOfTea/Flavors";
 import { midtownCoffeeAndSpirit } from "./MenuFlavors/CoffeeAndSpirits/Flavors";
+import Menu from "./Menu";
+import PrintableMenu from "./PrintableMenu";
+import { thailandCoffeeFest2024 } from "./MenuFlavors/CoffeeFest-07-24/Flavors";
 
 export default function App() {
   return (
@@ -52,6 +54,24 @@ export default function App() {
             />
           }
         />
+        <Route
+          path="/coffee-fest-2024"
+          element={
+            <Menu
+              headerText="Thailand Coffee Fest 2024"
+              flavors={thailandCoffeeFest2024}
+            />
+          }
+        />
+        {/* <Route
+          path="/print"
+          element={
+            <PrintableMenu
+              headerText="Thailand Coffee Fest 2024"
+              flavors={thailandCoffeeFest2024}
+            />
+          }
+        /> */}
       </Routes>
     </>
   );

@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import "./index.css";
-import { Flavor, SOLDOUT_TYPE } from "./MenuFlavors/types";
+import { Flavor } from "./MenuFlavors/types";
 
 interface MenuProps {
   headerText: string;
@@ -8,7 +8,7 @@ interface MenuProps {
   menuBackgroundColorClass?: string;
 }
 
-export default function Menu({
+export default function PrintableMenu({
   headerText,
   flavors,
   menuBackgroundColorClass: menuBackgroundColor,
@@ -45,22 +45,6 @@ export default function Menu({
 
   return (
     <div className="">
-      <div
-        className="fixed bottom-10 right-10"
-        onClick={() => {
-          if (topRef.current)
-            topRef.current.scrollIntoView({
-              behavior: "smooth",
-              block: "start",
-              inline: "nearest",
-            });
-        }}
-      >
-        <img
-          src={window.location.origin + "/flavorpedia/images/menu/up-arrow.svg"}
-          width={"40px"}
-        />
-      </div>
       <div
         ref={topRef}
         className={`${backgroundColorClass} py-8 flex flex-col items-center text-white`}
@@ -119,7 +103,7 @@ export default function Menu({
               }
             }}
             key={flavor.name}
-            className={`py-10 px-6 flex flex-col items-center text-center gap-y-6 ${flavor.backgroundColorClass} ${textColorClassName}`}
+            className={`py-10 px-8 flex flex-col items-center text-center gap-y-6 ${flavor.backgroundColorClass} ${textColorClassName}`}
           >
             {/* Cup image */}
             <img
@@ -127,52 +111,28 @@ export default function Menu({
               width={"240px"}
             />
             {/* Flavor name */}
-            <div className="font-ibm-plex-thai text-2xl font-semibold leading-7">
+            <div className="font-ibm-plex-thai text-5xl font-semibold leading-relaxed">
               {flavor.name}
             </div>
             {/* Menu items */}
             {flavor.items.map((item) => {
               return (
                 <div key={item.name} className="flex flex-col">
-                  {item.isSoldOut ? (
-                    <>
-                      <div className="font-gt-super-text-bold text-base leading-5 mb-2 underline">
-                        {item.name}
-                      </div>
-                      <div className="mb-2">
-                        <span className="rounded-full w-auto bg-slate-800 text-slate-200 px-3 py-1">
-                          {item.isSoldOut === SOLDOUT_TYPE.SOLDOUT
-                            ? "Sold out"
-                            : item.isSoldOut === SOLDOUT_TYPE.RESTOCKING_SOON
-                              ? "Restocking soon"
-                              : ""}
-                        </span>
-                      </div>
-                    </>
-                  ) : (
-                    <>
-                      <div className="font-gt-super-text-bold text-base leading-5 mb-6 underline">
-                        {item.name}
-                      </div>
-                    </>
-                  )}
-
-                  <div className="font-ibm-plex-thai text-sm font-normal leading-[18px]">
+                  <div className="font-gt-super-text-bold text-4xl leading-relaxed mb-6 underline">
+                    {item.name}
+                  </div>
+                  <div className="font-ibm-plex-thai text-2xl font-normal leading-[32px]">
                     {item.description}
                   </div>
 
                   {/* Taste note and price */}
                   {item.tasteNote ? (
-                    <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">
+                    <div className="mt-1 font-ibm-plex-thai text-2xl font-bold leading-[32px]">
                       {item.tasteNote}
                     </div>
                   ) : null}
-                  <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">
-                    <div>{item.price}.- </div>
-                    {/* Pre-order price */}
-                    {item.preorderPrice ? (
-                      <div>{`(Pre-order ก่อนวันงาน: ${item.preorderPrice}.-)`}</div>
-                    ) : null}
+                  <div className="mt-2 font-ibm-plex-thai text-3xl font-bold leading-[32px]">
+                    {item.price}.-
                   </div>
                 </div>
               );

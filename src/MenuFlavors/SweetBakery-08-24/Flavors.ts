@@ -1,4 +1,4 @@
-import { Flavor } from "../types";
+import { Flavor, SOLDOUT_TYPE } from "../types";
 
 const chocolate: Flavor = {
   id: "chocolate",
@@ -14,6 +14,7 @@ const chocolate: Flavor = {
       tasteNote:
         "Tasting notes: น้ำมันมะกอก ครีม เม็ดมะม่วงหิมพานต์ กาแฟ ผลไม้หลากชนิด",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Amedei Chuao Chocolate Sorbet",
@@ -21,6 +22,7 @@ const chocolate: Flavor = {
         "ช็อกโกแลตจากแบรนด์ระดับโลก Amedei of Tuscany สายพันธุ์หายาก Chuao จากเวเนซุเอลา",
       tasteNote: "Tasting notes: ผลไม้เบอร์รี่สีแดง น้ำผึ้ง กลิ่นลงท้ายซับซ้อน",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Ecuador Nacional Arriba (TO’AK Powder) Sorbet",
@@ -160,6 +162,7 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: ไวท์ช็อกโกแลต เนย ขนมปัง รสสัมผัสในปากที่ครีมมี่ด้วยความอูมามิที่เข้มข้น ความฝาดน้อยแทบไม่มี",
       price: 650,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Uji Hikari Gokasho",
@@ -168,6 +171,7 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: สาหร่ายทะเลย่าง เนยอบ ธัญพืช หอมหวานอูมามิคาราเมลผลไม้อบทิ้งท้าย",
       price: 560,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Yame No Sora",
@@ -176,6 +180,7 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: หอมมันถั่วแมคาเดเมียคั่วกลาง ผลไม้สุกแบบกล้วย อูมามิทะเลข้าวเกรียบกุ้ง ซับซ้อนยาวนาน",
       price: 500,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Hoshino Mori No Mukashi",
@@ -183,6 +188,7 @@ const matcha: Flavor = {
         "มัทฉะเกรดพิธีชง จาก Hoshino เป็นมัทฉะตัวโปรดของผู้นำตระกูล และ Master Sohenryu Yuyusai",
       tasteNote: "Tasting notes: อูมามิโทนถั่วคั่ว ลงท้ายอูมามิแบบหัวบีท",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -225,6 +231,7 @@ const easternTea: Flavor = {
       tasteNote:
         "Tasting notes: กลิ่นหอมผลไม้กลุ่ม แพร์ กล้วยไม้ จูนิเปอร์เบอร์รี มีความเป็นแร่ธาตุสูง",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Lupicia Peach Oolong",
@@ -251,6 +258,7 @@ const classic: Flavor = {
       tasteNote:
         "Tasting notes: กลิ่นดอกไม้ tropical อบเชย ไม้หอม ช็อกโกแลต ผลไม้สีเหลือง",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Bronte Pistachio D.O.P.",
@@ -275,6 +283,7 @@ const classic: Flavor = {
       description:
         "ถั่วแมคาเดเมีย นำเข้าจาก Australia ถิ่นกำเนิดดั้งเดิมของพืชชนิดนี้ หอมหวานมันเนยกว่าทุกพื้นที่ปลูก",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -297,12 +306,14 @@ const fruits: Flavor = {
       description:
         "องุ่นแดงจาก Yamanashi รสชาติเข้มข้น หวานหอมกลิ่นไวน์แดง Zinfandel",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Aurora Black Grapes Sorbet",
       description:
         "องุ่นดำจาก Okayama รสชาติหวานหอมโทน savoury มีจริตไวน์ Pinot Noir และความ fruity ที่ซับซ้อนกว่า Kyoho",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Cotton Candy Grapes Sorbet",
@@ -338,6 +349,7 @@ const fruits: Flavor = {
       name: "Tutti Frutti Red Grapes Sorbet",
       description: "องุ่นแดงสายพันธุ์ Tutti Frutti มีกลิ่นหอมหวานของเบอร์รี่",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Kanoiwa Hakutou Peach Sorbet",
@@ -348,8 +360,9 @@ const fruits: Flavor = {
     {
       name: "Amarillo Peach Sorbet",
       description:
-        "พีชเหลืองรสชาติหอมเข้มข้นจากสเปน กลิ่นหอมคลาสสิกและดั้งเดิม",
+        "พีชเหลืองรสชาติหอมเข้มข้นจากสเปน กลิ่นหอม tropical fruits แอปริคอต",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Sable Black Grapes Sorbet",
@@ -382,6 +395,12 @@ const fruits: Flavor = {
       name: "Natoora White Peach Sorbet",
       description:
         "พีชขาวจาก Campania มีความหอมหวานซับซ้อนโทนเบอร์รี่ เปรี้ยวหวานลงตัว",
+      price: 300,
+    },
+    {
+      name: "Royal Summer Peach Sorbet",
+      description:
+        "พีชเหลืองจากอิตาลี มีกลิ่นหอมหวานอมเปรี้ยวเข้มข้น คลาสสิกดั้งเดิมตามสไตล์พีชสีเหลือง",
       price: 300,
     },
     {

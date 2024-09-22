@@ -64,7 +64,13 @@ const fruits: Flavor = {
     {
       name: "Delbard Estivale Apple Sorbet",
       description:
-        "แอ้ปเปิ้ลยุคร่วมสมัยที่ผ่านการปรับปรุงสายพันธุ์ มีกลิ่นหอมดอกไม้ แพร์ ซิตตรัส",
+        "แอปเปิ้ลยุคร่วมสมัยที่ผ่านการปรับปรุงสายพันธุ์ มีกลิ่นหอมดอกไม้ แพร์ ซิตรัส",
+      price: 350,
+    },
+    {
+      name: "Tarocco Ippolito (Venus Beloved Red) Blood Orange Sorbet",
+      description:
+        "ส้มเลือดรุ่นแรกของฤดูกาล จากออสเตรเลีย กลิ่นหอมซับซ้อน รสชาติเข้มข้น หวานฉ่ำ มีเทสโน้ตของเบอร์รีสีแดง",
       price: 350,
     },
     {
@@ -117,7 +123,16 @@ const chocolate: Flavor = {
       name: "Guatemala Laguna Lachua Dormouse Chocolate Sorbet",
       description:
         "ช็อกโกแลตรางวัลประกวด AOC 2018 จากแบรนด์ Dormouse เมล็ดปลูกที่ประเทศกัวเตมาลา",
-      tasteNote: "Tasting notes: ไวน์แดง ผลแห้งไม้สีแดง ถั่วคั่วนานาชนิด",
+      tasteNote:
+        "Tasting notes: ไวน์แดง Sangiovese ผลแห้งไม้สีแดง วอลนัตคั่ว ไม้โอ๊ค",
+      price: 350,
+    },
+    {
+      name: "Mirzam Tanzania Chocolate Sorbet",
+      description:
+        "ช็อกโกแลตรางวัลประกวด จากแบรนด์ Mirzam ปลูกที่ประเทศแทนซาเนีย",
+      tasteNote:
+        "Tasting notes: คลาสสิก full-bodied cacao คาราเมล เครื่องไม้ เครื่องเทศอ่อน",
       price: 350,
     },
     {
@@ -136,7 +151,7 @@ const chocolate: Flavor = {
       price: 300,
     },
     {
-      name: "Akesson’s Madagascar Chocolate Sorbet",
+      name: "Akesson’s Madagascar Chocolate Ganache",
       description:
         "ช็อกโกแลตสายพันธุ์ Criollo จากประเทศมาดากัสการ์ ชนะรางวัลทุกเวทีมาอย่างยาวนาน",
       tasteNote:
@@ -217,7 +232,7 @@ const coffee: Flavor = {
       description: "กาแฟชนะเลิศการแข่งขัน Ethiopia Cup of Excellence",
       tasteNote:
         "Tasting notes: องุ่นเขียว ตะไคร้ ดอกส้มสีขาว วานิลลา มะนาว พีชขาว",
-      price: 0,
+      price: 450,
     },
   ],
 };
@@ -274,15 +289,15 @@ const matcha: Flavor = {
       description:
         "มัทฉะเกรดพิธีชงสูงสุด ชนะรางวัล Japanese Ministry of Agriculture, Forestry, Fisheries 2023 ผลผลิตเพียง 6 กิโลกรัม",
       tasteNote:
-        "Tasting notes: ไวท์ช็อกโกแลต ความอูมามิธัญพืช และนุ่มนวลที่เสมือนอยู่ชั่วนิรันดร",
+        "Tasting notes: ไวท์ช็อกโกแลต ความอูมามิธัญพืช และนุ่มนวลที่เสมือนอยู่ชั่วนิรันดร์",
       price: 690,
     },
     {
-      name: "Honzu Asahi	(Competition-Grade)	",
+      name: "Honzu Asahi	(2024 Competition)",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Asahi กรรมวิธีผลิตด้วยการพรางแสงด้วยโครงไม้ไผ่และฟางข้าว จัดหาโดย MTCH",
       tasteNote:
-        "Tasting notes: สาหร่ายทะเลย่าง เนยอบ องุ่นขาว ลูกฟิกค์ และผลไม้แห้ง",
+        "Tasting notes: สาหร่ายทะเลย่าง เนยอบ องุ่นขาว ลูกฟิก และผลไม้แห้ง",
       price: 600,
     },
     {
@@ -294,9 +309,16 @@ const matcha: Flavor = {
     },
     {
       name: "Kanbayashi Kenjo Hatsumukash",
-      description: "มัทฉะเกรดพิธีชง จากแบรนด์ 3 แต้มแดง",
-      tasteNote: "Tasting notes: อูมามิโทนสาหร่ายโนริ หวายซุปผักรวม บอดี้หนา",
+      description: "มัทฉะเกรดพิธีชงสูงสุด จากแบรนด์ 3 แต้มแดง Kanbayashi",
+      tasteNote: "Tasting notes: อูมามิโทนสาหร่ายโนริ หวานซุปผักรวม บอดี้หนา",
       price: 500,
+    },
+    {
+      name: "Hoshino Myoho No Mukashi",
+      description:
+        "มัทฉะเกรดพิธีชง จาก Hoshinoen เป็นตัวโปรดของ Omotesenke Jimyosai Master",
+      tasteNote: "Tasting notes: อูมามิถั่วคั่ว ขนมปังอบ ความเข้มข้นสูง",
+      price: 450,
     },
   ],
 };
@@ -317,7 +339,7 @@ const easternTea: Flavor = {
       price: 800,
     },
     {
-      name: "No.1 Tie Guan Yin Tie Guan Yin (铁观音)",
+      name: "No.1 Tie Guan Yin (铁观音)",
       description:
         "ชาเถี่ยกวนอิน (ทิกวนอิม) ชนะรางวัลที่ 1 จากเวทีแข่งขันประกวดชา Muzha โดยปรมาจารย์ทำชาจังหยวนปั๋ว",
       tasteNote:
@@ -364,9 +386,9 @@ const classic: Flavor = {
       price: 300,
     },
     {
-      name: "Iranian Akbari Pistachio Organic",
+      name: "Gaziantep Turkish Pistachio",
       description:
-        "พิสตาชีโอจากอิหร่าน สายพันธุ์ Akbari ซึ่งพรีเมี่ยมที่สุดในบรรดา Iranian Pistachios มีความหวานมันคลาสสิกเอกลักษณ์ถั่วที่ชัดเจนที่สุด ",
+        "พิสตาชีโอจากตุรกี สายพันธุ์ Antep สุดพรีเมี่ยม มีความหวานนำมัน กลิ่นคลาสสิกเอกลักษณ์",
       price: 300,
     },
     {
@@ -441,7 +463,7 @@ const template: Flavor = {
   ],
 };
 
-export const sweetBakery0824: Flavor[] = [
+export const thailandCoffeeHub2024: Flavor[] = [
   fruits,
   chocolate,
   coffee,

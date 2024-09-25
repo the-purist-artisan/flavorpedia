@@ -263,8 +263,9 @@ const westernTea: Flavor = {
     {
       name: "Countess Grey",
       description:
-        "ชาดำเบส Darjeeling และ อู่หลงผสมโดย Fortnum and Mason แบรนด์ชั้นนำสุดคลาสสิกจากอังกฤษ",
-      tasteNote: "Tasting notes: ดอกส้มสดสีขาว และ เครื่องเทศอ่อนฤดูร้อน",
+        "ชาดำเอิร์ลเกรย์จาก Fortnum & Mason ที่เพิ่มลูกเล่นด้วยกลิ่นของผลไม้ตระกูลซิตรัส",
+      tasteNote:
+        "Tasting notes: น้ำมันเบอกาม็อทสุดคลาสสิกสไตล์ผู้ดีอังกฤษ ปิดท้ายด้วยเปลือกส้ม",
       price: 300,
     },
     {
@@ -378,6 +379,7 @@ const classic: Flavor = {
         "วานิลลาจากเกาะเซาตูแม และ ปรินซีปี ตั้งอยู่ใจกลางโลกบนอ่าวกินี",
       tasteNote: "Tasting notes: ช็อกโกแลต คาราเมล อัลมอนด์ อบเชย ดอกไอริส",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Bronte Pistachio D.O.P.",
@@ -418,6 +420,7 @@ const special: Flavor = {
       description:
         "ไอศกรีม 2 เลเยอร์ที่ผสานรสชาติสุด luxury ของเห็ดทรัฟเฟิลขาวฤดูหนาวในไวท์ช็อกโกแลต และ Piedmont เฮเซลนัท",
       price: 500,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Fresh Mint Stracciatella (Mint Choc Chips)",
@@ -436,6 +439,7 @@ const special: Flavor = {
       description:
         "โยเกิร์ตสไตล์กรีกชนะรางวัลจาก The Estate Dairy ราดซอสบลูเบอร์รี่ No.1 สายพันธุ์พิเศษจาก Zimbabwe",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Black Coconut Ash",

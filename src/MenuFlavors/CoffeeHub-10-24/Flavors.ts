@@ -18,6 +18,7 @@ const fruits: Flavor = {
       description:
         "องุ่นดำรุ่นพิเศษจาก Tuscany รสชาติหอมไปด้วยกลิ่นสตอเบอร์รี่และผลไม้เบอร์รี่หลากชนิด",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Pearl Blush White Peach Sorbet",
@@ -108,6 +109,7 @@ const fruits: Flavor = {
       description:
         "มะพร้าวแกง จากไร่พงศ์พระยา ทับสะแก ปีนเก็บคัดลูกแก่ได้ที่ คั้นน้ำกะทิสดเองอย่างพิถีพิถัน",
       price: 250,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -292,6 +294,7 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: ไวท์ช็อกโกแลต ความอูมามิธัญพืช และนุ่มนวลที่เสมือนอยู่ชั่วนิรันดร์",
       price: 690,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Honzu Asahi	(2024 Competition)",
@@ -427,6 +430,7 @@ const special: Flavor = {
       description:
         "รสชาติที่หาทานได้ยาก ทำจากใบมิ้นต์สด 5 สายพันธุ์ และราดด้วยช็อกโกแลต shards จาก Amedei No.9",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Amarillo Peach Melba",
@@ -446,6 +450,7 @@ const special: Flavor = {
       description:
         "ไอศกรีมดัดแปลงจากขนมเปียกปูนโบราณ ทำจากกาบมะพร้าวเผา เบสกะทิสดทับสะแก ยกระดับความเป็นขนมไทย",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };

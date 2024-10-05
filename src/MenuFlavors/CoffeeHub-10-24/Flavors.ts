@@ -25,12 +25,14 @@ const fruits: Flavor = {
       description:
         "พีชขาวเกรดสูงสุด รุ่น No.1 จากสเปน หอมฟุ้งจริตกลิ่นดอกไม้และเบอร์รี่",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Muscat Beauty Grapes Sorbet",
       description:
         "องุ่นเขียวอมชมพูน้ำตาลสายพันธุ์ muscat ชนิดพิเศษ หวานหอมกลิ่นดอกไม้เอกลักษณ์ ของไวน์ muscatel",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Kasugai Hikawa Hakuhou Peach Sorbet",
@@ -49,6 +51,7 @@ const fruits: Flavor = {
       description:
         "องุ่นแดงสายพันธุ์พิเศษ ปรับปรุงขึ้นให้มีจริตของเมล่อน เบอร์รี่และลูกอม",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "No.1 Marion Regan Strawberries Sorbet",
@@ -61,12 +64,14 @@ const fruits: Flavor = {
       description:
         "ราสเบอร์รี่รุ่นพิเศษจากสหราชอาณาจักร กลิ่นหอมพิเศษ ความหวานและเปรี้ยวลงตัว ทิ้งท้ายสดชื่น",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Delbard Estivale Apple Sorbet",
       description:
         "แอปเปิ้ลยุคร่วมสมัยที่ผ่านการปรับปรุงสายพันธุ์ มีกลิ่นหอมดอกไม้ แพร์ ซิตรัส",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Tarocco Ippolito (Venus Beloved Red) Blood Orange Sorbet",
@@ -79,6 +84,7 @@ const fruits: Flavor = {
       description:
         "พีชเหลืองเกรดสูงสุด รุ่น No.1 จากสเปน เปรี้ยวหวานหอมเข้มข้น",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "American Regina Cherries Sorbet",
@@ -97,12 +103,14 @@ const fruits: Flavor = {
       description:
         "มังคุดต้นอายุร้อยปี จากสวนนายดำ จังหวัดชุมพร เข้มข้นหอมกลิ่นดอกไม้โทนเย็นสดชื่น",
       price: 250,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Uttradit Longkong Sorbet",
       description:
         "ลองกองจากอุตรดิตถ์ กลิ่นหอมเอกลักษณ์ชัดเจน สัมผัสเนียนข้น เปรี้ยวหวานสดชื่น",
       price: 250,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Thap Sakae Coconut Milk Sorbet",
@@ -128,6 +136,7 @@ const chocolate: Flavor = {
       tasteNote:
         "Tasting notes: ไวน์แดง Sangiovese ผลแห้งไม้สีแดง วอลนัตคั่ว ไม้โอ๊ค",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Mirzam Tanzania Chocolate Sorbet",
@@ -136,6 +145,7 @@ const chocolate: Flavor = {
       tasteNote:
         "Tasting notes: คลาสสิก full-bodied cacao คาราเมล เครื่องไม้ เครื่องเทศอ่อน",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Amedei No.9 Chocolate Sorbet",
@@ -144,6 +154,7 @@ const chocolate: Flavor = {
       tasteNote:
         "Tasting notes: ผลไม้ตระกูลซิตรัส ไม้ป่า อัลมอนด์คั่ว คาราเมล กลิ่นลงท้ายซับซ้อน",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Ecuador Nacional Arriba (TO’AK Powder) Sorbet",
@@ -254,6 +265,7 @@ const westernTea: Flavor = {
       tasteNote:
         "Tasting notes: แพร์ ลิ้นจี่ สตรอว์เบอร์รี แครนเบอร์รี เมล่อน ครีม มอลต์",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "French Earl Grey",
@@ -261,6 +273,7 @@ const westernTea: Flavor = {
         "ชาดำเอิร์ลเกรย์จาก T2 หอมฟุ้งด้วยกลิ่นผลไม้นานาชนิด กุหลาบ ปิดท้ายด้วยส้มเบอกาม็อท",
       tasteNote: "Tasting notes: ผลไม้ กุหลาบ ดอกทานตะวัน กระเจี๊ยบ",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Countess Grey",
@@ -269,6 +282,7 @@ const westernTea: Flavor = {
       tasteNote:
         "Tasting notes: น้ำมันเบอกาม็อทสุดคลาสสิกสไตล์ผู้ดีอังกฤษ ปิดท้ายด้วยเปลือกส้ม",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Margaret’s Hope",
@@ -276,6 +290,7 @@ const westernTea: Flavor = {
         "ชาดำ Darjeeling (Second Flush จากเทือกเขาหิมาลัย) รุ่นชนะรางวัล จาก The Tea Makers of London",
       tasteNote: "Tasting notes: กลิ่นผลไม้และกลิ่นไวน์มัสกัตแบบคลาสสิก",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -297,12 +312,13 @@ const matcha: Flavor = {
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
-      name: "Honzu Asahi	(2024 Competition)",
+      name: "Honzu Asahi (2024 Competition)",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Asahi กรรมวิธีผลิตด้วยการพรางแสงด้วยโครงไม้ไผ่และฟางข้าว จัดหาโดย MTCH",
       tasteNote:
         "Tasting notes: สาหร่ายทะเลย่าง เนยอบ องุ่นขาว ลูกฟิก และผลไม้แห้ง",
       price: 600,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Akatsuki",
@@ -310,12 +326,14 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: หอมมันหวานถั่วคั่วอ่อน กลิ่นเขียวสดของผักและดอกไม้อ่อน หอมละมุน บอดี้ปานกลาง",
       price: 500,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Kanbayashi Kenjo Hatsumukash",
       description: "มัทฉะเกรดพิธีชงสูงสุด จากแบรนด์ 3 แต้มแดง Kanbayashi",
       tasteNote: "Tasting notes: อูมามิโทนสาหร่ายโนริ หวานซุปผักรวม บอดี้หนา",
       price: 500,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Hoshino Myoho No Mukashi",
@@ -323,6 +341,21 @@ const matcha: Flavor = {
         "มัทฉะเกรดพิธีชง จาก Hoshinoen เป็นตัวโปรดของ Omotesenke Jimyosai Master",
       tasteNote: "Tasting notes: อูมามิถั่วคั่ว ขนมปังอบ ความเข้มข้นสูง",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
+    },
+    {
+      name: "Midori Hayate Uji Hikari",
+      description: "มัทฉะเกรดพิธีชงสายพันธุ์ Uji Hikari จัดหาโดย Midori Hayate",
+      tasteNote: "อูมามิถั่ว edamame ข้าวโพด",
+      price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
+    },
+    {
+      name: "Midori Hayate Okumidori",
+      description: "มัทฉะเกรดพิธีชงสายพันธุ์ Okumidori จัดหาโดย Midori Hayate",
+      tasteNote: "อูมามิสาหร่าย ช็อกโกแลต เนยเค็ม",
+      price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -349,6 +382,7 @@ const easternTea: Flavor = {
       tasteNote:
         "Tasting notes: ผลไม้สุก ดอกไม้หลากหลายชนิด มีชั้นรสชาติหลายชั้น ความเครื่องเทศอ่อน ทิ้งปลายรสอูมามิ ไร้ความขม",
       price: 500,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Da Hong Pao Bei Dou (北斗大紅袍)",
@@ -364,6 +398,7 @@ const easternTea: Flavor = {
         "ชาแดงเตียนหง อบดอกมะลิสดแท้ 3 รอบ ด้วยกรรมวิธีแบบดั้งเดิม นำเข้าจากประเทศจีน หาทานยาก",
       tasteNote: "Tasting notes: ดอกมะลิสีน้ำตาล คาราเมล ช็อกโกแลต ถั่ว",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -401,6 +436,7 @@ const classic: Flavor = {
       description:
         "เฮเซลนัทสายพันธุ์เฉพาะถิ่นจากเมือง Piedmont แหล่งผลิตเฮเซลนัทที่ดีที่สุดของโลก หวาน มันเหมือนเนย มีกลิ่นอ่อนๆของวานิลลา และน้ำผึ้ง",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Queensland’s Macadamia",
@@ -437,6 +473,7 @@ const special: Flavor = {
       description:
         "ไอศกรีมดัดแปลงจากของหวานสุดคลาสสิค Peach Melba ที่ผสมผสานรสชาติหวานหอมฉ่ำของครีมพีชวานิลลา กับความเปรี้ยวสดชื่นของซอสราสเบอรี่ ตัดด้วยความมันกรอบของอัลมอนด์จาก Sicily",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "No.1 Blueberry (BerryWorld Eureka) Award-Winning Yogurt",

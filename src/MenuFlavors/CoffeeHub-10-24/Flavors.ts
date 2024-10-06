@@ -39,6 +39,7 @@ const fruits: Flavor = {
       description:
         "พีชสายพันธุ์พิเศษจาก Yamanashi มีกลิ่นหอมหวานที่ฟุ้งกลิ่นโคล่าคาราเมลและดอกไม้ ความหวานขั้นต่ำ 12 Brix",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Charentais Melon Sorbet",
@@ -58,6 +59,7 @@ const fruits: Flavor = {
       description:
         "สตรอว์เบอร์รีจากสหราชอาณาจักร เกรดสูงสุดจาก Kent ผู้ผลิต generation ที่ 5 มีกลิ่นหอมหวานฉ่ำ นำความเปรี้ยว",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "No.1 Berry Jewel Raspberries Sorbet",
@@ -78,6 +80,7 @@ const fruits: Flavor = {
       description:
         "ส้มเลือดรุ่นแรกของฤดูกาล จากออสเตรเลีย กลิ่นหอมซับซ้อน รสชาติเข้มข้น หวานฉ่ำ มีเทสโน้ตของเบอร์รีสีแดง",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Amber Blush Yellow Peach Sorbet",
@@ -162,6 +165,7 @@ const chocolate: Flavor = {
         "ช็อกโกแลตสายพันธุ์ Nacional Arriba พันธุ์แห่งชาติของประเทศ Ecuador โดยแบรนด์ระดับโลก TO’AK",
       tasteNote: "Tasting notes: ดอกไม้ป่า ผลไม้ซิตรัส เครื่องเทศฤดูหนาว",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Akesson’s Madagascar Chocolate Ganache",
@@ -374,6 +378,7 @@ const easternTea: Flavor = {
       tasteNote:
         "Tasting notes: ดอกไม้ และน้ำผึ้งที่ชัดเจน ตามด้วยรสผลไม้ ปิดท้ายด้วยรสหมักของสายพันธุ์ชิงซินต้าโหม่ว กลิ่น และรสของชามีความซับซ้อน มีความฟงฝู่ 豐富 จัดเต็ม ไม่แบน มีหลากหลายมิติ รสชาติทิ้งท้ายยาวนาน",
       price: 800,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "No.1 Tie Guan Yin (铁观音)",
@@ -391,6 +396,7 @@ const easternTea: Flavor = {
       tasteNote:
         "Tasting notes: ดอกไม้นานาชนิด ผลไม้แห้ง น้ำผึ้ง กลิ่นอบไฟ มิติความแร่ธาตุซับซ้อน",
       price: 500,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Jasmine Dian Hong (茉莉滇红)",

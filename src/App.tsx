@@ -8,8 +8,9 @@ import { tasteOfTeaFlavors } from "./MenuFlavors/TasteOfTea/Flavors";
 import { midtownCoffeeAndSpirit } from "./MenuFlavors/CoffeeAndSpirits/Flavors";
 import Menu from "./Menu";
 import PrintableMenu from "./PrintableMenu";
-import { thailandCoffeeFest2024 } from "./MenuFlavors/CoffeeFest-07-24/Flavors";
 import { sweetBakery0824 } from "./MenuFlavors/SweetBakery-08-24/Flavors";
+import { thailandCoffeeFest2024 } from "./MenuFlavors/CoffeeFest-07-24/Flavors";
+import { thailandCoffeeHub2024 } from "./MenuFlavors/CoffeeHub-10-24/Flavors";
 
 export default function App() {
   return (
@@ -68,6 +69,15 @@ export default function App() {
           path="/sweet-bakery-2024"
           element={
             <Menu headerText="Sweet Bakery 2024" flavors={sweetBakery0824} />
+          }
+        />
+        <Route
+          path="/coffee-hub-2024"
+          element={
+            <Menu
+              headerText="Thailand Coffee Hub 2024"
+              flavors={thailandCoffeeHub2024}
+            />
           }
         />
         {/* <Route

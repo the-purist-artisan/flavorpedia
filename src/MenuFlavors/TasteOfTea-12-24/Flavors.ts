@@ -429,7 +429,7 @@ const template: Flavor = {
   ],
 };
 
-export const tastOfTea2024: Flavor[] = [
+export const tastOfTea122024: Flavor[] = [
   matcha,
   westernTea,
   easternTea,

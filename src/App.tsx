@@ -85,7 +85,7 @@ export default function App() {
           path="/tot-12-24"
           element={
             <Menu
-              headerText="Taste of Tea Dec 2024"
+              headerText="Taste of Tea December 2024"
               flavors={tastOfTea122024}
             />
           }

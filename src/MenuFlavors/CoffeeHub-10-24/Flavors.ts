@@ -12,6 +12,7 @@ const fruits: Flavor = {
       description:
         "ฉายามงกุฏแห่งเมล่อนทั้งปวง จาก Shizuoka รสชาติหวานหอมกลิ่นเหมือน deer musk ทิ้งท้ายสดชื่นยาวนาน",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Fragolina Strawberry Grapes Sorbet",
@@ -46,6 +47,7 @@ const fruits: Flavor = {
       description:
         "เมล่อนสีส้ม มรดกจากสรวงสวรรค์ของฝรั่งเศส หวานพอเหมาะ และกลิ่นหอมฟุ้งเอกลักษณ์เหนือสายพันธุ์อื่นๆ",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Candy Snap Grapes Sorbet",
@@ -94,12 +96,14 @@ const fruits: Flavor = {
       description:
         "เชอร์รี่สายพันธุ์ Regina มีน้ำตาลธรรมชาติและกรดในปริมาณที่สมดุล กลิ่นเชอร์รี่คลาสสิกเข้มข้น",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Afourer Mandarin Sorbet",
       description:
         "ส้ม Mandarin จากออสเตรเลีย รสชาติเปรี้ยวหวานเข้มข้น มิติกลิ่นลึกและยาวนาน",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "100-Year-Old Mangosteen Sorbet",
@@ -174,6 +178,7 @@ const chocolate: Flavor = {
       tasteNote:
         "Tasting notes: กลิ่นโกโก้เอกลักษณ์ พร้อมรสเปรี้ยวอมหวานของผลไม้ตระกูลส้มและผลเบอร์รี่สีแดง",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Pacari Nacional Arriba Ganache",
@@ -181,6 +186,7 @@ const chocolate: Flavor = {
         "ช็อกโกแลตสายพันธุ์ Nacional Arriba พันธุ์แห่งชาติของประเทศ Ecuador โดยแบรนด์ระดับโลก Pacari",
       tasteNote: "Tasting notes: ดอกไม้ป่า ผลไม้ซิตรัส เครื่องเทศฤดูหนาว",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Willies Indonesia Java Chocolate Ganache",
@@ -188,6 +194,7 @@ const chocolate: Flavor = {
         "ช็อกโกแลตจากแบรนด์ Willies ทานง่ายและเข้าใจง่าย ในรูปแบบช็อกโกแลตนม ไม่ติดความเปรี้ยว",
       tasteNote: "Tasting notes: ถั่วอบ คาราเมล หอมกลิ่น full-bodied cacao",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -236,6 +243,7 @@ const coffee: Flavor = {
         "เมล็ดกาแฟที่เก็บเกี่ยวด้วยมือ บรรจุและหมักในถังเหล้ารัมนานอย่างน้อย 8 ปี",
       tasteNote: "Tasting notes: ดาร์ครัม วิสกี้ วานิลลา",
       price: 500,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Jamaica Blue Mountain",
@@ -243,6 +251,7 @@ const coffee: Flavor = {
         "กาแฟ Blue Mountain จาก Jamaica รสคลาสสิก มีความหอมจากกลิ่นคั่วชัด รสสัมผัสปลายที่ละเอียด นุ่ม ละมุน",
       tasteNote: "Tasting notes: คาราเมล ช็อกโกแลต ถั่วเฮเซลนัท",
       price: 500,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Ethiopia Alo Alache Competition Series",
@@ -250,6 +259,7 @@ const coffee: Flavor = {
       tasteNote:
         "Tasting notes: องุ่นเขียว ตะไคร้ ดอกส้มสีขาว วานิลลา มะนาว พีชขาว",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -436,6 +446,7 @@ const classic: Flavor = {
       description:
         "พิสตาชีโอจากตุรกี สายพันธุ์ Antep สุดพรีเมี่ยม มีความหวานนำมัน กลิ่นคลาสสิกเอกลักษณ์",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Piedmont Hazelnut (Nocciola del Piemonte IGP)",
@@ -449,6 +460,7 @@ const classic: Flavor = {
       description:
         "ถั่วแมคาเดเมีย นำเข้าจาก Australia ถิ่นกำเนิดดั้งเดิมของพืชชนิดนี้ หอมหวานมันเนยกว่าทุกพื้นที่ปลูก",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };

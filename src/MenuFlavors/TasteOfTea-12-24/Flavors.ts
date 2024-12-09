@@ -34,9 +34,9 @@ const matcha: Flavor = {
     {
       name: "Uji Hikari Tsujiki",
       description:
-        "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Asahi กรรมวิธีผลิตด้วยการพรางแสงด้วยโครงไม้ไผ่และฟางข้าว จัดหาโดย MTCH",
+        "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Uji Hikari จัดหาโดย  Mori Tea House",
       tasteNote:
-        "Tasting notes: สาหร่ายทะเลย่าง ดอกไม้ เนยอบ ธัญพืช หอมหวานอูมามิคาราเมลผลไม้อบทิ้งท้าย",
+        "Tasting notes: ถั่วเขียว ดอกไม้ ซุปเต้าหู้ เนยอบ ธัญพืช หอมหวานอูมามิคาราเมลผลไม้อบทิ้งท้าย",
       price: 580,
     },
     {
@@ -46,6 +46,7 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: ถั่วคลุกเนย ขนมปัง ธัญพีช ดอกไม้แห้ง อูมามิอัดแน่นและซับซ้อน",
       price: 570,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Tsujiki Gokou",
@@ -187,6 +188,7 @@ const easternTea: Flavor = {
       description: "ชาอู่หลงผสมกลีบดอกหอมหมื่นลี้จากแบรนด์ Lupicia",
       tasteNote: "Tasting notes: ดอกหอมหมื่นลี้ ขนมปัง น้ำผึ้ง มอลต์",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Jasmine Dian Hong (茉莉滇红)",
@@ -332,6 +334,7 @@ const classic: Flavor = {
       tasteNote:
         "Tasting notes: ไม้รมควัน ชา lapsang souchong สมุนไพร ช็อกโกแลค คาราเมล",
       price: 500,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Bronte Pistachio D.O.P.",
@@ -372,6 +375,7 @@ const special: Flavor = {
       description:
         "รสชาติเฉลิมฉลองเทศกาลคริสต์มาส ถอดสูตรแปลงร่างมาจาก Mulled Wine ดั้งเดิม หอมความซับซ้อนผลไม้นานาชนิดของไวน์ Pinot Noir ระดับ Premier Cru จากพื้นที่ Burgundy และกลิ่นเครื่องเทศฤดูหนาวต่างๆ\n(สำหรับทานที่บูธเท่านั้น)",
       price: 700,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Amarone-Poached Pear Sorbet with Crumbles and Amalfi Lemon Zest",
@@ -384,6 +388,7 @@ const special: Flavor = {
       description:
         "ไอศกรีม 2 เลเยอร์ที่ผสานรสชาติสุด luxury ของเห็ดทรัฟเฟิลขาวฤดูหนาวในไวท์ช็อกโกแลต และ Piedmont เฮเซลนัท",
       price: 500,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Tahitian Vanilla Stracciatella (Choc Chips)",
@@ -396,6 +401,7 @@ const special: Flavor = {
       description:
         "รสชาติที่หาทานได้ยาก ทำจากใบมิ้นต์สด 5 สายพันธุ์ และราดด้วยช็อกโกแลต shards จาก Amedei No.9",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Gianduja Chocolate Hazelnuts",
@@ -408,6 +414,7 @@ const special: Flavor = {
       description:
         "โยเกิร์ตสไตล์กรีกชนะรางวัลจาก The Estate Dairy ราดซอสแครนเบอร์รีและเรดเคอร์แรนท์สายพันธุ์พิเศษจาก Netherlands",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };

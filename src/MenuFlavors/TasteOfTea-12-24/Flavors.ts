@@ -370,7 +370,7 @@ const special: Flavor = {
     {
       name: "Mulled Wine Sorbet (Premier Cru Burgundian Pinot Noir)",
       description:
-        "รสชาติเฉลิมฉลองเทศกาลคริสต์มาส ถอดสูตรแปลงร่างมาจาก Mulled Wine ดั้งเดิม หอมความซับซ้อนผลไม้นานาชนิดของไวน์ Pinot Noir ระดับ Premier Cru จากพื้นที่ Burgundy และกลิ่นเครื่องเทศฤดูหนาวต่างๆ",
+        "รสชาติเฉลิมฉลองเทศกาลคริสต์มาส ถอดสูตรแปลงร่างมาจาก Mulled Wine ดั้งเดิม หอมความซับซ้อนผลไม้นานาชนิดของไวน์ Pinot Noir ระดับ Premier Cru จากพื้นที่ Burgundy และกลิ่นเครื่องเทศฤดูหนาวต่างๆ\n(สำหรับทานที่บูธเท่านั้น)",
       price: 700,
     },
     {

@@ -214,6 +214,7 @@ const chocolate: Flavor = {
       tasteNote:
         "Tasting notes: ชะเอมเทศ ไวน์แดง Merlot ผลไม้สีแดง บอดี้ช็อกโกแลตจัดเต็ม",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Madagascar Ambohemena Sorbet",
@@ -221,6 +222,7 @@ const chocolate: Flavor = {
         "ช็อกโกแลตสายพันธุ์ Criollo จากประเทศ Madagascar แบรนด์ Chocolat Madagascar",
       tasteNote: "Tasting notes: ซิตรัส เบอร์รีแดง พลัม คาราเมล ถั่วคั่วอ่อน",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Ecuador Nacional Arriba (TO’AK Powder) Sorbet",
@@ -276,6 +278,7 @@ const fruits: Flavor = {
       description:
         "ส้มสายน้ำผึ้งจาก Valencia เก็บเกี่ยวด้วยมือ รสชาติพุ่ง กลิ่นหอมเข้มข้น แฝงจริตผลไม้ tropical บางๆ",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Dole Cherry Sorbet",

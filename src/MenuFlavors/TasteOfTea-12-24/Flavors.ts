@@ -398,6 +398,7 @@ const special: Flavor = {
       description:
         "วานิลลา Tahitian รสชาติซับซ้อนด้วยความหอมหวาน และกลิ่นจากเครื่องเทศ ตัดกับช็อกโกแลตชิพ Domori Guasare ที่มีความละมุนและมิติล้ำลึก",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Fresh Mint Stracciatella (Mint Choc Chips)",

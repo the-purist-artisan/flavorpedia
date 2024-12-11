@@ -14,6 +14,7 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: ไวท์ช็อกโกแลต เนย ขนมปัง รสสัมผัสในปากที่ครีมมี่ด้วยความอูมามิที่เข้มข้น ความฝาดน้อยแทบไม่มี",
       price: 650,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Honzu Asahi (2024 Competition)",
@@ -182,6 +183,7 @@ const easternTea: Flavor = {
         "ชาฉีหลันอบดอกส้มโอสดสีขาว จากแบรนด์ชาพรีเมี่ยม T9 ประเทศจีน",
       tasteNote: "Tasting notes: ดอกส้มโอ ดอกไม้สีขาว ดอกกล้วยไม้ คาราเมล",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Moonlight Osmanthus",

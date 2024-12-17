@@ -94,8 +94,8 @@ export default function App() {
           path="/print"
           element={
             <PrintableMenu
-              headerText="Thailand Coffee Fest 2024"
-              flavors={thailandCoffeeFest2024}
+              headerText="Taste of Tea December 2024"
+              flavors={tastOfTea122024}
             />
           }
         /> */}

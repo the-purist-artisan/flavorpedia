@@ -31,6 +31,7 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: ถั่วลันเตา สาหร่ายอ่อน มะม่วง มะพร้าวอ่อน ความอูมามิพุ่งพล่าน หวานและค้างอยู่ในปากยาวนาน",
       price: 590,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Uji Hikari Tsujiki",
@@ -152,6 +153,7 @@ const easternTea: Flavor = {
       tasteNote:
         "Tasting notes: ดอกไม้ และน้ำผึ้งที่ชัดเจน ตามด้วยรสผลไม้ ปิดท้ายด้วยรสหมักของสายพันธุ์ชิงซินต้าโหม่ว กลิ่น และรสของชามีความซับซ้อน มีความฟงฝู่ 豐富 จัดเต็ม ไม่แบน มีหลากหลายมิติ รสชาติทิ้งท้ายยาวนาน",
       price: 800,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Da Hong Pao Qi Dan (大紅袍奇丹)",

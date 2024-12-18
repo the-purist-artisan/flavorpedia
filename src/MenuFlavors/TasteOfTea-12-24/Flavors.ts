@@ -23,6 +23,7 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: สาหร่ายทะเลย่างแบบผู้ดี เนยอบ องุ่นขาว ลูกฟิก และผลไม้แห้ง",
       price: 600,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Zuisho Shogyokuen",
@@ -40,6 +41,7 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: ถั่วเขียว ดอกไม้ ซุปเต้าหู้ เนยอบ ธัญพืช หอมหวานอูมามิคาราเมลผลไม้อบทิ้งท้าย",
       price: 580,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Yame No Tenkuu",
@@ -57,6 +59,7 @@ const matcha: Flavor = {
       tasteNote:
         "Tasting notes: ธัญพีชที่หอมหวานมันลงตัว ซุปวากาเมะ ความมันเนยถั่วบางๆ",
       price: 560,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Saemidori",
@@ -80,6 +83,7 @@ const matcha: Flavor = {
         "มัทฉะเกรดพิธีชงสูงสุด จากเมืองยาเมะ สายพันธุ์ Tsuyuhikari จัดหาโดย MTCH",
       tasteNote: "Tasting notes: ถั่วคั่วอ่อน ดอกชา มะลิ หญ้าสด",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Hanae Nishio",
@@ -170,6 +174,7 @@ const easternTea: Flavor = {
       tasteNote:
         "Tasting notes: กลิ่นหอมโทนส้มสดหวาน ส้มหอมแห้ง มีกลิ่นอายของเครื่องเทศฤดูร้อน",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Rou Gui Hu Xiao Yan (虎嘯岩肉桂)",
@@ -270,12 +275,14 @@ const fruits: Flavor = {
       description:
         "แอปเปิลระดับตํานานที่ได้รับการยอมรับว่าเป็นสายพันธุ์ที่ทํา cider ได้ดีที่สุด มีกลิ่นแฝงของพีช ส้ม เลมอน เมลอน และพลัม",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Green Williams Pear Sorbet",
       description:
         "แพร์สายพันธุ์ Green Williams สามารถทานได้ทั้งผล เนื้อสัมผัสเหมือนเนย เปลือกไม่ติดความขมและมีกลิ่นหอมอ่อนหวานเป็นเอกลักษณ์",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Tout Miel Clementine Sorbet",
@@ -389,6 +396,7 @@ const special: Flavor = {
       description:
         "รสชาติสุดพิเศษฉลองฤดูกาลสิ้นปี ถอดมาจากของหวานดั้งเดิมในฝรั่งเศส Poire a la Beaujolais ที่มีมาตั้งแต่ศตวรรษที่ 19 โดยนําลูกแพร์มาตุ๋นในไวน์แดง (Amarone della Valpolicella) โรยด้วย crumbles with Amalfi lemon zest",
       price: 600,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "White Truffle White Chocolate Hazelnut",

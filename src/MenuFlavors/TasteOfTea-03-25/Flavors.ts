@@ -1,5 +1,7 @@
 import { Flavor, SOLDOUT_TYPE } from "../types";
 
+// Use this web to do conversion from csv and put it in parsedFlavours:
+// https://csvjson.com/csv2json
 const parsedFlavours = [];
 
 const matcha: Flavor = {

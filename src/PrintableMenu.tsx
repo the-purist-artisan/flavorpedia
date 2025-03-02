@@ -126,9 +126,9 @@ export default function PrintableMenu({
                   </div>
 
                   {/* Taste note and price */}
-                  {item.tasteNote ? (
+                  {item.tastingNotes ? (
                     <div className="mt-1 font-ibm-plex-thai text-2xl font-bold leading-[32px]">
-                      {item.tasteNote}
+                      {item.tastingNotes}
                     </div>
                   ) : null}
                   <div className="mt-2 font-ibm-plex-thai text-3xl font-bold leading-[32px]">

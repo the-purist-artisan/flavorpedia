@@ -11,7 +11,7 @@ const easternTea: Flavor = {
       name: "Dong Fang Mei Ren Competition Grade (東方美人)",
       description:
         "ชาตงฟางเหม่ยเหริน (นางงามบูรพา) ชนะรางวัลจากบ้านปี้หลิง ตำบลเอ๋อเหม่ย จังหวัดชินจู๋ ประเทศไต้หวัน",
-      tasteNote:
+      tastingNotes:
         "ดอกไม้ และน้ำผึ้งที่ชัดเจน ตามด้วยรสผลไม้ ปิดท้ายด้วยรสหมักของสายพันธุ์ชิงซินต้าโหม่ว กลิ่น และรส",
       price: 700,
     },
@@ -19,7 +19,7 @@ const easternTea: Flavor = {
       name: "Da Hong Pao (大紅袍)",
       description:
         "ชาต้าหงเผา (เสื้อคลุมสีแดง) หนึ่งในสุดยอดชา จากเขาอู๋อี๋ซาน มณฑลฝูเจี้ยนประเทศจีน แบรนด์ Wuyi Star",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: น้ำตาลแดง กลิ่นอบไฟ ผลไม้ stone fruit มิติความแร่ธาตุซับซ้อน",
       price: 450,
     },
@@ -27,7 +27,7 @@ const easternTea: Flavor = {
       name: "Tie Guan Yin No.1 Award (鐵觀音)",
       description:
         "ชาเถี่ยกวนอิน (ทิกวนอิม) รางวัลที่ 1 จากเวทีแข่งขันประกวดชา Muzha",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ผลไม้สุก ดอกไม้หลากหลายชนิด มีชั้นรสชาติหลายชั้น ความเครื่องเทศอ่อน ทิ้งปลายรสอูมามิ ไร้ความขม",
       price: 400,
     },
@@ -35,7 +35,7 @@ const easternTea: Flavor = {
       name: "Tie Guan Yin Silver Medal (鐵觀音)",
       description:
         "ชาเถี่ยกวนอิน (ทิกวนอิม) รางวัลเหรียญเงิน จากปรมาจารย์ชาจังเจ๋อเจีย",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ผลไม้สุก ดอกไม้ อบไฟกลาง บอดี้แน่นแต่ยังคงความละมุน และซับซ้อนของรสชาติ",
       price: 350,
     },
@@ -43,7 +43,7 @@ const easternTea: Flavor = {
       name: "Jin Jun Mei (金駿眉)",
       description:
         "ชาจินจวิ้นเหมย (อาชาคิ้วทอง) จากอู่อี๋ซาน มณฑลฝูเจี้ยน ประเทศจีน",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: คาราเมล น้ำผึ้งป่า เกสรดอกไม้อ่อน อบไฟอ่อน หอมละมุน",
       price: 350,
     },
@@ -51,35 +51,35 @@ const easternTea: Flavor = {
       name: "Award Winning Dong Fang Mei Ren (東方美人)",
       description:
         "ชารางวัลชมเชย 1 ดอกเหมย จากตำบลเอ๋อเหม่ย รสชาติละมุน สดชื่น มีกลิ่นเอกลักษณ์ที่หอมหวานเหมือนน้ำผึ้ง",
-      tasteNote: "Tasting notes: น้ำผึ้ง ดอกไม้ป่า ผลไม้สุก พีช แพร์",
+      tastingNotes: "Tasting notes: น้ำผึ้ง ดอกไม้ป่า ผลไม้สุก พีช แพร์",
       price: 350,
     },
     {
       name: "Tie Luo Han (铁罗汉)	",
       description:
         "ชาเถี่ยหลัวฮั่น (อรหันต์เหล็ก) หนึ่งใน 4 สุดยอดชาจากอู่อี๋ซาน ผู้ผลิตชั้นนำแบรนด์ Sea Dyke",
-      tasteNote: "Tasting notes: ช็อกโกแลตนมคั่วถ่าน ทาร์ตขนม หินแร่นาๆชนิด",
+      tastingNotes: "Tasting notes: ช็อกโกแลตนมคั่วถ่าน ทาร์ตขนม หินแร่นาๆชนิด",
       price: 300,
     },
     {
       name: "Shui Jin Gui (水金龟)	",
       description:
         "ชาสุ่ยจินกุย (เต่าน้ำทอง) หนึ่งใน 4 สุดยอดชาจากอู่อี๋ซาน ผู้ผลิตชั้นนำแบรนด์ชั้นนำ Sea Dyke",
-      tasteNote: "Tasting notes: ดาร์คช็อกโกแลต ผลไม้อบแห้ง หินแร่นาๆชนิด",
+      tastingNotes: "Tasting notes: ดาร์คช็อกโกแลต ผลไม้อบแห้ง หินแร่นาๆชนิด",
       price: 300,
     },
     {
       name: "Jin Xuan Tie Guan Yin (金萱鐵觀音)	",
       description:
         "ชาเถี่ยกวนอิน ผ่านกรรมวิธีการหมักบ่มชาแบบดั้งเดิม ทำให้ได้รสชาที่เข้ม หอมคล้ายกลิ่นของผลไม้ และดอกไม้อบ",
-      tasteNote: "Tasting notes: กลิ่นย่าง กลิ่นดอกไม้ ผลไม้อบ คาราเมล",
+      tastingNotes: "Tasting notes: กลิ่นย่าง กลิ่นดอกไม้ ผลไม้อบ คาราเมล",
       price: 300,
     },
     {
       name: "Heavy-fired Tie Guan Yin (重火鐵觀音)",
       description:
         "ชาเถี่ยกวนอิน ผ่านกรรมวิธีอบไฟแรง ทำให้ได้รสชาที่เข้มข้น กลิ่นคั่วไฟ",
-      tasteNote: "Tasting notes: กลิ่นย่างเข้มข้น กลิ่นดอกไม้ และผลไม้แห้ง",
+      tastingNotes: "Tasting notes: กลิ่นย่างเข้มข้น กลิ่นดอกไม้ และผลไม้แห้ง",
       price: 300,
     },
   ],
@@ -136,7 +136,7 @@ const matcha: Flavor = {
       name: "Zuisho Shogyokuen",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Uji Hikari จากแบรนด์ Shogyokuen",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ถั่วลันเตา คาวทะเลสาหร่าย มะม่วง มะพร้าวเล็กๆ ความอูมามิพุ่งพล่าน และค้างอยู่ในปากยาวนาน",
       price: 590,
     },
@@ -144,7 +144,7 @@ const matcha: Flavor = {
       name: "Tsujiki Asahi",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Asahi จากไร่รางวัลประกวดแข่งขันรางวัลที่ 1 Tsujiki",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: สาหร่ายสด ความหวานจากซุปปลาต้นจรดปลาย อูมามิสว่าง",
       price: 570,
     },
@@ -162,7 +162,7 @@ const coffee: Flavor = {
       name: "Guatemala Jalapa Cup of Excellence Rank 8",
       description:
         "กาแฟ Geisha จากประเทศ Guatemala ไร่ Montaña Helada รางวัลประกวดจากหน่วยงาน Alliance For Coffee Excellence ผ่านการคัดเลือกตั้งแต่ต้นน้ำถึงปลายน้ำ และ Cupping จากผู้เชี่ยวชาญ",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: เสาวรส สัปปะรด วานิลลา เชอร์รี พลัม บลูเบอร์รี คาราเมลน้ำตาลทรายแดง เรดเคอร์แรนท์",
       price: 400,
     },
@@ -170,7 +170,7 @@ const coffee: Flavor = {
       name: "Panama Geisha 90+ Lotus",
       description:
         "กาแฟ Geisha จากไร่ Ninety Plus โดดเด่นด้วยรสชาติ และกลิ่นผลไม้รสเปรี้ยวสุก ที่มาจากการหมักบ่มแบบพิเศษของไร่",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: มะม่วงสุก มะขามเปียก ลาเวนเดอร์ แบล็กเบอร์รี บรั่นดี พลัม ยี่หร่าฝรั่ง",
       price: 400,
     },
@@ -245,7 +245,7 @@ const template: Flavor = {
     {
       name: "",
       description: "",
-      tasteNote: "",
+      tastingNotes: "",
       price: 0,
     },
   ],

@@ -140,7 +140,7 @@ const chocolate: Flavor = {
       name: "Guatemala Laguna Lachua Dormouse Chocolate Sorbet",
       description:
         "ช็อกโกแลตรางวัลประกวด AOC 2018 จากแบรนด์ Dormouse เมล็ดปลูกที่ประเทศกัวเตมาลา",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ไวน์แดง Sangiovese ผลแห้งไม้สีแดง วอลนัตคั่ว ไม้โอ๊ค",
       price: 350,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -149,7 +149,7 @@ const chocolate: Flavor = {
       name: "Mirzam Tanzania Chocolate Sorbet",
       description:
         "ช็อกโกแลตรางวัลประกวด จากแบรนด์ Mirzam ปลูกที่ประเทศแทนซาเนีย",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: คลาสสิก full-bodied cacao คาราเมล เครื่องไม้ เครื่องเทศอ่อน",
       price: 350,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -158,7 +158,7 @@ const chocolate: Flavor = {
       name: "Amedei No.9 Chocolate Sorbet",
       description:
         "ช็อกโกแลตจากแบรนด์ระดับโลก Amedei of Tuscany สายพันธุ์หายาก Chuao จากเวเนซุเอลา",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ผลไม้ตระกูลซิตรัส ไม้ป่า อัลมอนด์คั่ว คาราเมล กลิ่นลงท้ายซับซ้อน",
       price: 350,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -167,7 +167,7 @@ const chocolate: Flavor = {
       name: "Ecuador Nacional Arriba (TO’AK Powder) Sorbet",
       description:
         "ช็อกโกแลตสายพันธุ์ Nacional Arriba พันธุ์แห่งชาติของประเทศ Ecuador โดยแบรนด์ระดับโลก TO’AK",
-      tasteNote: "Tasting notes: ดอกไม้ป่า ผลไม้ซิตรัส เครื่องเทศฤดูหนาว",
+      tastingNotes: "Tasting notes: ดอกไม้ป่า ผลไม้ซิตรัส เครื่องเทศฤดูหนาว",
       price: 300,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -175,7 +175,7 @@ const chocolate: Flavor = {
       name: "Akesson’s Madagascar Chocolate Ganache",
       description:
         "ช็อกโกแลตสายพันธุ์ Criollo จากประเทศมาดากัสการ์ ชนะรางวัลทุกเวทีมาอย่างยาวนาน",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: กลิ่นโกโก้เอกลักษณ์ พร้อมรสเปรี้ยวอมหวานของผลไม้ตระกูลส้มและผลเบอร์รี่สีแดง",
       price: 300,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -184,7 +184,7 @@ const chocolate: Flavor = {
       name: "Pacari Nacional Arriba Ganache",
       description:
         "ช็อกโกแลตสายพันธุ์ Nacional Arriba พันธุ์แห่งชาติของประเทศ Ecuador โดยแบรนด์ระดับโลก Pacari",
-      tasteNote: "Tasting notes: ดอกไม้ป่า ผลไม้ซิตรัส เครื่องเทศฤดูหนาว",
+      tastingNotes: "Tasting notes: ดอกไม้ป่า ผลไม้ซิตรัส เครื่องเทศฤดูหนาว",
       price: 300,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -192,7 +192,7 @@ const chocolate: Flavor = {
       name: "Willies Indonesia Java Chocolate Ganache",
       description:
         "ช็อกโกแลตจากแบรนด์ Willies ทานง่ายและเข้าใจง่าย ในรูปแบบช็อกโกแลตนม ไม่ติดความเปรี้ยว",
-      tasteNote: "Tasting notes: ถั่วอบ คาราเมล หอมกลิ่น full-bodied cacao",
+      tastingNotes: "Tasting notes: ถั่วอบ คาราเมล หอมกลิ่น full-bodied cacao",
       price: 300,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -210,7 +210,7 @@ const coffee: Flavor = {
       name: "Panama Geisha La Esmeralda Auction Lot",
       description:
         "กาแฟ Geisha เกรดพิเศษจากไร่ Hacienda La Esmeralda ครองแชมป์รางวัลนับไม่ถ้วน",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ดอกมะลิ เบอร์รีหลากหลายชนิด เชอร์รี พลัม แอปริคอต ดอกมะลิ เบอกาม็อท ทิ้งรสชาติที่ยอดเยี่ยมยาวนาน",
       price: 850,
     },
@@ -218,14 +218,14 @@ const coffee: Flavor = {
       name: "Panama Geisha 90+ Yuzo",
       description:
         "กาแฟ Geisha จากไร่ Ninety Plus โดดเด่นด้วยจากการหมักบ่มแบบพิเศษของไร่",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ขนมปัง sourdough ยูสุสาเก น้ำผึ้งซีเดอร์ เปรี้ยวหวานซับซ้อน ไร้ความขมฝาด",
       price: 800,
     },
     {
       name: "Panama Lerida Geisha (Honey Process)",
       description: "กาแฟ Geisha จากไร่เก่าแก่ของปานามากว่า 100 ปี Finca Lerida",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: เรดเคอร์แรนท์ รังผึ้ง เบอกาม็อท ส้ม องุ่นแดง ชาเอิร์ลเกรย์ ดอกไม้ชุ่มฉ่ำ",
       price: 700,
     },
@@ -233,7 +233,7 @@ const coffee: Flavor = {
       name: "Panama Geisha 90+ Lotus",
       description:
         "กาแฟ Geisha จากไร่ Ninety Plus โดดเด่นด้วยรสชาติอมเปรี้ยวที่มาจากการหมักบ่มแบบพิเศษของไร่",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: มะม่วงสุก มะขามเปียก ลาเวนเดอร์ แบล็กเบอร์รี บรั่นดี พลัม ยี่หร่าฝรั่ง",
       price: 600,
     },
@@ -241,7 +241,7 @@ const coffee: Flavor = {
       name: "Colombia San Jose Rum Barrel",
       description:
         "เมล็ดกาแฟที่เก็บเกี่ยวด้วยมือ บรรจุและหมักในถังเหล้ารัมนานอย่างน้อย 8 ปี",
-      tasteNote: "Tasting notes: ดาร์ครัม วิสกี้ วานิลลา",
+      tastingNotes: "Tasting notes: ดาร์ครัม วิสกี้ วานิลลา",
       price: 500,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -249,14 +249,14 @@ const coffee: Flavor = {
       name: "Jamaica Blue Mountain",
       description:
         "กาแฟ Blue Mountain จาก Jamaica รสคลาสสิก มีความหอมจากกลิ่นคั่วชัด รสสัมผัสปลายที่ละเอียด นุ่ม ละมุน",
-      tasteNote: "Tasting notes: คาราเมล ช็อกโกแลต ถั่วเฮเซลนัท",
+      tastingNotes: "Tasting notes: คาราเมล ช็อกโกแลต ถั่วเฮเซลนัท",
       price: 500,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Ethiopia Alo Alache Competition Series",
       description: "กาแฟชนะเลิศการแข่งขัน Ethiopia Cup of Excellence",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: องุ่นเขียว ตะไคร้ ดอกส้มสีขาว วานิลลา มะนาว พีชขาว",
       price: 450,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -276,7 +276,7 @@ const westernTea: Flavor = {
       name: "Marco Polo Sublime",
       description:
         "ชาดำเรือธงในตำนาน จาก Mariage Frères ผสมผสานอย่างลงตัวด้วยกลิ่นผลไม้ ดอกไม้ และมอลต์",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: แพร์ ลิ้นจี่ สตรอว์เบอร์รี แครนเบอร์รี เมล่อน ครีม มอลต์",
       price: 350,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -285,7 +285,7 @@ const westernTea: Flavor = {
       name: "French Earl Grey",
       description:
         "ชาดำเอิร์ลเกรย์จาก T2 หอมฟุ้งด้วยกลิ่นผลไม้นานาชนิด กุหลาบ ปิดท้ายด้วยส้มเบอกาม็อท",
-      tasteNote: "Tasting notes: ผลไม้ กุหลาบ ดอกทานตะวัน กระเจี๊ยบ",
+      tastingNotes: "Tasting notes: ผลไม้ กุหลาบ ดอกทานตะวัน กระเจี๊ยบ",
       price: 300,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -293,7 +293,7 @@ const westernTea: Flavor = {
       name: "Countess Grey",
       description:
         "ชาดำเอิร์ลเกรย์จาก Fortnum & Mason ที่เพิ่มลูกเล่นด้วยกลิ่นของผลไม้ตระกูลซิตรัส",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: น้ำมันเบอกาม็อทสุดคลาสสิกสไตล์ผู้ดีอังกฤษ ปิดท้ายด้วยเปลือกส้ม",
       price: 300,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -302,7 +302,7 @@ const westernTea: Flavor = {
       name: "Margaret’s Hope",
       description:
         "ชาดำ Darjeeling (Second Flush จากเทือกเขาหิมาลัย) รุ่นชนะรางวัล จาก The Tea Makers of London",
-      tasteNote: "Tasting notes: กลิ่นผลไม้และกลิ่นไวน์มัสกัตแบบคลาสสิก",
+      tastingNotes: "Tasting notes: กลิ่นผลไม้และกลิ่นไวน์มัสกัตแบบคลาสสิก",
       price: 300,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -320,7 +320,7 @@ const matcha: Flavor = {
       name: "Award-Winning Horii",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด ชนะรางวัล Japanese Ministry of Agriculture, Forestry, Fisheries 2023 ผลผลิตเพียง 6 กิโลกรัม",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ไวท์ช็อกโกแลต ความอูมามิธัญพืช และนุ่มนวลที่เสมือนอยู่ชั่วนิรันดร์",
       price: 690,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -329,7 +329,7 @@ const matcha: Flavor = {
       name: "Honzu Asahi (2024 Competition)",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Asahi กรรมวิธีผลิตด้วยการพรางแสงด้วยโครงไม้ไผ่และฟางข้าว จัดหาโดย MTCH",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: สาหร่ายทะเลย่าง เนยอบ องุ่นขาว ลูกฟิก และผลไม้แห้ง",
       price: 600,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -337,7 +337,7 @@ const matcha: Flavor = {
     {
       name: "Akatsuki",
       description: "มัทฉะเกรดพิธีชงสูงสุดจาก  Hoshinomura เมืองยาเมะ",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: หอมมันหวานถั่วคั่วอ่อน กลิ่นเขียวสดของผักและดอกไม้อ่อน หอมละมุน บอดี้ปานกลาง",
       price: 500,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -345,7 +345,8 @@ const matcha: Flavor = {
     {
       name: "Kanbayashi Kenjo Hatsumukash",
       description: "มัทฉะเกรดพิธีชงสูงสุด จากแบรนด์ 3 แต้มแดง Kanbayashi",
-      tasteNote: "Tasting notes: อูมามิโทนสาหร่ายโนริ หวานซุปผักรวม บอดี้หนา",
+      tastingNotes:
+        "Tasting notes: อูมามิโทนสาหร่ายโนริ หวานซุปผักรวม บอดี้หนา",
       price: 500,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -353,21 +354,21 @@ const matcha: Flavor = {
       name: "Hoshino Myoho No Mukashi",
       description:
         "มัทฉะเกรดพิธีชง จาก Hoshinoen เป็นตัวโปรดของ Omotesenke Jimyosai Master",
-      tasteNote: "Tasting notes: อูมามิถั่วคั่ว ขนมปังอบ ความเข้มข้นสูง",
+      tastingNotes: "Tasting notes: อูมามิถั่วคั่ว ขนมปังอบ ความเข้มข้นสูง",
       price: 450,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Midori Hayate Uji Hikari",
       description: "มัทฉะเกรดพิธีชงสายพันธุ์ Uji Hikari จัดหาโดย Midori Hayate",
-      tasteNote: "อูมามิถั่ว edamame ข้าวโพด",
+      tastingNotes: "อูมามิถั่ว edamame ข้าวโพด",
       price: 450,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Midori Hayate Okumidori",
       description: "มัทฉะเกรดพิธีชงสายพันธุ์ Okumidori จัดหาโดย Midori Hayate",
-      tasteNote: "อูมามิสาหร่าย ช็อกโกแลต เนยเค็ม",
+      tastingNotes: "อูมามิสาหร่าย ช็อกโกแลต เนยเค็ม",
       price: 350,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -385,7 +386,7 @@ const easternTea: Flavor = {
       name: "Dong Fang Mei Ren Competition Grade (東方美人)",
       description:
         "ชาตงฟางเหม่ยเหริน (นางงามบูรพา) ชนะรางวัลฤดูร้อนจากบ้านปี้หลิง ตำบลเอ๋อเหม่ย จังหวัดชินจู๋ ประเทศไต้หวัน",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ดอกไม้ และน้ำผึ้งที่ชัดเจน ตามด้วยรสผลไม้ ปิดท้ายด้วยรสหมักของสายพันธุ์ชิงซินต้าโหม่ว กลิ่น และรสของชามีความซับซ้อน มีความฟงฝู่ 豐富 จัดเต็ม ไม่แบน มีหลากหลายมิติ รสชาติทิ้งท้ายยาวนาน",
       price: 800,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -394,7 +395,7 @@ const easternTea: Flavor = {
       name: "No.1 Tie Guan Yin (铁观音)",
       description:
         "ชาเถี่ยกวนอิน (ทิกวนอิม) ชนะรางวัลที่ 1 จากเวทีแข่งขันประกวดชา Muzha โดยปรมาจารย์ทำชาจังหยวนปั๋ว",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ผลไม้สุก ดอกไม้หลากหลายชนิด มีชั้นรสชาติหลายชั้น ความเครื่องเทศอ่อน ทิ้งปลายรสอูมามิ ไร้ความขม",
       price: 500,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -403,7 +404,7 @@ const easternTea: Flavor = {
       name: "Da Hong Pao Bei Dou (北斗大紅袍)",
       description:
         "ชาต้าหงเผา (เสื้อคลุมสีแดง) สายพันธุ์เดี่ยว Bei Dou (北斗) หนึ่งในสุดยอดชา จากเขาอู๋อี๋ซาน มณฑลฝูเจี้ยนประเทศจีน",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ดอกไม้นานาชนิด ผลไม้แห้ง น้ำผึ้ง กลิ่นอบไฟ มิติความแร่ธาตุซับซ้อน",
       price: 500,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -412,7 +413,7 @@ const easternTea: Flavor = {
       name: "Jasmine Dian Hong (茉莉滇红)",
       description:
         "ชาแดงเตียนหง อบดอกมะลิสดแท้ 3 รอบ ด้วยกรรมวิธีแบบดั้งเดิม นำเข้าจากประเทศจีน หาทานยาก",
-      tasteNote: "Tasting notes: ดอกมะลิสีน้ำตาล คาราเมล ช็อกโกแลต ถั่ว",
+      tastingNotes: "Tasting notes: ดอกมะลิสีน้ำตาล คาราเมล ช็อกโกแลต ถั่ว",
       price: 300,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -431,7 +432,7 @@ const classic: Flavor = {
       name: "São Tomé and Príncipe Vanilla",
       description:
         "วานิลลาจากเกาะเซาตูแม และ ปรินซีปี ตั้งอยู่ใจกลางโลกบนอ่าวกินี",
-      tasteNote: "Tasting notes: ช็อกโกแลต คาราเมล อัลมอนด์ อบเชย ดอกไอริส",
+      tastingNotes: "Tasting notes: ช็อกโกแลต คาราเมล อัลมอนด์ อบเชย ดอกไอริส",
       price: 400,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -521,7 +522,7 @@ const template: Flavor = {
     {
       name: "",
       description: "",
-      tasteNote: "",
+      tastingNotes: "",
       price: 0,
     },
   ],

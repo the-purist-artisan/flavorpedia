@@ -11,7 +11,7 @@ const coffee: Flavor = {
       name: "Panama Geisha La Esmeralda Auction Lot",
       description:
         "กาแฟ Geisha เกรดประมูลสูงสุดจากไร่ Hacienda La Esmeralda ครองแชมป์รางวัลนับไม่ถ้วน",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ส้มหวาน ส้มสด แยมส้ม ส้มโอสีแดงและขาว ดอกมะลิ เบอร์กามอท ทิ้งรสชาติที่ยอดเยี่ยมยาวนาน",
       price: 850,
     },
@@ -19,28 +19,29 @@ const coffee: Flavor = {
       name: "Panama Geisha 90+ Yuzo",
       description:
         "กาแฟ Geisha จากไร่ Ninety Plus รุ่นพิเศษ ผลิตด้วยกรรมวิธีหมักที่ให้รสแบบสาเกชั้นสูง",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ยูสุสาเก น้ำผึ้งซีเดอร์ เปรี้ยวหวานซับซ้อน ไร้ความขมฝาด",
       price: 800,
     },
     {
       name: "Colombia Geisha Mikava",
       description: "กาแฟ Geisha เกรดสูงสุดชนะรางวัลจากประเทศโคลอมเบีย",
-      tasteNote: "Tasting notes: ดอกมะลิ ดอกส้มสด ผลไม้เมืองร้อน รสชาติเข้มข้น",
+      tastingNotes:
+        "Tasting notes: ดอกมะลิ ดอกส้มสด ผลไม้เมืองร้อน รสชาติเข้มข้น",
       price: 750,
     },
     {
       name: "Panama Geisha La Esmeralda Cañas Verdes Special Lot",
       description:
         "กาแฟ Geisha รุ่น Special มีมิติของกลิ่น และรสที่ซับซ้อน ละมุน เต็มไปด้วยดอกไม้ และผลไม้หลากชนิด",
-      tasteNote: "Tasting notes: ดอกมะลิ ส้มเบอกาม็อท ผลไม้ตระกูลซิตรัส",
+      tastingNotes: "Tasting notes: ดอกมะลิ ส้มเบอกาม็อท ผลไม้ตระกูลซิตรัส",
       price: 700,
     },
     {
       name: "Panama Geisha 90+ Lotus",
       description:
         "กาแฟ Geisha จากไร่ Ninety Plus โดดเด่นด้วยรสชาติ และกลิ่นผลไม้รสเปรี้ยวสุก ที่มาจากการหมักบ่มแบบพิเศษของไร่",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: มะม่วงสุก มะขามเปียก ลาเวนเดอร์ แบล็กเบอร์รี บรั่นดี พลัม ยี่หร่าฝรั่ง ",
       price: 550,
     },
@@ -48,7 +49,7 @@ const coffee: Flavor = {
       name: "Panama Geisha 90+ Lycello",
       description:
         "กาแฟ Geisha จากไร่ Ninety Plus ตัวแรกที่ชนะรางวัล World Brewer’s Cup Championship",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ชาอู่หลงลิ้นจี่หวาน หอมมะลิ ทิ้งท้ายแบบชาเอิร์ลเกรย์ผสมมิ้นต์สดชื่น",
       price: 550,
     },
@@ -56,35 +57,35 @@ const coffee: Flavor = {
       name: "Jamaica Blue Mountain",
       description:
         "กาแฟ Blue Mountain จาก Jamaica รสคลาสสิก มีความหอมจากกลิ่นคั่วชัด รสสัมผัสปลายที่ละเอียด นุ่ม ละมุน",
-      tasteNote: "Tasting notes: คาราเมล ช็อกโกแลต ถั่วเฮเซลนัท",
+      tastingNotes: "Tasting notes: คาราเมล ช็อกโกแลต ถั่วเฮเซลนัท",
       price: 500,
     },
     {
       name: "Hawaii Kona Extra Fancy",
       description:
         "กาแฟที่ปลูกบริเวณ Kona coffee belt ใน Hawaii รสชาติคลาสสิก รสสัมผัสปลายเนียน และมีรสอมเปรี้ยวเล็กๆของเปลือกผลไม้ซิตรัส",
-      tasteNote: "Tasting notes: คาราเมลน้ำตาลทรายแดง เปลือกผลไม้ซิตรัส",
+      tastingNotes: "Tasting notes: คาราเมลน้ำตาลทรายแดง เปลือกผลไม้ซิตรัส",
       price: 500,
     },
     {
       name: "Columbia Geisha El Roble LOD#6",
       description:
         "กาแฟ Geisha จากประเทศ Columbia ไร่ El Roble มีจุดเด่นของดินในฟาร์มเป็นดินร่วนปนทราย ล้อมด้วยป่าบนภูเขาสูงและแหล่งน้ำธรรมชาติ",
-      tasteNote: "Tasting notes: พีชโซดา ลิ้นจี่ องุ่นเขียวมัสแคท เยลลี่",
+      tastingNotes: "Tasting notes: พีชโซดา ลิ้นจี่ องุ่นเขียวมัสแคท เยลลี่",
       price: 450,
     },
     {
       name: "Kenya Maguta Supernatural",
       description:
         "กาแฟบอดี้หนาเข้มข้นกลิ่นพุ่งพล่านด้วยกระบวนการผลิตแบบ Supernatural จากประเทศเคนย่า",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: แบล็กเคอร์แรนท์ เชอรี่ พีช ราสเบอรี่ ช็อกโกแลตนม ส้มแมนดาริน",
       price: 450,
     },
     {
       name: "Ethiopia Gesha Village",
       description: "กาแฟจากถิ่นกำเนิดสายพันธุ์ Gesha จากเอธิโอเปีย",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: เรซิ่น ชาดำมะลิ ผลไม้ซิตรัส และ stonefuits ทิ้งความหวานเบาและนุ่ม",
       price: 400,
     },
@@ -92,7 +93,7 @@ const coffee: Flavor = {
       name: "Costa Rica Geisha Dota El Diosa",
       description:
         "กาแฟ Geisha จากประเทศ Costa Rica มีความครีมมี่ บอดี้แน่น คงรสชาติตอนท้ายยาวนาน",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: เมเปิ้ลไซรัป แอปเปิ้ลเขียว แครนเบอร์รี ชาดำ อัลมอนด์",
       price: 350,
     },
@@ -111,14 +112,15 @@ const westernTea: Flavor = {
       name: "Montagne D’OR",
       description:
         "ชาดำเบลนด์สุดหอมรุ่น Exclusive จาก Mariage Frères แรงบันดาลใจจากพื้นที่สามเหลี่ยมทองคำ",
-      tasteNote: "Tasting notes: ลิ้นจี่ กุหลาบ เสาวรส",
+      tastingNotes: "Tasting notes: ลิ้นจี่ กุหลาบ เสาวรส",
       price: 300,
     },
     {
       name: "Rouge D’Automne",
       description:
         "ชาดำเบลนด์ชื่อ “ฤดูใบไม้ผลิสีแดง” มีโทนหอมเกาลัดเชื่อม หายากจาก Mariage Frère",
-      tasteNote: "Tasting notes: เกาลัดเชื่อม วานิลลา เครื่องเทศฤดูร้อนอ่อนๆ",
+      tastingNotes:
+        "Tasting notes: เกาลัดเชื่อม วานิลลา เครื่องเทศฤดูร้อนอ่อนๆ",
       price: 300,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -126,7 +128,7 @@ const westernTea: Flavor = {
       name: "Paris-Ginza",
       description:
         "ชาดำเบลนด์สไตล์ล้ำแฟชั่นแรงบันดาลใจจากย่านกินซ่าและปารีสจาก Mariage Frères",
-      tasteNote: "Tasting notes: ผลไม้สีแดง ครีมคาราเมล หอมสดชื่น",
+      tastingNotes: "Tasting notes: ผลไม้สีแดง ครีมคาราเมล หอมสดชื่น",
       price: 300,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -134,7 +136,7 @@ const westernTea: Flavor = {
       name: "Countess Grey",
       description:
         "ชาดำเอิร์ลเกรย์จาก Fortnum & Mason ที่เพิ่มลูกเล่นด้วยกลิ่นของผลไม้ตระกูลซิตรัส",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: น้ำมันเบอกาม็อทสุดคลาสสิกสไตล์ผู้ดีอังกฤษ ปิดท้ายด้วยเปลือกส้ม",
       price: 300,
     },
@@ -142,7 +144,7 @@ const westernTea: Flavor = {
       name: "Victorian Grey",
       description:
         "ชาดำเอิร์ลเกรย์จาก Fortnum & Mason ผสมผสานใบชาจากประเทศจีนและศรีลังกา",
-      tasteNote:
+      tastingNotes:
         "Tasting notes:รากชะเอมเทศ ดอกลาเวนเดอร์ ใบและดอกข้าวโพด น้ำผึ้ง Salisbury Plain",
       price: 300,
     },
@@ -150,7 +152,7 @@ const westernTea: Flavor = {
       name: "Mary Grey Special",
       description:
         "ชาดำเอิร์ลเกรย์จาก The Tea Maker of London ชนะรางวัล ทำจากใบชาซีล่อนพรีเมี่ยมจากศรีลังกา",
-      tasteNote: "Tasting notes: ดอกดาวเรืองสีทอง ส้มหวาน มะนาว",
+      tastingNotes: "Tasting notes: ดอกดาวเรืองสีทอง ส้มหวาน มะนาว",
       price: 300,
     },
   ],
@@ -167,7 +169,8 @@ const matcha: Flavor = {
       name: "Award-winning Horii",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด ชนะรางวัล Japanese Ministry of Agriculture, Forestry, Fisheries 2023 ผลผลิตเพียง 6 กิโลกรัม",
-      tasteNote: "Tasting notes: ความอูมามิและนุ่มนวลที่เสมือนอยู่ชั่วนิรันดร",
+      tastingNotes:
+        "Tasting notes: ความอูมามิและนุ่มนวลที่เสมือนอยู่ชั่วนิรันดร",
       price: 690,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -175,7 +178,7 @@ const matcha: Flavor = {
       name: "Asa Hikari",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด ชนะรางวัลจากเวที UK Leafies Award 2023 ผสมระหว่างสายพันธุ์ Uji Hikari และ Asahi",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: สาหร่ายทะเลย่าง ซุปผักยอดหน่อไม้ฝรั่งอ่อน ธัญพืช หอมหวานอูมามิคาราเมลช็อกโกแลตทิ้งท้าย",
       price: 600,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -184,14 +187,14 @@ const matcha: Flavor = {
       name: "Zuisho Shogyokuen",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Uji Hikari จากแบรนด์ Shogyokuen",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ถั่วลันเตา สาหร่ายอ่อน มะม่วง มะพร้าวอ่อน ความอูมามิพุ่งพล่าน หวานและค้างอยู่ในปากยาวนาน",
       price: 590,
     },
     {
       name: "Tsujiki Asahi",
       description: "มัทฉะเกรดพิธีชงสูงสุด ชนะรางวัลหลายปีซ้อนจากไร่ Tsujiki",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ความอูมามิที่นุ่มนวลแต่ทรงพลัง กลมกล่อม ลมทะเลและผักใบเขียวที่แฝงไปด้วยความหอมวานิลลา",
       price: 580,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
@@ -199,14 +202,14 @@ const matcha: Flavor = {
     {
       name: "Uji Hikari Gokasho",
       description: "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Uji Hikari จาก Gokasho",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ความ Ooika ทะเล ถั่วแระญี่ปุ่น ข้าวโพดอ่อน และ สัมผัสนุ่มเหมือนเนย กลิ่นเกสรดอกไม้",
       price: 560,
     },
     {
       name: "Hoshino Houju",
       description: "มัทฉะเกรดพิธีชงสูงสุด รุ่น Houju จากแบรนด์ดัง Hoshinoen",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: อูมามิหลากหลายมิติลุ่มลึก ปิดท้ายด้วยความหอมโทนถั่วนานาชนิด และความคั่วไฟอ่อน",
       price: 500,
     },
@@ -224,7 +227,7 @@ const easternTea: Flavor = {
       name: "Da Hong Pao (大紅袍)",
       description:
         "ชาต้าหงเผา (เสื้อคลุมสีแดง) เกรดบรรณาการราชสำนัก หนึ่งในสุดยอดชา จากเขาอู๋อี๋ซาน มณฑลฝูเจี้ยนประเทศจีน",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: น้ำตาลแดง กลิ่นอบไฟ ผลไม้ stone fruit มิติความแร่ธาตุซับซ้อน",
       price: 450,
     },
@@ -232,14 +235,14 @@ const easternTea: Flavor = {
       name: "Award Winning Dong Fang Mei Ren (東方美人) 2024 New Harvest",
       description:
         "ชาดงฟางเหม่ยเหรน (นางงามบูรพา) สูตรต้นตำหรับ รสชาติละมุน สดชื่น มีกลิ่นเอกลักษณ์ที่หอมหวานเหมือนน้ำผึ้ง",
-      tasteNote: "Tasting notes: น้ำผึ้ง ดอกไม้ป่า ผลไม้สุกที่สดชื่น",
+      tastingNotes: "Tasting notes: น้ำผึ้ง ดอกไม้ป่า ผลไม้สุกที่สดชื่น",
       price: 400,
     },
     {
       name: "Tie Guan Yin Fo Shou (佛手铁观音)",
       description:
         "ชาเถี่ยวกวนอิน พันธุ์โฝวโส่ว หรือ “ฝ่ามือพระพุทธเจ้า” สายพันธุ์โบราณ หาทานได้ยากยิ่ง",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: กลิ่นหอมโทนส้มแห้ง มีกลิ่นอายของเครื่องเทศฤดูร้อน",
       price: 350,
     },
@@ -247,14 +250,14 @@ const easternTea: Flavor = {
       name: "Lupicia Peach Oolong (Lupicia)",
       description:
         "ชาอู่หลงเรือธงที่ดังที่สุดจากแบรนด์ Lupicia ใบชาเกรด Super Premium",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: พีชญี่ปุ่นสีขาวชั้นสูง กุลาบแดง ผสานด้วยความสดชื่นซับซ้อนอ่อนโยนของชาอู่หลงไต้หวัน",
       price: 350,
     },
     {
       name: "Shi Bi Yan Dan Cong (石壁岩单枞)",
       description: "ชาตันฉงอู่หลง ทำมือ ผลผลิตจากภูเขาฟ่งหวง ขึ้นบนโขดหิน",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: เนื้อและเปลือกผลไม้สุกเมืองร้อน ให้ความรู้สึกสดชื่น เบา สงบ สบาย",
       price: 300,
     },
@@ -272,28 +275,28 @@ const chocolate: Flavor = {
       name: "Domori Venezuela Classic Ocumare Ganache",
       description:
         "ช็อกโกแลตจาก Domori ผู้ผลิตช็อกโกแลตสายพันธุ์ Criollo ชั้นนำ สายพันธุ์ย่อย Ocumare รสชาติคลาสสิกเข้ากับนม",
-      tasteNote: "Tasting notes: คาราเมล ถั่ว หอมกลิ่นคั่ว",
+      tastingNotes: "Tasting notes: คาราเมล ถั่ว หอมกลิ่นคั่ว",
       price: 300,
     },
     {
       name: "Pacari Nacional Arriba Ganache",
       description:
         "ช็อกโกแลตสายพันธุ์ Nacional Arriba พันธุ์แห่งชาติของประเทศ Ecuador โดยแบรนด์ระดับโลก Pacari",
-      tasteNote: "Tasting notes: ดอกไม้ป่า ผลไม้ซิตรัส เครื่องเทศฤดูหนาว",
+      tastingNotes: "Tasting notes: ดอกไม้ป่า ผลไม้ซิตรัส เครื่องเทศฤดูหนาว",
       price: 300,
     },
     {
       name: "Domori Venezuela Chuao Sorbet",
       description:
         "ช็อกโกแลต Criollo จาก Domori ผสมกับน้ำแร่ ชูเอกลักษณ์ของสายพันธุ์ย่อย Chuao ที่มีความนุ่มนวล โดยไม่ถูกบดบังด้วยรสนม",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: รสชาตินุ่มนวล แต่ซับซ้อน มีความหอมจากกลิ่นโกโก้ชัดเจน อมเปรี้ยวเล็กน้อยจากผลไม้แห้งหลายชนิด",
       price: 300,
     },
     {
       name: "Ambohimena Chocolat Madagascar Sorbet",
       description: "ช็อกโกแลตจากแบรนด์ชั้นนำ Chocolat Madagascar",
-      tasteNote: "Tasting notes: เบอร์รีสีแดง เครื่องเทศ หอมความละมุนในปาก",
+      tastingNotes: "Tasting notes: เบอร์รีสีแดง เครื่องเทศ หอมความละมุนในปาก",
       price: 300,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
@@ -301,7 +304,7 @@ const chocolate: Flavor = {
       name: "Rio Caribe Venezuelan Black Sorbet",
       description:
         "ช็อกโกแลตจากแบรนด์ชั้นนำ Willie’s Cacao นำเสนอช็อกโกแลตจากคาบสมุทร Paria",
-      tasteNote: "Tasting notes: กาแฟ และ ถั่วนานาชนิด หอมนุ่มลึก",
+      tastingNotes: "Tasting notes: กาแฟ และ ถั่วนานาชนิด หอมนุ่มลึก",
       price: 300,
     },
   ],
@@ -319,7 +322,7 @@ const classic: Flavor = {
       name: "Tahitian Vanilla Grand Cru Taha’a",
       description:
         "วานิลลาสายพันธุ์ Tahitian จากเกาะ Taha’a บริเวณ French Polynesia ",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: กลิ่นหอมอ่อนและนุ่มนวลของลูกพรุน ชะเอมเทศ และช็อกโกแลต",
       price: 350,
     },
@@ -501,7 +504,7 @@ const special: Flavor = {
       name: "Jasmine Black Tea and Seasonal Mango",
       description:
         "ชาเตียนหง อบดอกมะลิสดแท้ 3 รอบ ด้วยกรรมวิธีแบบดั้งเดิม นำเข้าจากประเทศจีน หาทานยาก พร้อมมะม่วงตามฤดูกาล",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ความหอมหวานของมิติชากว้าง แทรกด้วยกลิ่นดอกมะลิสดหอมอบอวล",
       price: 300,
     },
@@ -519,7 +522,7 @@ const template: Flavor = {
     {
       name: "",
       description: "",
-      tasteNote: "",
+      tastingNotes: "",
       price: 0,
     },
   ],

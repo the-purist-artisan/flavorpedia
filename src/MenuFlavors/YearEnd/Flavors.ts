@@ -11,7 +11,7 @@ const coffee: Flavor = {
       name: "Panama Geisha 90+ Lotus",
       description:
         "กาแฟ Geisha จากไร่ Ninety Plus โดดเด่นด้วยรสชาติ และกลิ่นผลไม้รสเปรี้ยวสุก ที่มาจากการหมักบ่มแบบพิเศษของไร่",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: มะม่วงสุก มะขามเปียก ลาเวนเดอร์ แบล็กเบอร์รี บรั่นดี พลัม ยี่หร่าฝรั่ง",
       price: 400,
     },
@@ -19,7 +19,7 @@ const coffee: Flavor = {
       name: "Columbia Rum Barrel Finca San Jose",
       description:
         "กาแฟจากไร่แรกที่คิดค้นวิธีการหมักบ่มในถังเหล้ารัมที่ใช้แล้ว ทำให้กาแฟมีกลิ่นเหล้ารัมที่หอมอย่างโดดเด่น",
-      tasteNote: "Tasting notes: เชอร์รี รัม วานิลลา ทิรามิสุ",
+      tastingNotes: "Tasting notes: เชอร์รี รัม วานิลลา ทิรามิสุ",
       price: 350,
     },
   ],
@@ -36,7 +36,7 @@ const matcha: Flavor = {
       name: "Narino Premium",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Narino จากแบรนด์ Horii Shichimeien",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ไวท์ช็อกโกแลต เนย ขนมปัง รสสัมผัสในปากที่ครีมมี่ด้วยความอูมามิที่เข้มข้น ความฝาดน้อยแทบไม่มี",
       price: 600,
     },
@@ -44,7 +44,7 @@ const matcha: Flavor = {
       name: "Zuisho Shogyokuen",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Uji Hikari จากแบรนด์ Shogyokuen",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: ถั่วลันเตา คาวทะเลสาหร่าย มะม่วง มะพร้าวเล็กๆ ความอูมามิพุ่งพล่าน และค้างอยู่ในปากยาวนาน",
       price: 590,
     },
@@ -63,14 +63,14 @@ const westernTea: Flavor = {
       name: "T2 French Earl Grey",
       description:
         "ชาดำเอิร์ลเกรย์จาก T2 หอมฟุ้งด้วยกลิ่นผลไม้นานาชนิด และกุหลาบ",
-      tasteNote: "Tasting notes: ผลไม้ กุหลาบ ดอกทานตะวัน กระเจี๊ยบ",
+      tastingNotes: "Tasting notes: ผลไม้ กุหลาบ ดอกทานตะวัน กระเจี๊ยบ",
       price: 300,
     },
     {
       name: "Fortnum Mason Countess Grey",
       description:
         "ชาดำเอิร์ลเกรย์จาก Fortnum & Mason ที่เพิ่มลูกเล่นด้วยกลิ่นของผลไม้ตระกูลซิตรัส",
-      tasteNote: "Tasting notes: ผลไม้ตระกูลซิตรัส",
+      tastingNotes: "Tasting notes: ผลไม้ตระกูลซิตรัส",
       price: 300,
     },
   ],
@@ -87,14 +87,14 @@ const chocolate: Flavor = {
       name: "Domori Venezuela Classic Ocumare Ganache",
       description:
         "ช็อกโกแลตจาก Domori ผู้ผลิตช็อกโกแลตสายพันธุ์ Criollo ชั้นนำ สายพันธุ์ย่อย Ocumare รสชาติคลาสสิกเข้ากับนม",
-      tasteNote: "Tasting notes: คาราเมล ถั่ว กลิ่นคั่ว",
+      tastingNotes: "Tasting notes: คาราเมล ถั่ว กลิ่นคั่ว",
       price: 300,
     },
     {
       name: "Guatemala Chocolate Sorbet",
       description:
         "ช็อกโกแลต Criollo จาก Duffy’s ผู้ผลิตชั้นนำของอังกฤษ เมล็ดปลูกในประเทศ Guatemala รสชาติผลไม้ซับซ้อน อมเปรี้ยว",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: เรดเคอร์แรนท์ เปลือกส้ม ทอฟฟี น้ำผึ้ง องุ่นรสเปรี้ยว",
       price: 300,
     },
@@ -102,7 +102,7 @@ const chocolate: Flavor = {
       name: "Domori Chuao Chocolate Sorbet",
       description:
         "ช็อกโกแลต Criollo จาก Domori ผสมกับน้ำแร่ ชูเอกลักษณ์ของสายพันธุ์ย่อย Chuao ที่มีความนุ่มนวล โดยไม่ถูกบดบังด้วยรสนม",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: รสชาตินุ่มนวล แต่ซับซ้อน มีความหอมจากกลิ่นโกโก้ชัดเจน อมเปรี้ยวเล็กน้อยจากผลไม้แห้งหลายชนิด",
       price: 300,
     },
@@ -160,7 +160,7 @@ const classic: Flavor = {
       name: "Tahitian Raiatea Black Pearl Grand Cru Vanilla",
       description:
         "วานิลลาสายพันธุ์ Tahitian จากเกาะ Raiatea มีความหอมจากกลิ่นของเครื่องเทศ ทำให้แตกต่างจากวานิลลาสายพันธุ์อื่น",
-      tasteNote:
+      tastingNotes:
         "Tasting notes: วานิลลาที่มีกลิ่นเครื่องเทศ ขนมปังขิง อบเชย และดอกไม้นานาๆ ชนิด",
       price: 350,
     },
@@ -190,13 +190,13 @@ const special: Flavor = {
       name: "Christmas Tea: Esprit de Noël",
       description:
         "ชาดำจาก Mariage Frères ผสมกลิ่นเครื่องเทศ และถั่วให้เข้ากับงานเทศกาลปลายปี",
-      tasteNote: "Tasting notes: เครื่องเทศฤดูหนาว อบเชย อัลมอนด์",
+      tastingNotes: "Tasting notes: เครื่องเทศฤดูหนาว อบเชย อัลมอนด์",
       price: 300,
     },
     {
       name: "Vanilla Tea: Grand Bois Chéri",
       description: "ชาดำจาก Mariage Frères โดดเด่นด้วยกลิ่่นวานิลลา",
-      tasteNote: "Tasting notes: วานิลลา",
+      tastingNotes: "Tasting notes: วานิลลา",
       price: 300,
     },
     {
@@ -231,7 +231,7 @@ const template: Flavor = {
     {
       name: "",
       description: "",
-      tasteNote: "",
+      tastingNotes: "",
       price: 0,
     },
   ],

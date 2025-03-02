@@ -11,6 +11,7 @@ import PrintableMenu from "./PrintableMenu";
 import { sweetBakery0824 } from "./MenuFlavors/SweetBakery-08-24/Flavors";
 import { thailandCoffeeFest2024 } from "./MenuFlavors/CoffeeFest-07-24/Flavors";
 import { thailandCoffeeHub2024 } from "./MenuFlavors/CoffeeHub-10-24/Flavors";
+import { tastOfTea122024 } from "./MenuFlavors/TasteOfTea-12-24/Flavors";
 
 export default function App() {
   return (
@@ -80,12 +81,21 @@ export default function App() {
             />
           }
         />
+        <Route
+          path="/tot-12-24"
+          element={
+            <Menu
+              headerText="Taste of Tea December 2024"
+              flavors={tastOfTea122024}
+            />
+          }
+        />
         {/* <Route
           path="/print"
           element={
             <PrintableMenu
-              headerText="Thailand Coffee Fest 2024"
-              flavors={thailandCoffeeFest2024}
+              headerText="Taste of Tea December 2024"
+              flavors={tastOfTea122024}
             />
           }
         /> */}

@@ -157,13 +157,13 @@ export default function Menu({
                     </>
                   )}
 
-                  <div className="font-ibm-plex-thai text-sm font-normal leading-[18px]">
+                  <div className="font-ibm-plex-thai text-sm font-normal leading-[18px] whitespace-pre-wrap">
                     {item.description}
                   </div>
 
                   {/* Taste note and price */}
                   {item.tasteNote ? (
-                    <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">
+                    <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px] whitespace-pre-wrap">
                       {item.tasteNote}
                     </div>
                   ) : null}

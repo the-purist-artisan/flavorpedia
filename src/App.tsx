@@ -100,12 +100,13 @@ export default function App() {
             />
           }
         />
+        {/* Access route "/print" with inspected device of 600 x 932px */}
         {/* <Route
           path="/print"
           element={
             <PrintableMenu
-              headerText="Taste of Tea December 2024"
-              flavors={tastOfTea122024}
+              headerText="Taste of Tea March 2025"
+              flavors={tastOfTea032025}
             />
           }
         /> */}

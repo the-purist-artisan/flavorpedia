@@ -286,6 +286,7 @@ const classic: Flavor = {
         "วานิลลาสายพันธุ์ Pompona ผลผลิตเพียงแค่ปีละ 300 กรัม หายากที่สุดในตลาด พื้นที่เพาะปลูกจากเกาะ Guadeloupe",
       tastingNotes:
         "Tasting notes: เครื่องเทศ ชะเอมเทศ น้ำส้มสายชูหมักบัลซามิก กลิ่นดอกไม้ที่ซับซ้อน และทิ้งกลิ่นยาวนาน",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Mexican Veracruz Vanilla",
@@ -294,6 +295,7 @@ const classic: Flavor = {
         "วานิลลาสายพันธุ์พิเศษจากเม็กซิโก จุดกําเนิดวานิลลายุคอารยธรรม Aztec",
       tastingNotes:
         "Tasting notes: โกโก้ ขนม เครื่องเทศ เบอร์รี กลิ่นวานิลลาสุดคลาสสิก เข้มข้น",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Bronte Pistachio D.O.P.",
@@ -352,6 +354,7 @@ const fruits: Flavor = {
       price: 400,
       description:
         "เลมอนสายพันธุ์พิเศษจาก French Riviera กลิ่นหอม Aromatic เข้มข้นสะใจ เป็นที่ต้องการสูงของเชฟมิชลินในยุโรป",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Strawberry Blush Blood Orange",
@@ -414,18 +417,21 @@ const special: Flavor = {
       price: 500,
       description:
         "ชีสรางวัลเหรียญเงิน World Cheese Award และได้รับการโหวตเป็นชีสสไตล์ Brie ที่ดีที่สุดในสหราชอาณาจักร ทำจากนมวัวสายพันธุ์ Montbeliarde ดัดแปลงเป็นขนมแทรกด้วย แป้งทาร์ตสุดพิเศษ",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Ceremonial Matcha Coconut Sorbet",
       price: 450,
       description:
         "ดัดแปลงจากเครื่องดื่มสายสุขภาพ มัทฉะน้ำมะพร้าว อัดแน่นด้วยมัทฉะเกรดพิธีชงจาก PAGUcha นัวมันหอมหวานธรรมชาติด้วยน้ำมะพร้าวสวนลุงแดง",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Milli On The Fire Macadamia",
       price: 450,
       description:
         "รสชาติฟิวชั่นพิเศษจากความชอบของร้าน Milli TeaSpace ที่ต้องการให้มีมัทฉะพิธีชงและถั่วแมคาเดเมียแบบจัดเต็ม ทะลุความ Nutty matcha",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Fresh Mint Stracciatella (Mint Choc Chips)",

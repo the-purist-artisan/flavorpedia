@@ -232,6 +232,7 @@ const chocolate: Flavor = {
         "ช็อกโกแลตรางวัลประกวดรางวัล จากแบรนด์ Firetree เมล็ดปลูกที่หมู่เกาะ Solomon Islands",
       tastingNotes:
         "Tasting notes: น้ำมันมะกอก ครีม เม็ดมะม่วงหิมพานต์ กาแฟ ผลไม้หลากชนิด",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Domori Venezuela Chuao Sorbet",
@@ -446,12 +447,14 @@ const special: Flavor = {
       price: 400,
       description:
         "รสชาติที่หาทานได้ยาก ทำจากใบมิ้นต์สด 5 สายพันธุ์ และราดด้วยช็อกโกแลต shards จากช็อกโกแลต Domori สายพันธุ์ Guasare Criollo",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Blueberry Yogurt",
       price: 350,
       description:
         "โยเกิร์ตสไตล์กรีกชนะรางวัลจาก The Estate Dairy ราดซอสบลูเบอร์รี No.1 สายพันธุ์พิเศษจากประเทศโมรอคโค",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Chocolate Earl Grey",

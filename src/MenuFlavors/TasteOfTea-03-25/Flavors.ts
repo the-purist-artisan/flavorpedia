@@ -51,6 +51,7 @@ const matcha: Flavor = {
       description: "มัทฉะเกรดพิธีชงรุ่นพิเศษจากไร่ Tsujiki",
       tastingNotes:
         "Tasting notes: ใบไม้สด สาหร่ายอ่อน ดอกไม้ขาว ธัญพืช ครีมข้าวโพด อูมามิกลมกล่อมมาก",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Yukibana",
@@ -81,6 +82,7 @@ const matcha: Flavor = {
       description: "มัทฉะเกรดพิธีชงสูงสุด จาก Uejima Sourokuen สายพันธุ์ Asahi",
       tastingNotes:
         "Tasting notes: อูมามิโทนถั่วอัลมอนด์ และถั่วลิสง หอมกลิ่นดอกไม้สีขาว และเหลืองอ่อนๆ",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };

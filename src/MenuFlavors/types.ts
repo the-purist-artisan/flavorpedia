@@ -6,7 +6,7 @@ export enum SOLDOUT_TYPE {
 export interface Item {
   name: string;
   description: string;
-  tasteNote?: string;
+  tastingNotes?: string;
   price: number;
   isSoldOut?: SOLDOUT_TYPE;
   preorderPrice?: number;

@@ -26,6 +26,7 @@ const matcha: Flavor = {
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Uji Hikari จากไร่ชนะรางวัลตลอดกาล Tsujiki",
       tastingNotes:
         "Tasting notes: ความหอม Aromatic ของใบไม้ฤดูร้อน อูมามิของครีมถั่วเขียวที่นุ่มนวล",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Honzu Asahi (2024 Competition)",
@@ -42,6 +43,7 @@ const matcha: Flavor = {
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Uji Hikari จากแบรนด์ Shogyokuen",
       tastingNotes:
         "Tasting notes: ถั่วลันเตา สาหร่ายอ่อน มะม่วง มะพร้าวอ่อน ความอูมามิพุ่งพล่าน หวานและค้างอยู่ในปากยาวนาน",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Tsujiki Original Blend",
@@ -186,6 +188,7 @@ const easternTea: Flavor = {
       description:
         "ชารางวัล Grand Gold Prize จากงาน WORLD GREEN TEA CONTEST 2021 โดยไร่วังพุดตาล",
       tastingNotes: "Tasting notes: พีช น้ำผึ้ง หอมนวล ยาวนาน",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Jasmine Dian Hong (茉莉滇红)",
@@ -211,6 +214,7 @@ const chocolate: Flavor = {
         "ช็อกโกแลตสายพันธุ์ Guasare พันธุ์โบราณ เป็นมารดาของ Criollo ทั้งหมด",
       tastingNotes:
         "Tasting notes: อัลมอนด์ คาราเมล มอลต์ ลูกฟิก ครีม หอมซับซ้อน",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Ecuador Nacional Arriba (TO’AK Powder) Sorbet",
@@ -342,6 +346,7 @@ const fruits: Flavor = {
       price: 450,
       description:
         "สตอเบอร์รียุคใหม่ของญี่ปุ่น กลิ่นหอมหวานพุ่งพล่าน อมเปรี้ยวเล็กน้อย สดชื่นยาวนาน",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Crown Musk Melon",
@@ -395,6 +400,7 @@ const fruits: Flavor = {
       price: 250,
       description:
         "มะยงชิดสายพันธุ์ทูลเกล้ามาตรฐาน มีกลิ่นหอม รสอ่อนโยน สดชื่น หวานอมเปรี้ยวเล็กๆ",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Baan Phaeo Ok-rong Mango",

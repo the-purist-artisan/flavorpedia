@@ -13,6 +13,7 @@ import { thailandCoffeeFest2024 } from "./MenuFlavors/CoffeeFest-07-24/Flavors";
 import { thailandCoffeeHub2024 } from "./MenuFlavors/CoffeeHub-10-24/Flavors";
 import { tastOfTea122024 } from "./MenuFlavors/TasteOfTea-12-24/Flavors";
 import { tastOfTea032025 } from "./MenuFlavors/TasteOfTea-03-25/Flavors";
+import { online042025 } from "./MenuFlavors/Online-04-25/Flavors";
 
 export default function App() {
   return (
@@ -98,6 +99,13 @@ export default function App() {
               headerText="Taste of Tea March 2025"
               flavors={tastOfTea032025}
             />
+          }
+        />
+
+        <Route
+          path="/online-04-25"
+          element={
+            <Menu headerText="Online April 2025" flavors={online042025} />
           }
         />
         {/* Access route "/print" with inspected device of 600 x 932px */}

@@ -83,65 +83,65 @@ const fruits: Flavor = {
         "มะม่วงทอมมี่ เพาะเมล็ด กลิ่นหอมซับซ้อน ของผลไม้โซนร้อน มี aftertaste ของความ sweet and savoury",
     },
     {
-      name: "ทุเรียนพันธุ์ มูซันคิง 500 (Ending)",
+      name: "ทุเรียนพันธุ์ มูซันคิง (Ending)",
       price: 500,
       description:
         "ฉายา Hermes แห่งวงการทุเรียน รสชาติหวานมันเข้มข้น ดุดัน Full-bodied คาราเมลถั่ว หาทานยาก และราคาสูงกว่าทุเรียนทั่วไปกว่า 2 เท่าตัว จากสวนจันทวิสูตร",
     },
     {
-      name: "ทุเรียนพันธุ์ หนามดำ 500 (Seasonal Peak)",
+      name: "ทุเรียนพันธุ์ หนามดำ (Seasonal Peak)",
       price: 500,
       description:
         "หนามดำ สายพันธุ์ดังจากมาเลเซีย รสชาติซับซ้อน คัสตาร์ด คาราเมลดาร์คช็อกโกแลตปลายเป็นไวน์",
     },
     {
-      name: "ทุเรียนพันธุ์ DAP 5in1 450 (Seasonal Peak)",
+      name: "ทุเรียนพันธุ์ DAP 5in1 (Seasonal Peak)",
       price: 450,
       description:
         "ทุเรียนจากเทคนิคผสมเกสรลิขสิทธิ์สวนประตูจันท์ แม่มูซันคิง x พ่อพันธุ์ จันท์ 2 จันท์10 กบพิกุล กบสุวรรณ และ เหลืองวินัย รสชาติพิเศษหวานหอมแบบซับซ้อนไม่เหมือนใคร",
     },
     {
-      name: "ทุเรียนพันธุ์ ก้านยาวทรงหวด 450 (Seasonal Peak)",
+      name: "ทุเรียนพันธุ์ ก้านยาวทรงหวด (Seasonal Peak)",
       price: 450,
       description:
         "ทุเรียนสายพันธุ์ยอดนิยมของคนไทย ต้นตำหรับจากนนทบุรี มีกลิ่นหอมละมุน หวานมันพอดี ทานง่าย จากสวนเฮียลิ้ม",
     },
     {
-      name: "ทุเรียนพันธุ์ จันทบุรี 10 400 (Seasonal Peak)",
+      name: "ทุเรียนพันธุ์ จันทบุรี 10 (Seasonal Peak)",
       price: 400,
       description:
         "จันทบุรี 10 สวนรัตนชาติ รวมความนกหยิบและชะนี มีความครีมมี่สูง หอมนวลลงตัว ตามด้วยโน้ตผลไม้หลากหลายชนิด",
     },
     {
-      name: "ทุเรียนพันธุ์ เม็ดในยายปรางค์ 400 (Seasonal Peak)",
+      name: "ทุเรียนพันธุ์ เม็ดในยายปรางค์ (Seasonal Peak)",
       price: 400,
       description:
         "เม็ดในยายปรางค์ สายพันธุ์พื้นเมืองของนนทบุรี หอมหวานโทนน้ำอ้อย กลิ่นดอกไม้ป่า สัมผัสเบาสบาย",
     },
     {
-      name: "ทุเรียนพันธุ์หลงลับแล 400 (Early)",
+      name: "ทุเรียนพันธุ์หลงลับแล (Early)",
       price: 400,
       description: "หลงลับแล จากบ้านหลินลับแล หอมกลิ่นดอกไม้และมิ้นต์",
     },
     {
-      name: "Calabrian Red Kiwi 350 (Ending)",
+      name: "Calabrian Red Kiwi (Ending)",
       price: 350,
       description:
         "กีวีพันธุ์หายาก เนื้อเขียวแกนสีแดง กลิ่นหอมเบอร์รีและผลไม้ tropical",
     },
     {
-      name: "Flavor-King Plum 400 (Ending)",
+      name: "Flavor-King Plum (Ending)",
       price: 400,
       description: "พลัมรุ่นพิเศษ กลิ่นหอมเข้มข้นทรงพลัง เต็มไปด้วยรสชาติ",
     },
     {
-      name: "King Sorrento Lemon Sorbet 400 (Perennial)",
+      name: "King Sorrento Lemon Sorbet (Perennial)",
       price: 400,
       description:
         "เลม่อนจากคาบสมุทร Sorrento ฝาแฝดของ Amalfi Lemon สามารถทานได้ทั้งเนื้อและเปลือก มีความหอมฟุ้งโทนทะเลสดชื่น",
     },
     {
-      name: "Tropic Beauty Yellow Peach Sorbet 300 (Ending)",
+      name: "Tropic Beauty Yellow Peach Sorbet (Ending)",
       price: 300,
       description:
         "พีชเหลืองสายพันธุ์ที่หอมฉ่ำจับต้องง่าย ปลูกที่ยอดดอยขุนแจ๋ จังหวัดเชียงใหม่",

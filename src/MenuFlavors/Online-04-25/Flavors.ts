@@ -101,18 +101,21 @@ const fruits: Flavor = {
       price: 450,
       description:
         "ทุเรียนจากเทคนิคผสมเกสรลิขสิทธิ์สวนประตูจันท์ แม่มูซันคิง x พ่อพันธุ์ จันท์ 2 จันท์10 กบพิกุล กบสุวรรณ และ เหลืองวินัย รสชาติพิเศษหวานหอมแบบซับซ้อนไม่เหมือนใคร",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "ทุเรียนพันธุ์ ก้านยาวทรงหวด (Seasonal Peak)",
       price: 450,
       description:
         "ทุเรียนสายพันธุ์ยอดนิยมของคนไทย ต้นตำหรับจากนนทบุรี มีกลิ่นหอมละมุน หวานมันพอดี ทานง่าย จากสวนเฮียลิ้ม",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "ทุเรียนพันธุ์ จันทบุรี 10 (Seasonal Peak)",
       price: 400,
       description:
         "จันทบุรี 10 สวนรัตนชาติ รวมความนกหยิบและชะนี มีความครีมมี่สูง หอมนวลลงตัว ตามด้วยโน้ตผลไม้หลากหลายชนิด",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "ทุเรียนพันธุ์ เม็ดในยายปรางค์ (Seasonal Peak)",
@@ -135,6 +138,7 @@ const fruits: Flavor = {
       name: "Flavor-King Plum (Ending)",
       price: 400,
       description: "พลัมรุ่นพิเศษ กลิ่นหอมเข้มข้นทรงพลัง เต็มไปด้วยรสชาติ",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "King Sorrento Lemon Sorbet (Perennial)",
@@ -207,6 +211,7 @@ const easternTea: Flavor = {
         "กลิ่นหอมโทนส้มสดหวาน ส้มหอมแห้ง มีกลิ่นอายของเครื่องเทศฤดูร้อน",
       description:
         "ชาเถี่ยวกวนอิน พันธุ์โฝวโส่ว หรือ “ฝ่ามือพระพุทธเจ้า” สายพันธุ์โบราณ หาทานได้ยากยิ่ง",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Jasmine Dian Hong",

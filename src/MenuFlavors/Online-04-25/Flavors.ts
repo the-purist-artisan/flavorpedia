@@ -174,7 +174,7 @@ const matcha: Flavor = {
     {
       name: "Yame No.1 Matcha",
       price: 490,
-      tastingNotes: "ไม่รมควัน ถั่ว ปลาย่าง ช็อกโกแลต สาหร่ายทะเล",
+      tastingNotes: "ไม้รมควัน ถั่ว ปลาย่าง ช็อกโกแลต สาหร่ายทะเล",
       description: "มัทฉะพิธีชง จากเมืองยาเมะ จัดหาโดย Osha Ocha",
     },
   ],
@@ -261,7 +261,7 @@ const classic: Flavor = {
   name: "รสชาติคลาสสิกของ The Purist",
   items: [
     {
-      name: "Queensland Vaniila",
+      name: "Queensland Vanilla",
       price: 400,
       tastingNotes: "รัม ช็อกโกแลต เครื่องเทศ กลิ่นหอม เข้มข้น",
       description: "วานิลลาสายพันธุ์พิเศษจาก Queensland",

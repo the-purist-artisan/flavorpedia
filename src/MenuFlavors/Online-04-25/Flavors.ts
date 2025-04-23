@@ -39,6 +39,7 @@ const fruits: Flavor = {
       price: 350,
       description:
         "ราชามะม่วงของอินเดีย ผู้ส่งออกมะม่วงอันดับหนึ่งของโลก รสชาติหวานเข้มข้น เนื้อแน่นและเนียน มีความฉ่ำของผลไม้ tropical น้ำผึ้ง วานิลลา",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "มะม่วง เคซ่าร์ Kesar (Seasonal Peak)",
@@ -87,6 +88,7 @@ const fruits: Flavor = {
       price: 500,
       description:
         "ฉายา Hermes แห่งวงการทุเรียน รสชาติหวานมันเข้มข้น ดุดัน Full-bodied คาราเมลถั่ว หาทานยาก และราคาสูงกว่าทุเรียนทั่วไปกว่า 2 เท่าตัว จากสวนจันทวิสูตร",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "ทุเรียนพันธุ์ หนามดำ (Seasonal Peak)",
@@ -163,6 +165,7 @@ const matcha: Flavor = {
         "ไวท์ช็อกโกแลต เนย ขนมปัง รสสัมผัสในปากที่ครีมมี่ด้วยความอูมามิที่เข้มข้น ความฝาดน้อย",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Narino จากแบรนด์ Horii Shichimeien จัดหาโดย MTCH",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Sakata Matabei Asahi",
@@ -170,12 +173,14 @@ const matcha: Flavor = {
       tastingNotes: "สาหร่ายนุ่มนวล ดอกไม้สีขาว อูมามิละมุน ยาวนาน",
       description:
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Asahi จากแบรนด์ประกวดรางวัล Sakata Matabei เกรดเก็บมือ",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Yame No.1 Matcha",
       price: 490,
       tastingNotes: "ไม้รมควัน ถั่ว ปลาย่าง ช็อกโกแลต สาหร่ายทะเล",
       description: "มัทฉะพิธีชง จากเมืองยาเมะ จัดหาโดย Osha Ocha",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -265,6 +270,7 @@ const classic: Flavor = {
       price: 400,
       tastingNotes: "รัม ช็อกโกแลต เครื่องเทศ กลิ่นหอม เข้มข้น",
       description: "วานิลลาสายพันธุ์พิเศษจาก Queensland",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Queensland Macadamia",

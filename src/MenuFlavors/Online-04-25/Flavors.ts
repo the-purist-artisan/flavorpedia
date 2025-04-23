@@ -306,6 +306,7 @@ const chocolate: Flavor = {
       tastingNotes: "คาราเมล ถั่ว หอมกลิ่นคั่ว",
       description:
         "ช็อกโกแลตจาก Domori ผู้ผลิตช็อกโกแลตสายพันธุ์ Criollo ชั้นนำ สายพันธุ์ย่อย Ocumare รสชาติคลาสสิกเข้ากับนม",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Chocolate Chuao Sorbet",
@@ -330,6 +331,7 @@ const coffee: Flavor = {
       price: 450,
       tastingNotes: "ดอกมะลิ เกรปฟรุ๊ต ดอกส้มสีขาว เบอร์กามอต ดอกไม้สีขาว",
       description: "เมล็ดกาแฟ Geisha รุ่นพิเศษ Gesha Village Lot 24/050",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };

@@ -46,6 +46,7 @@ const fruits: Flavor = {
       price: 350,
       description:
         "ราชินีมะม่วงของอินเดีย รสชาติเปรี้ยวน้ำหวาน มีความเปรี้ยวหลากหลายมิติ ลงท้ายด้วยกลิ่นดอกไม้สีเหลืองสดชื่น",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "มะม่วง เส่งตะโลง (Seasonal Peak)",
@@ -127,12 +128,14 @@ const fruits: Flavor = {
       name: "ทุเรียนพันธุ์หลงลับแล (Early)",
       price: 400,
       description: "หลงลับแล จากบ้านหลินลับแล หอมกลิ่นดอกไม้และมิ้นต์",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Calabrian Red Kiwi (Ending)",
       price: 350,
       description:
         "กีวีพันธุ์หายาก เนื้อเขียวแกนสีแดง กลิ่นหอมเบอร์รีและผลไม้ tropical",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Flavor-King Plum (Ending)",
@@ -353,6 +356,7 @@ const special: Flavor = {
       price: 350,
       description:
         "โยเกิร์ตสไตล์กรีกชนะรางวัลจาก The Estate Dairy ราดซอสบลูเบอร์รี No.1 สายพันธุ์พิเศษจากประเทศโมรอคโค",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };

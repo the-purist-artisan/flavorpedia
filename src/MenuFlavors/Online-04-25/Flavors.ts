@@ -96,6 +96,7 @@ const fruits: Flavor = {
       price: 500,
       description:
         "หนามดำ สายพันธุ์ดังจากมาเลเซีย รสชาติซับซ้อน คัสตาร์ด คาราเมลดาร์คช็อกโกแลตปลายเป็นไวน์",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "ทุเรียนพันธุ์ DAP 5in1 (Seasonal Peak)",
@@ -323,6 +324,7 @@ const chocolate: Flavor = {
         "รสชาตินุ่มนวล แต่ซับซ้อน มีความหอมจากกลิ่นโกโก้ชัดเจน อมเปรี้ยวเล็กน้อยจากผลไม้แห้งหลายชนิด",
       description:
         "ช็อกโกแลต Criollo จาก Domori ผสมกับน้ำแร่ ชูเอกลักษณ์ของสายพันธุ์ย่อย Chuao ที่มีความนุ่มนวล โดยไม่ถูกบดบังด้วยรสนม",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };

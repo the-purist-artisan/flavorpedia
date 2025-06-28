@@ -380,12 +380,12 @@ const template: Flavor = {
 };
 
 export const tcf0725: Flavor[] = [
+  coffee,
   fruits,
   matcha,
   easternTea,
   westernTea,
   classic,
   chocolate,
-  coffee,
   special,
 ];

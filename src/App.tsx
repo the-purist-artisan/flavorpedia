@@ -113,7 +113,7 @@ export default function App() {
           path="/tcf-07-25"
           element={
             <Menu
-              headerText="Thailand Coffee Fest July 2025"
+              headerText="Thailand Coffee Fest<br>July 2025"
               flavors={tcf0725}
             />
           }

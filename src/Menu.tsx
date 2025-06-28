@@ -72,7 +72,7 @@ export default function Menu({
           />
         </div>
         <div className="menu-header font-benaco-one mb-8 pl-6 pr-6 w-fit text-center font-normal text-key-header leading-key-header whitespace-pre-line">
-          {headerText}
+          {headerText.split("<br>").join("\n")}
         </div>
         <div className="flex flex-col items-center mb-8 pl-6 pr-6">
           <div className="font-ibm-plex-thai text-lg mb-4 text-center">

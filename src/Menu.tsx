@@ -153,9 +153,16 @@ export default function Menu({
                     </>
                   ) : (
                     <>
-                      <div className="font-gt-super-text-bold text-base leading-5 mb-6 underline">
+                      <div className="font-gt-super-text-bold text-base leading-5 mb-2 underline">
                         {item.name}
                       </div>
+                      {item.isNewFlavor ? (
+                        <div className="mb-2">
+                          <span className="rounded-full w-auto bg-slate-800 text-slate-200 px-3 py-1">
+                            {"New"}
+                          </span>
+                        </div>
+                      ) : undefined}
                     </>
                   )}
 

@@ -198,10 +198,12 @@ const easternTea: Flavor = {
         "กลิ่นหอมของผลไม้เมืองร้อนสุกงอม น้ำชามีรสหวานติดปลายเข้มข้น ให้ความรู้สึกทิ้งท้ายผ่อนคลายและสงบ",
     },
     {
-      name: "T9 Strong Rhyme Tie Guan Yin",
+      name: "Maillard Tie Guan Yin",
       price: 350,
-      description: "",
-      tastingNotes: "",
+      description:
+        "เถี่ยกวนอินสูตรอบไฟกลาง ใช้เทคนิคการย่างเหมาฉาต่อเนื่องเป็นเวลา 88 ชั่วโมงด้วยไฟระดับกลาง",
+      tastingNotes:
+        "รสไฟชัดเจนแต่ไม่กลบโทนรสของชา มีกลิ่นผลไม้สุก ดอกไม้ และคาราเมลเด่นชัด ตามด้วยความหวานละมุนคล้ายน้ำผึ้ง",
     },
     {
       name: "Lupicia Oolong Mango",
@@ -317,20 +319,23 @@ const chocolate: Flavor = {
     {
       name: "Agnes and Pierre Vietnam",
       price: 350,
-      description: "",
+      description:
+        "ช็อกโกแลตสายพันธุ์พิเศษจากเวียดนาม โดยแบรนด์ Agnes and Pierre เจ้าของรางวัล Coup de Coeur Chocolate Award",
       tastingNotes: "เลม่อน มะนาว น้ำผึ้ง เครื่องเทศอ่อน",
     },
     {
       name: "Chocolate Tree Belize Black",
       price: 350,
-      description: "",
+      description:
+        "ช็อกโกแลตรางวัลเหรียญทอง สายพันธุ์แท้ Criollo จากประเทศ Belize",
       tastingNotes: "ลูกฟิก เรซิ่น ผลไม้อบ ทิ้งท้ายความเป็นแร่ธาตุ",
     },
     {
       name: "Chocolate Ganache Ivory Coast",
       price: 300,
-      description: "",
-      tastingNotes: "คาราเมล ถั่ว หอมกลิ่นคั่ว",
+      description:
+        "ช็อกโกแลตจากแหล่งปลูกอันดับ 1 ของโลก Ivory Coast รสชาติเข้มข้นคลาสสิกเข้ากับนม",
+      tastingNotes: "คาราเมล ถั่ว หอมกลิ่นคั่ว มะพร้าว",
     },
   ],
 };

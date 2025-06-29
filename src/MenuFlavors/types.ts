@@ -10,6 +10,7 @@ export interface Item {
   price: number;
   isSoldOut?: SOLDOUT_TYPE;
   preorderPrice?: number;
+  isNewFlavor?: boolean;
 }
 
 export interface Flavor {

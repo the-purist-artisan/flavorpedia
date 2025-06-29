@@ -6,12 +6,14 @@ interface MenuProps {
   headerText: string;
   flavors: Flavor[];
   menuBackgroundColorClass?: string;
+  shouldShowTastingNotesHeader?: boolean;
 }
 
 export default function Menu({
   headerText,
   flavors,
   menuBackgroundColorClass: menuBackgroundColor,
+  shouldShowTastingNotesHeader,
 }: MenuProps) {
   const topRef = useRef<HTMLDivElement | null>(null);
   const itemsRef = useRef<Map<string, HTMLDivElement> | null>(null);
@@ -164,7 +166,9 @@ export default function Menu({
                   {/* Taste note and price */}
                   {item.tastingNotes ? (
                     <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px] whitespace-pre-wrap">
-                      {item.tastingNotes}
+                      {shouldShowTastingNotesHeader
+                        ? `Tasting notes: ${item.tastingNotes}`
+                        : item.tastingNotes}
                     </div>
                   ) : null}
                   <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">

@@ -115,6 +115,7 @@ export default function App() {
             <Menu
               headerText="Thailand Coffee Fest<br>July 2025"
               flavors={tcf0725}
+              shouldShowTastingNotesHeader={true}
             />
           }
         />

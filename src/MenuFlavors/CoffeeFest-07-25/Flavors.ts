@@ -1,4 +1,4 @@
-import { Flavor } from "../types";
+import { Flavor, SOLDOUT_TYPE } from "../types";
 
 // Use this web to do conversion from csv and put it in parsedFlavours:
 // https://csvjson.com/csv2json
@@ -81,7 +81,7 @@ const fruits: Flavor = {
       price: 400,
       description:
         "เลม่อนอันดับหนึ่ง จากเมือง Amalfi สามารถทานได้ทั้งเนื้อและเปลือก มีความหอมฟุ้งโทนทะเลสดชื่น",
-      isNewFlavor: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Pricia Apricot",
@@ -103,6 +103,7 @@ const fruits: Flavor = {
       description:
         "เชอร์รี่จากฟาร์มท้อปของอังกฤษ สายพันธุ์ Kordia มีความหวานเปรี้ยวพอดี ทิ้งรสชาติท้ายยาวนาน",
       isNewFlavor: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Imam Pasand Mango",
@@ -287,6 +288,7 @@ const classic: Flavor = {
       description:
         "สุดยอดวานิลลาสายพันธุ์ Tahitian จากเกาะ Taha'a มีกลิ่นหอมละมุนและความสดชื่นของผลไม้ ผสานด้วยโน้ตหอมอ่อนโยนจากดอกไม้ที่แสนประณีต",
       isNewFlavor: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Bronte Pistachio D.O.P.",

@@ -104,7 +104,7 @@ const fruits: Flavor = {
         "เชอร์รี่จากฟาร์มท้อปของอังกฤษ สายพันธุ์ Kordia มีความหวานเปรี้ยวพอดี ทิ้งรสชาติท้ายยาวนาน",
       isNewFlavor: true,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
-    },
+    }, 
     {
       name: "Imam Pasand Mango",
       price: 350,

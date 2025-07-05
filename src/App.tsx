@@ -126,15 +126,16 @@ export default function App() {
           }
         />
         {/* Access route "/print" with inspected device of 600 x 932px */}
-        {/* <Route
+        <Route
           path="/print"
           element={
             <PrintableMenu
-              headerText="Taste of Tea March 2025"
-              flavors={tastOfTea032025}
+              headerText="Thailand Coffee Fest<br>July 2025"
+              flavors={tcf0725}
+              shouldShowTastingNotesHeader={true}
             />
           }
-        /> */}
+        />
       </Routes>
     </>
   );

@@ -6,12 +6,14 @@ interface MenuProps {
   headerText: string;
   flavors: Flavor[];
   menuBackgroundColorClass?: string;
+  shouldShowTastingNotesHeader: boolean;
 }
 
 export default function PrintableMenu({
   headerText,
   flavors,
   menuBackgroundColorClass: menuBackgroundColor,
+  shouldShowTastingNotesHeader,
 }: MenuProps) {
   const topRef = useRef<HTMLDivElement | null>(null);
   const itemsRef = useRef<Map<string, HTMLDivElement> | null>(null);
@@ -115,28 +117,32 @@ export default function PrintableMenu({
               {flavor.name}
             </div>
             {/* Menu items */}
-            {flavor.items.map((item) => {
-              return (
-                <div key={item.name} className="flex flex-col">
-                  <div className="font-gt-super-text-bold text-4xl leading-relaxed mb-6 underline">
-                    {item.name}
-                  </div>
-                  <div className="font-ibm-plex-thai text-2xl font-normal leading-[32px]">
-                    {item.description}
-                  </div>
-
-                  {/* Taste note and price */}
-                  {item.tastingNotes ? (
-                    <div className="mt-1 font-ibm-plex-thai text-2xl font-bold leading-[32px]">
-                      {item.tastingNotes}
+            {flavor.items
+              .filter((f) => !f.isSoldOut)
+              .map((item) => {
+                return (
+                  <div key={item.name} className="flex flex-col">
+                    <div className="font-gt-super-text-bold text-4xl leading-relaxed mb-6 underline">
+                      {item.name}
                     </div>
-                  ) : null}
-                  <div className="mt-2 font-ibm-plex-thai text-3xl font-bold leading-[32px]">
-                    {item.price}.-
+                    <div className="font-ibm-plex-thai text-2xl font-normal leading-[32px]">
+                      {item.description}
+                    </div>
+
+                    {/* Taste note and price */}
+                    {item.tastingNotes ? (
+                      <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px] whitespace-pre-wrap">
+                        {shouldShowTastingNotesHeader
+                          ? `Tasting notes: ${item.tastingNotes}`
+                          : item.tastingNotes}
+                      </div>
+                    ) : null}
+                    <div className="mt-2 font-ibm-plex-thai text-3xl font-bold leading-[32px]">
+                      {item.price}.-
+                    </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
           </div>
         );
       })}

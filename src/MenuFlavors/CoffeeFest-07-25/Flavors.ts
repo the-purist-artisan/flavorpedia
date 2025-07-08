@@ -104,7 +104,7 @@ const fruits: Flavor = {
         "เชอร์รี่จากฟาร์มท้อปของอังกฤษ สายพันธุ์ Kordia มีความหวานเปรี้ยวพอดี ทิ้งรสชาติท้ายยาวนาน",
       isNewFlavor: true,
       isSoldOut: SOLDOUT_TYPE.SOLDOUT,
-    }, 
+    },
     {
       name: "Imam Pasand Mango",
       price: 350,
@@ -162,6 +162,7 @@ const matcha: Flavor = {
         "มัทฉะเกรดพิธีชงสูงสุด สายพันธุ์ Uji Hikari จากแหล่งปลูก Gokasho จัดหาโดย MTCH",
       tastingNotes:
         "ความ Ooika ทะเลที่สดชื่น ถั่วแระญี่ปุ่น ข้าวโพดอ่อน และ สัมผัสนุ่มเหมือนเนย กลิ่นเกสรดอกไม้",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Yuki-Maboroshi",
@@ -375,6 +376,7 @@ const special: Flavor = {
       description:
         "รสชาติพิเศษ หาทานได้ยากไม่กี่ครั้งต่อปี มี 2 เลเยอร์ของรสชาติ ทำจากลิ้นจี่สดสายพันธุ์กิมเจ็ง ราสเบอร์รี่สายพันธุ์ Berry Jewel และกุหลาบอังกฤษ ถอดและตีความใหม่จากขนมมาการองสุดคลาสสิคของ Pierre Hermes",
       isNewFlavor: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Fresh Mint Stracctiatella",

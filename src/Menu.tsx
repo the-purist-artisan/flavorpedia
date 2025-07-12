@@ -142,7 +142,7 @@ export default function Menu({
                         {item.name}
                       </div>
                       <div className="mb-2">
-                        <span className="rounded-full w-auto bg-slate-800 text-slate-200 px-3 py-1">
+                        <span className="rounded-full w-auto bg-red-900 text-slate-50 px-3 py-1">
                           {item.isSoldOut === SOLDOUT_TYPE.SOLDOUT
                             ? "Sold out"
                             : item.isSoldOut === SOLDOUT_TYPE.RESTOCKING_SOON
@@ -158,7 +158,7 @@ export default function Menu({
                       </div>
                       {item.isNewFlavor ? (
                         <div className="mb-2">
-                          <span className="rounded-full w-auto bg-slate-800 text-slate-200 px-3 py-1">
+                          <span className="rounded-full w-auto bg-slate-200 text-slate-800 px-3 py-1">
                             {"New"}
                           </span>
                         </div>

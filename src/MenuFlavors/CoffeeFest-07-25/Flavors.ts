@@ -69,6 +69,7 @@ const fruits: Flavor = {
       description:
         "สตรอว์เบอร์รีจากฝรั่งเศส สายพันธุ์เก่าแก่ แต่มีความพรีเมี่ยมได้ที่รับการยอมรับจากเชฟมิชลินทั่วโลก มีกลิ่นหอมดอกไม้ซิตรัส รสเปรี้ยวนำหวาน ทิ้งท้ายกลิ่นหอมยาวนาน",
       isNewFlavor: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Hikawa Hakuho Fukuoka Yame Peach",
@@ -124,6 +125,7 @@ const fruits: Flavor = {
       price: 300,
       description:
         "มะม่วงคาราบาว สายพันธุ์อันดับหนึ่งจากฟิลิปินส์ มีความหวานสูงที่สุด บอดี้แน่น หอมผลไม้โทนสับปะรด",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Sein Ta Lone ( စိန်တလုံး သရက္သီး ) Mango Sorbet",
@@ -136,6 +138,7 @@ const fruits: Flavor = {
       price: 250,
       description:
         "มะม่วงมหาชนก จากจังหวัดกาฬสินธุ์ กลิ่นหอมเปรี้ยวอมหวานเอกลักษณ์โทนทาร์ตไซรัปซิตรัสเรซิ่น",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -154,6 +157,7 @@ const matcha: Flavor = {
         "มัทฉะเกรดพิธีชงสูงสุด จากแบรนด์ Shogyokuen จัดหาโดย Chaseki",
       tastingNotes:
         "ถั่วลันเตา สาหร่ายอ่อน มะม่วง มะพร้าวอ่อน ความอูมามิพุ่งพล่าน หวานและค้างอยู่ในปากยาวนาน",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Uji Hikari Gokasho",
@@ -179,6 +183,7 @@ const matcha: Flavor = {
       description:
         "มัทฉะเกรดพิธีสายพันธ์ุคิราริ-31 (Kirari-31) จากเมืองอุจิ จังหวัดเกียวโต ผลิตผ่านวิธีพรางแสงแบบ 2 ชั้นด้วยม่านตาข่าย จัดหาโดย MTCH",
       tastingNotes: "คอมบุดาชิ เต้าหู้ บรีชีส เนย วานิลลา",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Komorebi Shincha Matcha",
@@ -187,6 +192,7 @@ const matcha: Flavor = {
         "ชินฉะ หรือ ชาใหม่ จากรอบการเก็บเกี่ยวครั้งแรกในเดือนพฤษภาคม 2025 เบลนด์จากชาสามสายพันธุ์ Yabukita, Okumidori และ Samidori จัดหาโดย MTCH",
       tastingNotes: "นมผง ขนมเมอแรงค์ เค้กอัลมอนด์ วานิลลา กลิ่นหอมยาวนาน",
       isNewFlavor: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -206,6 +212,7 @@ const easternTea: Flavor = {
       tastingNotes:
         "กลิ่นหอมฟุ้งของไม้หลากชนิดรมควัน มีกลิ่นหวานของแยมผลไม้ที่ผัดจนงวดกระทะ ตามด้วยความเป็นช็อกโกแลตเฮเซลนัท จบท้ายด้วยความ malty โดยรวมสัมผัสสดชื่น หวานชุ่มคอ",
       isNewFlavor: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Dan Cong Qi Zong",
@@ -223,6 +230,7 @@ const easternTea: Flavor = {
       tastingNotes:
         "รสไฟชัดเจนแต่ไม่กลบโทนรสของชา มีกลิ่นผลไม้สุก ดอกไม้ และคาราเมลเด่นชัด ตามด้วยความหวานละมุนคล้ายน้ำผึ้ง",
       isNewFlavor: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Lupicia Oolong Mango",
@@ -230,6 +238,7 @@ const easternTea: Flavor = {
       description: "ชาจากแบรนด์ Lupicia ใบชาเกรด Super Premium",
       tastingNotes: "กลิ่นของมะม่วงสุกอ่อนๆ สดชื่นเบาสบาย",
       isNewFlavor: true,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -248,6 +257,7 @@ const westernTea: Flavor = {
       description:
         "ชาดำเรือธงในตำนาน จาก Mariage Frères ผสมผสานอย่างลงตัวด้วยกลิ่นผลไม้ ดอกไม้ และมอลต์",
       tastingNotes: "แพร์ ลิ้นจี่ สตรอว์เบอร์รี แครนเบอร์รี เมลอน ครีม มอลต์",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Countess Grey",
@@ -256,6 +266,7 @@ const westernTea: Flavor = {
         "ชาดำเอิร์ลเกรย์จาก Fortnum & Mason ที่เพิ่มลูกเล่นด้วยกลิ่นของผลไม้ตระกูลซิตรัส",
       tastingNotes:
         "น้ำมันเบอกาม็อทสุดคลาสสิกสไตล์ผู้ดีอังกฤษ ปิดท้ายด้วยเปลือกส้ม",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "T2 French Earl Grey",
@@ -263,6 +274,7 @@ const westernTea: Flavor = {
       description:
         "ชาดำเอิร์ลเกรย์จาก T2 หอมฟุ้งด้วยกลิ่นผลไม้นานาชนิด กุหลาบ ปิดท้ายด้วยส้มเบอกาม็อท",
       tastingNotes: "ผลไม้ กุหลาบ ดอกทานตะวัน กระเจี๊ยบ",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Rosevear Grapefruit Tea",
@@ -296,6 +308,7 @@ const classic: Flavor = {
       price: 350,
       description:
         "พิสตาชีโอจากเมือง Bronte ใกล้เนินเขาของภูเขาไฟ Etna ในอิตาลี ที่เป็นแหล่งเพาะปลูกพิสตาชีโอมายาวนานหลายร้อยปี จนขนานนามว่าเป็น “ทองสีเขียว” แร่ธาตุจากภูเขาไฟทำให้รสชาติของถั่วเข้ม พุ่ง และหอมไม่เหมือนใคร",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Queensland Macadamia",
@@ -389,6 +402,7 @@ const special: Flavor = {
       price: 350,
       description:
         "โยเกิร์ตสไตล์กรีกชนะรางวัลจาก The Estate Dairy ราดซอสบลูเบอร์รี No.1 สายพันธุ์พิเศษ Sekoya Crunch ใหม่ล่าสุดปฏิวัติวงการบลูเบอร์รี่",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };

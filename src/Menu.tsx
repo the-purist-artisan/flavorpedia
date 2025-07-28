@@ -163,35 +163,24 @@ export default function Menu({
             {flavor.items.map((item) => {
               return (
                 <div key={item.name} className="flex flex-col">
-                  {item.isSoldOut ? (
-                    <>
-                      <div className="font-gt-super-text-bold text-base leading-5 mb-2 underline">
-                        {item.name}
-                      </div>
-                      <div className="mb-2">
-                        <span className="rounded-full w-auto bg-red-900 text-slate-50 px-3 py-1">
-                          {item.isSoldOut === SOLDOUT_TYPE.SOLDOUT
-                            ? "Sold out"
-                            : item.isSoldOut === SOLDOUT_TYPE.RESTOCKING_SOON
-                              ? "Restocking soon"
-                              : ""}
-                        </span>
-                      </div>
-                    </>
-                  ) : (
-                    <>
-                      <div className="font-gt-super-text-bold text-base leading-5 mb-2 underline">
-                        {item.name}
-                      </div>
-                      {item.isNewFlavor ? (
-                        <div className="mb-2">
-                          <span className="rounded-full w-auto bg-slate-200 text-slate-800 px-3 py-1">
-                            {"New"}
-                          </span>
-                        </div>
-                      ) : undefined}
-                    </>
-                  )}
+                  <div className="mb-2">
+                    <span className="font-gt-super-text-bold text-base leading-5 mb-2 italic">
+                      {item.name}
+                    </span>
+                    {item.isSoldOut ? (
+                      <span className="rounded-md w-auto ml-2 bg-red-900 text-slate-50 px-2 py-1 text-xs">
+                        {item.isSoldOut === SOLDOUT_TYPE.SOLDOUT
+                          ? "Sold out"
+                          : item.isSoldOut === SOLDOUT_TYPE.RESTOCKING_SOON
+                            ? "Restocking soon"
+                            : ""}
+                      </span>
+                    ) : item.isNewFlavor ? (
+                      <span className="rounded-md w-auto ml-2 bg-slate-200 text-slate-800 px-2 py-1 text-xs">
+                        {"New"}
+                      </span>
+                    ) : undefined}
+                  </div>
 
                   <div className="font-ibm-plex-thai text-sm font-normal leading-[18px] whitespace-pre-wrap">
                     {item.description}

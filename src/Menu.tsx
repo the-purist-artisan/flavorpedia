@@ -4,6 +4,10 @@ import { Flavor, SOLDOUT_TYPE } from "./MenuFlavors/types";
 
 interface MenuProps {
   headerText: string;
+  otherInformation?: {
+    eventDate: string;
+    eventLocation: string;
+  };
   flavors: Flavor[];
   menuBackgroundColorClass?: string;
   shouldShowTastingNotesHeader?: boolean;
@@ -12,6 +16,7 @@ interface MenuProps {
 export default function Menu({
   headerText,
   flavors,
+  otherInformation,
   menuBackgroundColorClass: menuBackgroundColor,
   shouldShowTastingNotesHeader,
 }: MenuProps) {
@@ -73,9 +78,31 @@ export default function Menu({
             style={{ height: "150px" }}
           />
         </div>
-        <div className="menu-header font-benaco-one mb-8 pl-6 pr-6 w-fit text-center font-normal text-key-header leading-key-header whitespace-pre-line">
-          {headerText.split("<br>").join("\n")}
-        </div>
+        {otherInformation ? (
+          <>
+            {/* Event name */}
+            <div className="menu-header font-benaco-one mb-4 pl-6 pr-6 w-fit text-center font-normal text-key-header leading-key-header whitespace-pre-line">
+              {headerText.split("<br>").join("\n")}
+            </div>
+            {/* Event date */}
+            {otherInformation?.eventDate ? (
+              <div className="menu-header font-benaco-one pl-6 pr-6 w-fit text-center font-normal text-sub-header leading-sub-header whitespace-pre-line">
+                {otherInformation.eventDate}
+              </div>
+            ) : null}
+            {/* Event location */}
+            {otherInformation.eventLocation ? (
+              <div className="menu-header font-benaco-one mb-8 pl-6 pr-6 w-fit text-center font-normal text-sub-header leading-sub-header whitespace-pre-line">
+                {"".concat("@", otherInformation.eventLocation)}
+              </div>
+            ) : null}
+          </>
+        ) : (
+          <div className="menu-header font-benaco-one mb-8 pl-6 pr-6 w-fit text-center font-normal text-key-header leading-key-header whitespace-pre-line">
+            {/* Event name */}
+            {headerText.split("<br>").join("\n")}
+          </div>
+        )}
         <div className="flex flex-col items-center mb-8 pl-6 pr-6">
           <div className="font-ibm-plex-thai text-lg mb-4 text-center">
             {"เราขอแนะนำไอศกรีมทั้งหมด"}

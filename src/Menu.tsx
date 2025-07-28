@@ -1,6 +1,10 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import "./index.css";
 import { Flavor, SOLDOUT_TYPE } from "./MenuFlavors/types";
+import "react-responsive-modal/styles.css";
+import { Modal } from "react-responsive-modal";
+import { InstagramEmbed } from "react-social-media-embed";
+import { SocialLogo } from "social-logos";
 
 interface MenuProps {
   headerText: string;
@@ -22,6 +26,8 @@ export default function Menu({
 }: MenuProps) {
   const topRef = useRef<HTMLDivElement | null>(null);
   const itemsRef = useRef<Map<string, HTMLDivElement> | null>(null);
+  const [openInstagramModal, setOpenInstagramModal] = useState(false);
+  const [instagramModalUrl, setInstagramModalUrl] = useState<string>("");
 
   const backgroundColorClass = menuBackgroundColor
     ? menuBackgroundColor
@@ -50,6 +56,38 @@ export default function Menu({
     .map((f) => f.items.length)
     .reduceRight((p, c) => p + c);
 
+  const onOpenInstagramModal = (instagramUrl: string) => {
+    // set target instagram url
+    setInstagramModalUrl(instagramUrl);
+    setOpenInstagramModal(true);
+  };
+  const onCloseInstagramModal = () => setOpenInstagramModal(false);
+
+  const getInstagramReadMoreButton = (instagramUrl: string) => {
+    return (
+      <div>
+        <button
+          className={
+            "mt-2 font-ibm-plex-thai text-sm font-bold leading-[18px] whitespace-pre-wrap inline-flex items-center" +
+            `
+                py-2 px-6           <!-- Padding (vertical and horizontal) -->
+                rounded-lg          <!-- Rounded corners (user requested sm, but lg looks better) -->
+                shadow-lg           <!-- Drop shadow for depth -->
+                bg-gradient-to-r    <!-- Gradient direction: right -->
+                from-yellow-500     <!-- Starting color -->
+                via-pink-500        <!-- Middle color -->
+                to-purple-600       <!-- Ending color -->
+            `
+          }
+          onClick={() => onOpenInstagramModal(instagramUrl)}
+        >
+          อ่านเรื่องราวต่อใน &nbsp;
+          <SocialLogo icon="instagram" size={20} fill="white" />
+        </button>
+      </div>
+    );
+  };
+
   return (
     <div className="">
       <div
@@ -68,6 +106,14 @@ export default function Menu({
           width={"40px"}
         />
       </div>
+      <Modal
+        open={openInstagramModal}
+        onClose={onCloseInstagramModal}
+        modalId="customInstagramModal"
+        center
+      >
+        <InstagramEmbed url={instagramModalUrl} className="mt-8" captioned />
+      </Modal>
       <div
         ref={topRef}
         className={`${backgroundColorClass} py-8 flex flex-col items-center text-white`}
@@ -163,12 +209,12 @@ export default function Menu({
             {flavor.items.map((item) => {
               return (
                 <div key={item.name} className="flex flex-col">
-                  <div className="mb-2">
-                    <span className="font-gt-super-text-bold text-base leading-5 mb-2 italic">
+                  <div className="mb-1">
+                    <span className="font-gt-super-text-bold text-lg leading-5 mb-2 italic">
                       {item.name}
                     </span>
                     {item.isSoldOut ? (
-                      <span className="rounded-md w-auto ml-2 bg-red-900 text-slate-50 px-2 py-1 text-xs">
+                      <span className="rounded-md w-auto ml-2 bg-red-900 text-slate-50 px-2 py-1 text-xs whitespace-nowrap">
                         {item.isSoldOut === SOLDOUT_TYPE.SOLDOUT
                           ? "Sold out"
                           : item.isSoldOut === SOLDOUT_TYPE.RESTOCKING_SOON
@@ -176,17 +222,22 @@ export default function Menu({
                             : ""}
                       </span>
                     ) : item.isNewFlavor ? (
-                      <span className="rounded-md w-auto ml-2 bg-slate-200 text-slate-800 px-2 py-1 text-xs">
+                      <span className="rounded-md w-auto ml-2 bg-slate-200 text-slate-800 px-2 py-1 text-xs whitespace-nowrap">
                         {"New"}
                       </span>
                     ) : undefined}
                   </div>
-
+                  <div className="mb-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">
+                    <div>{item.price} บาท</div>
+                    {/* Pre-order price */}
+                    {item.preorderPrice ? (
+                      <div>{`(Pre-order ก่อนวันงาน: ${item.preorderPrice}.-)`}</div>
+                    ) : null}
+                  </div>
                   <div className="font-ibm-plex-thai text-sm font-normal leading-[18px] whitespace-pre-wrap">
                     {item.description}
                   </div>
-
-                  {/* Taste note and price */}
+                  {/* Taste note */}
                   {item.tastingNotes ? (
                     <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px] whitespace-pre-wrap">
                       {shouldShowTastingNotesHeader
@@ -194,13 +245,10 @@ export default function Menu({
                         : item.tastingNotes}
                     </div>
                   ) : null}
-                  <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">
-                    <div>{item.price}.- </div>
-                    {/* Pre-order price */}
-                    {item.preorderPrice ? (
-                      <div>{`(Pre-order ก่อนวันงาน: ${item.preorderPrice}.-)`}</div>
-                    ) : null}
-                  </div>
+                  {/* Instagram Url */}
+                  {item.instagramUrl
+                    ? getInstagramReadMoreButton(item.instagramUrl)
+                    : null}
                 </div>
               );
             })}

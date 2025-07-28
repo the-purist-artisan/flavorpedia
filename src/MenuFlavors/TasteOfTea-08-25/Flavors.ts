@@ -19,6 +19,7 @@ const coffee: Flavor = {
       tastingNotes:
         "ดอกมะลิ ดอกกาแฟ เลม่อน พีชขาว เชอร์รี่ ลูกอมผลไม้ สัมผัสนุ่มลื่น ทิ้งรสชาติยาวนาน",
       isNewFlavor: true,
+      instagramUrl: "https://www.instagram.com/p/DMmlDhGSw4h",
     },
     {
       name: "Panama Geisha 90+ Yuzo",

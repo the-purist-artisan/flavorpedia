@@ -6,12 +6,14 @@ interface MenuProps {
   headerText: string;
   flavors: Flavor[];
   menuBackgroundColorClass?: string;
+  shouldShowTastingNotesHeader?: boolean;
 }
 
 export default function Menu({
   headerText,
   flavors,
   menuBackgroundColorClass: menuBackgroundColor,
+  shouldShowTastingNotesHeader,
 }: MenuProps) {
   const topRef = useRef<HTMLDivElement | null>(null);
   const itemsRef = useRef<Map<string, HTMLDivElement> | null>(null);
@@ -72,7 +74,7 @@ export default function Menu({
           />
         </div>
         <div className="menu-header font-benaco-one mb-8 pl-6 pr-6 w-fit text-center font-normal text-key-header leading-key-header whitespace-pre-line">
-          {headerText}
+          {headerText.split("<br>").join("\n")}
         </div>
         <div className="flex flex-col items-center mb-8 pl-6 pr-6">
           <div className="font-ibm-plex-thai text-lg mb-4 text-center">
@@ -140,7 +142,7 @@ export default function Menu({
                         {item.name}
                       </div>
                       <div className="mb-2">
-                        <span className="rounded-full w-auto bg-slate-800 text-slate-200 px-3 py-1">
+                        <span className="rounded-full w-auto bg-red-900 text-slate-50 px-3 py-1">
                           {item.isSoldOut === SOLDOUT_TYPE.SOLDOUT
                             ? "Sold out"
                             : item.isSoldOut === SOLDOUT_TYPE.RESTOCKING_SOON
@@ -151,9 +153,16 @@ export default function Menu({
                     </>
                   ) : (
                     <>
-                      <div className="font-gt-super-text-bold text-base leading-5 mb-6 underline">
+                      <div className="font-gt-super-text-bold text-base leading-5 mb-2 underline">
                         {item.name}
                       </div>
+                      {item.isNewFlavor ? (
+                        <div className="mb-2">
+                          <span className="rounded-full w-auto bg-slate-200 text-slate-800 px-3 py-1">
+                            {"New"}
+                          </span>
+                        </div>
+                      ) : undefined}
                     </>
                   )}
 
@@ -164,7 +173,9 @@ export default function Menu({
                   {/* Taste note and price */}
                   {item.tastingNotes ? (
                     <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px] whitespace-pre-wrap">
-                      {item.tastingNotes}
+                      {shouldShowTastingNotesHeader
+                        ? `Tasting notes: ${item.tastingNotes}`
+                        : item.tastingNotes}
                     </div>
                   ) : null}
                   <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px]">

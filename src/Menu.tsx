@@ -68,7 +68,7 @@ export default function Menu({
       <div>
         <button
           className={
-            "mt-2 font-ibm-plex-thai text-sm font-bold leading-[18px] whitespace-pre-wrap inline-flex items-center" +
+            "mt-2 font-ibm-plex-thai text-sm font-bold leading-[18px] whitespace-pre-wrap text-white inline-flex items-center" +
             `
                 py-2 px-6           <!-- Padding (vertical and horizontal) -->
                 rounded-lg          <!-- Rounded corners (user requested sm, but lg looks better) -->
@@ -214,7 +214,7 @@ export default function Menu({
                       {item.name}
                     </span>
                     {item.isSoldOut ? (
-                      <span className="rounded-md w-auto ml-2 bg-red-900 text-slate-50 px-2 py-1 text-xs whitespace-nowrap">
+                      <span className="rounded-md w-auto ml-2 bg-red-900 text-slate-50 px-2 py-1 text-xs whitespace-nowrap shadow-lg">
                         {item.isSoldOut === SOLDOUT_TYPE.SOLDOUT
                           ? "Sold out"
                           : item.isSoldOut === SOLDOUT_TYPE.RESTOCKING_SOON
@@ -222,7 +222,7 @@ export default function Menu({
                             : ""}
                       </span>
                     ) : item.isNewFlavor ? (
-                      <span className="rounded-md w-auto ml-2 bg-slate-200 text-slate-800 px-2 py-1 text-xs whitespace-nowrap">
+                      <span className="rounded-md w-auto ml-2 bg-slate-200 text-slate-800 px-2 py-1 text-xs whitespace-nowrap shadow-lg">
                         {"New"}
                       </span>
                     ) : undefined}

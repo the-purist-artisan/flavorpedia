@@ -37,7 +37,7 @@ const fruits: Flavor = {
       description: "",
       tastingNotes: "",
       isNewFlavor: true,
-      instagramUrl: "instagram.com/p/DMZ5q15SThF",
+      instagramUrl: "https://www.instagram.com/p/DMZ5q15SThF",
     },
     {
       name: "Shimizu Hakuto Peach Sorbet",
@@ -54,7 +54,7 @@ const fruits: Flavor = {
       description: "",
       tastingNotes: "",
       isNewFlavor: false,
-      instagramUrl: "instagram.com/p/DMkI7pbyzB2",
+      instagramUrl: "https://www.instagram.com/p/DMkI7pbyzB2",
     },
     {
       name: "Lady Grace Strawberry Sorbet",
@@ -102,7 +102,7 @@ const fruits: Flavor = {
       description: "",
       tastingNotes: "",
       isNewFlavor: true,
-      instagramUrl: "instagram.com/p/DMfLB0Ky6NB/",
+      instagramUrl: "https://www.instagram.com/p/DMfLB0Ky6NB/",
     },
     {
       name: "Loong Daeng Coconut Sorbet",
@@ -110,7 +110,7 @@ const fruits: Flavor = {
       description: "",
       tastingNotes: "",
       isNewFlavor: false,
-      instagramUrl: "instagram.com/p/DMmlDhGSw4h/",
+      instagramUrl: "https://www.instagram.com/p/DMmlDhGSw4h/",
     },
   ],
 };
@@ -166,7 +166,7 @@ const matcha: Flavor = {
       tastingNotes:
         "หอมมันถั่วแมคาเดเมียคั่วกลาง ผลไม้สุกแบบกล้วย อูมามิทะเลข้าวเกรียบกุ้ง ซับซ้อนยาวนาน",
       isNewFlavor: false,
-      instagramUrl: "instagram.com/p/DMXeIK9ScYb",
+      instagramUrl: "https://www.instagram.com/p/DMXeIK9ScYb",
     },
     {
       name: "Yame C-02",
@@ -239,7 +239,7 @@ const easternTea: Flavor = {
         "(เอาของ award winning ใส่ไว้ให้) ชารางวัลชมเชย 1 ดอกเหมย จากตำบลเอ๋อเหม่ย รสชาติละมุน สดชื่น มีกลิ่นเอกลักษณ์ที่หอมหวานเหมือนน้ำผึ้ง",
       tastingNotes: "น้ำผึ้ง ดอกไม้ป่า ผลไม้สุก พีช แพร์",
       isNewFlavor: true,
-      instagramUrl: "instagram.com/p/DMc0kGhJ-SU",
+      instagramUrl: "https://www.instagram.com/p/DMc0kGhJ-SU",
     },
     {
       name: "Wen Shan Bao Zhong (文山包種茶)",
@@ -333,7 +333,7 @@ const classic: Flavor = {
       description: "",
       tastingNotes: "",
       isNewFlavor: true,
-      instagramUrl: "instagram.com/p/DMsmaFkzoCq/",
+      instagramUrl: "https://www.instagram.com/p/DMsmaFkzoCq/",
     },
     {
       name: "Queensland Macadamia",
@@ -371,7 +371,7 @@ const chocolate: Flavor = {
       tastingNotes:
         "แบล็กเคอร์แรนต์ สตอเบอรี่ บลูเบอร์รี่ พลัม มะม่วง ชะเอมเทศ รสชาติทิ้งท้ายซับซ้อน สวยงาม",
       isNewFlavor: true,
-      instagramUrl: "instagram.com/p/DMhugIoyEGd/",
+      instagramUrl: "https://www.instagram.com/p/DMhugIoyEGd/",
     },
     {
       name: "Marana Chuncho de Cusco Peruvian Dark Sorbet",
@@ -406,7 +406,7 @@ const special: Flavor = {
         "ดัดแปลงจากขนม siganture ของร้าน Sauvage ชื่อ Miso Caramel Flan",
       tastingNotes: "",
       isNewFlavor: true,
-      instagramUrl: "www.instagram.com/p/DM1m1ErT3gJ",
+      instagramUrl: "https://www.instagram.com/p/DM1m1ErT3gJ",
     },
     {
       name: "Midokiri Ceremonial Matcha Strawberry Latte",
@@ -424,7 +424,7 @@ const special: Flavor = {
         "ดัดแปลงจากเครื่องดื่มสายสุขภาพ มัทฉะน้ำมะพร้าว อัดแน่นด้วยมัทฉะเกรดพิธีชงจาก PAGUcha นัวมันหอมหวานธรรมชาติด้วยน้ำมะพร้าวสวนลุงแดง",
       tastingNotes: "",
       isNewFlavor: true,
-      instagramUrl: "instagram.com/p/DGUtOV5Sx46/",
+      instagramUrl: "https://www.instagram.com/p/DGUtOV5Sx46/",
     },
     {
       name: "Mint Stracctiatella",

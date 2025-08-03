@@ -440,7 +440,7 @@ const special: Flavor = {
         "ดัดแปลงจากขนม Siganture ของร้าน Sauvage ชื่อ Miso Caramel Flan ทําจากมิโซะ 5 ชนิดทั้งสายพันธุ์เดี่ยวและสายพันธุ์พิเศษ เป็นการตีความรส salted caramel รูปแบบใหม่ที่มิติล้ำ ความหวานเค็มหอมธรรมชาติจากมิโซะ ประกบด้วยแป้ง sando กรอบพิเศษหอมกลิ่นเนยคาราเมลจากเชฟ Mister Chou",
       tastingNotes: "",
       isNewFlavor: true,
-      instagramUrl: "www.instagram.com/p/DM1m1ErT3gJ",
+      instagramUrl: "https://www.instagram.com/p/DM1m1ErT3gJ",
     },
     {
       name: "Midokiri Ceremonial Matcha Strawberry Latte",
@@ -477,6 +477,12 @@ const special: Flavor = {
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "",
+    },
+    {
+      name: "Black Coconut Ash",
+      price: 350,
+      description:
+        "ไอศกรีมดัดแปลงจากขนมเปียกปูนโบราณ ทำจากกาบมะพร้าวเผา เบสกะทิสดทับสะแก ยกระดับความเป็นขนมไทย",
     },
   ],
 };

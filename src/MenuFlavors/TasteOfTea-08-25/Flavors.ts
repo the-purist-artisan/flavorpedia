@@ -14,10 +14,12 @@ const coffee: Flavor = {
   name: "กาแฟนม Specialty (Single Origin and Award-Winning)",
   items: [
     {
-      name: "New Coffee",
+      name: "Peru Geisha La Lacuma COE Rank 1",
       price: 450,
-      description: "",
-      tastingNotes: "",
+      description:
+        "เมล็ดกาแฟเปรูเกอิชา จากฟาร์มระดับตำนาน La Lacuma รางวัลอันดับ 1 จากการประกวด Cup of Excellence",
+      tastingNotes:
+        "พีช ดอกมะลิ เบอร์กาม็อต แอปริคอต ดอกสายน้ำผึ้ง เลม่อน ตะไคร้ หวานฉ่ำน้ำ ทิ้งรสชาติยาวนาน",
       isNewFlavor: true,
       instagramUrl: "",
     },
@@ -32,9 +34,10 @@ const fruits: Flavor = {
   name: "ผลไม้ตามฤดูกาล",
   items: [
     {
-      name: "ฺBlood Peach (Sanguine De Savoie) Sorbet",
+      name: "Blood Peach (Sanguine De Savoie) Sorbet",
       price: 450,
-      description: "",
+      description:
+        "พีชสีเลือดหายากสุดขีดจากซาวัว ได้รับการยกย่องในฝรั่งเศสว่าเป็นพีชชั้นสูง รสชาติเยี่ยมระดับพรีเมียม กลิ่นซับซ้อนที่สุดในบรรดาพีชทั้งหมด หอมฟุ้งคล้ายสวนเบอร์รี่รวม รสเปรี้ยวหวานครบรส มีโทน spice อ่อน ๆ ความหอมติดใจ ลุ่มลึก ชวนค้นหา",
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/DMZ5q15SThF",
@@ -51,7 +54,8 @@ const fruits: Flavor = {
     {
       name: "Luna Piena Watermelon Sorbet",
       price: 400,
-      description: "",
+      description:
+        "สุดยอดแตงโมเสาอากาศ ฉายาพระจันทร์เต็มดวง ผลผลิต 1 ต้น 1 ลูก รสชาติหวานหอมเข้มข้นสุดคาแรกเตอร์ของแตงโม ทานแล้วสดชื่นทันที",
       tastingNotes: "",
       isNewFlavor: false,
       instagramUrl: "https://www.instagram.com/p/DMkI7pbyzB2",
@@ -59,7 +63,8 @@ const fruits: Flavor = {
     {
       name: "Lady Grace Strawberry Sorbet",
       price: 400,
-      description: "",
+      description:
+        "สตอเบอรี่สายพันธุ์ปรับปรุงใหม่จากประเทศอังกฤษ กลุ่ม Lady ได้รับรางวัล Great Taste Award อยู่ในช่วงพีคของฤดูกาล กลิ่นสตอเบอรี่หอมหวานระเบิดเข้ม",
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "",
@@ -67,7 +72,8 @@ const fruits: Flavor = {
     {
       name: "Candy Snap (IFP) Red Grape Sorbet",
       price: 400,
-      description: "",
+      description:
+        "องุ่นแดงสายพันธุ์พิเศษหวานเปรี้ยวชวนนึกถึงลูกอมสตอเบอรี่ เมล่อน สัปปะรด ไวน์แดง",
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "",
@@ -75,7 +81,8 @@ const fruits: Flavor = {
     {
       name: "Leanri King Tangerine Sorbet",
       price: 350,
-      description: "",
+      description:
+        "ส้มสายพันธุ์พิเศษ ผสมระหว่าง Murcott และ Clementine หวานหอมกลิ่นคลาสสิก",
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "",
@@ -83,7 +90,8 @@ const fruits: Flavor = {
     {
       name: "Tamara King Cherry Sorbet",
       price: 350,
-      description: "",
+      description:
+        "เชอรี่สายพันธุ์ล้ำจากสถาบันพัฒนาพันธุ์ผลไม้ของสาธารณรัฐเชค กลิ่นหอมเชอรี่เข้มข้นมาก เปรี้ยวหวานพอดี สัมผัสกรอบ ครีมมี่",
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/DMqAqSyTh4u/",
@@ -91,7 +99,17 @@ const fruits: Flavor = {
     {
       name: "Champagne Pink Gooseberry Sorbet",
       price: 350,
-      description: "",
+      description:
+        "กูสเบอรี่สีชมพู หรือโทงเทงฝรั่งพันธุ์หายาก สีชมพูแดงแชมเปญ กลิ่นคล้ายเบอรี่และมะม่วงหาวมะนาวโห่",
+      tastingNotes: "",
+      isNewFlavor: true,
+      instagramUrl: "",
+    },
+    {
+      name: "Akatsuki Peach Sorbet",
+      price: 350,
+      description:
+        "หนึ่งในพีชสายพันธุ์พิเศษที่มีเนื้อแน่นและรสชาติลึกที่สุด กลิ่นหอมหวานเอกลักษณ์ อยู่ในช่วงพีคของฤดูกาล",
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "",
@@ -99,15 +117,17 @@ const fruits: Flavor = {
     {
       name: "Star Wars Long Kong ลองกอง Sorbet",
       price: 300,
-      description: "",
+      description:
+        "ลองกองสายพันธุ์พิเศษ ได้กลิ่นหอมของลางสาด แต่ปราศจากความขม เปรี้ยวสดชื่น หวานพอดี กลิ่นฟุ้งในคอ",
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/DMfLB0Ky6NB/",
     },
     {
-      name: "Loong Daeng Coconut Sorbet",
+      name: "Loong Daeng Coconut มะพร้าวลุงแดง Sorbet",
       price: 300,
-      description: "",
+      description:
+        "มะพร้าวน้ำหอม สวนลุงแดง บางคล้า ฉะเชิงเทรา หอมหวานกลิ่นใบเตย ไวท์ช็อกโกแลต เอกลักษณ์ ไม่เหมือนพื้นที่อื่น",
       tastingNotes: "",
       isNewFlavor: false,
       instagramUrl: "https://www.instagram.com/p/DMmlDhGSw4h/",
@@ -137,15 +157,18 @@ const matcha: Flavor = {
       price: 650,
       description:
         "มัทฉะเกรดพิธีชงสูงสุด จากแบรนด์ Shogyokuen จัดหาโดย Chaseki",
-      tastingNotes: "",
+      tastingNotes:
+        "ถั่วลันเตา สาหร่ายอ่อน มะม่วง มะพร้าวอ่อน ความอูมามิพุ่งพล่าน หวานและค้างอยู่ในปากยาวนาน",
       isNewFlavor: false,
       instagramUrl: "",
     },
     {
-      name: "Sakata Matabei Saemidori",
+      name: "Sakata Matabei Samidori",
       price: 650,
-      description: "",
-      tastingNotes: "",
+      description:
+        "มัทฉะเกรดพิธีชงสูงสุด จากแบรนด์ Sakata Matabei ติดรางวัลท้อป 3 จากอุจิ",
+      tastingNotes:
+        "ซุปสาหร่ายเต้าหู้ชั้นสูง อูมามิโทนทะเลนุ่มนวล บอดี้แน่น ขมฝาดน้อย",
       isNewFlavor: true,
       instagramUrl: "",
     },
@@ -153,8 +176,9 @@ const matcha: Flavor = {
       name: "Okunoyama Asahi",
       price: 600,
       description:
-        "(IG) Okunoyama Asahi จากไร่เดียวกับ Narino Premium เต็มไปด้วยความนุ่มนวลของผักสด ใบไม้สด หวานธรรมชาติ ครบองค์ประกอบของมัทฉะจาก Uji",
-      tastingNotes: "",
+        "มัทฉะเกรดพิธี สายพันธุ์ Asahi จากไร่เดียวกับ Narino Premium จัดหาโดย MTCH",
+      tastingNotes:
+        "ความนุ่มนวลของผักสด ใบไม้สด หวานธรรมชาติ หอมกลิ่นดอกไม้นานาชนิด",
       isNewFlavor: true,
       instagramUrl: "",
     },
@@ -171,17 +195,17 @@ const matcha: Flavor = {
     {
       name: "Yame C-02",
       price: 500,
-      description: "",
-      tastingNotes: "",
+      description:
+        "มัทฉะเกรดพิธีชง เบลนด์พิเศษจาก Yame รสชาติที่คนไทยชื่นชอบ จัดหาโดย Osha Ocha",
+      tastingNotes: "เฮเซลนัทคั่ว เนยถั่วลิสง วานิลลา ลมทะเล",
       isNewFlavor: true,
       instagramUrl: "",
     },
     {
       name: "Uji Tawara Kyoto",
       price: 450,
-      description:
-        "(IG) Uji Tawara Kyoto ตัวใหม่ล่าสุดจาก MTCH ที่คุณจิวสปอยล์ก่อนเลยชงลาเต้อร่อยพีคมาก ตัวนี้ตรงปกมากครับ ถั่วเขียวคั่วหน่อยๆ อัลมอนด์นิดๆ และมี mashed potato ตามมา ใครทานลาเต้ที่ร้านไปแล้ว ไว้แวะมาลองแบบไอศกรีมได้เลยครับ ไม่ผิดหวัง",
-      tastingNotes: "",
+      description: "มัทฉะตัวใหม่ล่าสุดจาก ที่ชงเป็นลาเต้แล้วนัวสุดๆ โดย MTCH",
+      tastingNotes: "ถั่ั่วเขียวคั่ว อัลมอนด์ มันฝรั่งบดคลุกเนย",
       isNewFlavor: true,
       instagramUrl: "",
     },
@@ -198,8 +222,8 @@ const matcha: Flavor = {
       name: "Yame Saemidori",
       price: 400,
       description:
-        "(IG) Yame Saemidori ตัวนี้พิเศษที่ความ floral ผสมผสานขนมปังและถั่วอบ เป็นชาจากยาเมะที่พิเศษมากตัวนึง รอบนี้เรามี Yame ดีๆ หลากหลายมากครับ ต้องมาลอง",
-      tastingNotes: "",
+        "มัทฉะพิเศษจาก Yame รวมเอกลักษณ์เด่นของสายพันธุ์ Saemidori โดย MTCH",
+      tastingNotes: "ดอกไม้หลากสี ขนมปังอบ ถั่วคั่วเล็กน้อย",
       isNewFlavor: true,
       instagramUrl: "",
     },
@@ -207,8 +231,8 @@ const matcha: Flavor = {
       name: "Midokiri",
       price: 350,
       description:
-        "มัทฉะเกรดพิธี โทน Yame ที่คนไทยคุ้นเคย มีกลิ่นของถั่วเขียว เนยอะโวคาโด และมะม่วงมัน โดย PAGUcha",
-      tastingNotes: "",
+        "มัทฉะเกรดพิธี โทน Yame ที่คนไทยคุ้นเคย ทานง่าย เข้าใจง่าย โดย PAGUcha",
+      tastingNotes: "ถั่วเขียว ถั่วลันเตา เนยอะโวคาโด มะม่วงมัน",
       isNewFlavor: true,
       instagramUrl: "",
     },
@@ -226,7 +250,7 @@ const easternTea: Flavor = {
       name: "Tie Guan Yin No.1 Award 2025",
       price: 500,
       description:
-        "ชาเถี่ยกวนอิน (ทิกวนอิม) รางวัลที่ 1 จากเวทีแข่งขันประกวดชา Muzha",
+        "ชาเถี่ยกวนอิน (ทิกวนอิม) ชนะรางวัลที่ 1 จากเวทีแข่งขันประกวดชา Muzha ส่งแข่งโดยปรมาจารย์ชาจังหยวนผู่",
       tastingNotes:
         "ผลไม้สุก ดอกไม้หลากหลายชนิด มีชั้นรสชาติหลายชั้น ความเครื่องเทศอ่อน ทิ้งปลายรสอูมามิ ไร้ความขม",
       isNewFlavor: true,
@@ -236,7 +260,7 @@ const easternTea: Flavor = {
       name: "Dong Fang Mei Ren (東方美人)",
       price: 450,
       description:
-        "(เอาของ award winning ใส่ไว้ให้) ชารางวัลชมเชย 1 ดอกเหมย จากตำบลเอ๋อเหม่ย รสชาติละมุน สดชื่น มีกลิ่นเอกลักษณ์ที่หอมหวานเหมือนน้ำผึ้ง",
+        "สุดยอดชา นางงามบูรพา โดย Kyobashi กรรมวิธีการผลิตจากไร่รางวัลที่ 1 บ้านฉือ รสชาติละมุน สดชื่น มีกลิ่นเอกลักษณ์ที่หอมหวานเหมือนน้ำผึ้งป่าชัดเจน",
       tastingNotes: "น้ำผึ้ง ดอกไม้ป่า ผลไม้สุก พีช แพร์",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/DMc0kGhJ-SU",
@@ -244,16 +268,18 @@ const easternTea: Flavor = {
     {
       name: "Wen Shan Bao Zhong (文山包種茶)",
       price: 400,
-      description: "",
-      tastingNotes: "",
+      description: "ชาเหวินซานเปาจ่ง อู่หลงหมักอ่อน โดย 5.21 Tea Voyage",
+      tastingNotes: "สวนดอกไม้ละเอียดอ่อน สัมผัสครีมมี่ กลิ่นผลไม้สดชื่น",
       isNewFlavor: true,
       instagramUrl: "",
     },
     {
       name: "Zheng Shan Xiao Zhong (正山小種)",
       price: 400,
-      description: "",
-      tastingNotes: "",
+      description:
+        "ชาแดงรมควันดั้งเดิมที่ดื่มได้ เหมือนกำลังดื่มวัฒนธรรมจีน กรรมวิธีรมควันด้วยไม้สนหางม้า (Masson Pine) ที่อายุ 30–40 ปีขึ้นไป  โดย Zhennan Teahouse",
+      tastingNotes:
+        "กลิ่นรมควันมีเอกลักษณ์ไม้สนลึกๆ ปนความหอมแบบลำไยแห้ง กลิ่นหอมลึกติดปลายลิ้น",
       isNewFlavor: true,
       instagramUrl: "",
     },
@@ -269,8 +295,9 @@ const easternTea: Flavor = {
     {
       name: "Qian Tang Long Jing (钱塘龙井)",
       price: 350,
-      description: "",
-      tastingNotes: "",
+      description:
+        "ชาเฉียนถังหลงจิ่ง Longjing จากแม่น้ำเฉียนถัง สายพันธุ์ #43 พัฒนาให้ได้ใบชาและคุณภาพที่ดี มีความคงทนต่อสภาพอากาศและให้ผลผลิตสม่ำเสมอ",
+      tastingNotes: "มีกลิ่นหอมของถั่วลิสงคั่วและรสชาติที่สดชื่น",
       isNewFlavor: true,
       instagramUrl: "",
     },
@@ -292,6 +319,7 @@ const westernTea: Flavor = {
         "ชาดำเรือธงในตำนาน จาก Mariage Frères ผสมผสานอย่างลงตัวด้วยกลิ่นผลไม้ ดอกไม้ และมอลต์",
       tastingNotes: "แพร์ ลิ้นจี่ สตรอว์เบอร์รี แครนเบอร์รี เมลอน ครีม มอลต์",
       isNewFlavor: false,
+      instagramUrl: "",
     },
     {
       name: "Fortmason",
@@ -300,6 +328,7 @@ const westernTea: Flavor = {
         "ชาดำเบส Darjeeling และ อู่หลงผสมโดย Fortnum and Mason แบรนด์ชั้นนำสุดคลาสสิกจากอังกฤษ",
       tastingNotes: "ดอกส้มสดสีขาว และ เครื่องเทศอ่อนฤดูร้อน",
       isNewFlavor: false,
+      instagramUrl: "",
     },
     {
       name: "T2 French Earl Grey",
@@ -308,13 +337,15 @@ const westernTea: Flavor = {
         "ชาดำเอิร์ลเกรย์จาก T2 หอมฟุ้งด้วยกลิ่นผลไม้นานาชนิด กุหลาบ ปิดท้ายด้วยส้มเบอกาม็อท",
       tastingNotes: "ผลไม้ กุหลาบ ดอกทานตะวัน กระเจี๊ยบ",
       isNewFlavor: false,
+      instagramUrl: "https://www.instagram.com/p/C76q3M6SbjO/",
     },
     {
       name: "Lupicia Bonne Chance",
       price: 300,
-      description: "",
-      tastingNotes: "",
+      description: "ชาแดงรอยบอส (Rooibos) เบลนด์พิเศษ จากแบรนด์ท้อป Lupicia",
+      tastingNotes: "พีชขาว ราสเบอรี่ ลูกพลัมป่าสีเหลือง มะม่วงสุกอ่อน",
       isNewFlavor: true,
+      instagramUrl: "",
     },
   ],
 };
@@ -330,7 +361,8 @@ const classic: Flavor = {
     {
       name: "Pompona Vanilla Peruvian",
       price: 500,
-      description: "",
+      description:
+        "วานิลลาสายพันธุ์พิเศษ Pompona จากเปรู ปริมาณและความหลากหลายของสารอินทรีย์ให้ความหอมในฝักสูงกว่าสายพันธุ์อื่นๆ หลายเท่าตัว เป็นที่ต้องการของแบรนด์น้ำหอม luxury ชั้นนําของโลก",
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/DMsmaFkzoCq/",
@@ -369,22 +401,24 @@ const chocolate: Flavor = {
       description:
         "สุดยอดช็อกโกแลต Criollo จาก Aroko ผสมกับน้ำแร่ ชูเอกลักษณ์ของสายพันธุ์ย่อย Chuao ที่มีความนุ่มนวลซับซ้อน",
       tastingNotes:
-        "แบล็กเคอร์แรนต์ สตอเบอรี่ บลูเบอร์รี่ พลัม มะม่วง ชะเอมเทศ รสชาติทิ้งท้ายซับซ้อน สวยงาม",
+        "แบล็กเบอรี่ แบล็กเคอร์แรน แยมสตอเบอรี่ ขนมปังปิ้ง รสชาติทิ้งท้ายซับซ้อน สวยงาม",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/DMhugIoyEGd/",
     },
     {
       name: "Marana Chuncho de Cusco Peruvian Dark Sorbet",
       price: 350,
-      description: "",
-      tastingNotes: "",
+      description:
+        "สุดยอดช็อกโกแลตรางวัลระดับโลก สายพันธุ์ Chuncho แบรนด์ Marana จากเปรู",
+      tastingNotes: "มะนาว ลิ้นจี่ เบอรี่ น้ำผึ้ง เฮเซลนัท อัลมอนด์",
       isNewFlavor: true,
       instagramUrl: "",
     },
     {
       name: "Chocolate Ganache Ecuardorian Blend",
       price: 300,
-      description: "",
+      description:
+        "ช็อกโกแลตเบลนด์พิเศษจาก Ecuardor ทานง่ายและเข้าใจง่าย ในรูปแบบช็อกโกแลตนม มี undertone  ความเปรี้ยวผลไม้เล็กน้อย",
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "",
@@ -401,12 +435,12 @@ const special: Flavor = {
   items: [
     {
       name: "Miso Caramel Sando",
-      price: 450,
+      price: 500,
       description:
-        "ดัดแปลงจากขนม siganture ของร้าน Sauvage ชื่อ Miso Caramel Flan",
+        "ดัดแปลงจากขนม Siganture ของร้าน Sauvage ชื่อ Miso Caramel Flan ทําจากมิโซะ 5 ชนิดทั้งสายพันธุ์เดี่ยวและสายพันธุ์พิเศษ เป็นการตีความรส salted caramel รูปแบบใหม่ที่มิติล้ำ ความหวานเค็มหอมธรรมชาติจากมิโซะ ประกบด้วยแป้ง sando กรอบพิเศษหอมกลิ่นเนยคาราเมลจากเชฟ Mister Chou",
       tastingNotes: "",
       isNewFlavor: true,
-      instagramUrl: "https://www.instagram.com/p/DM1m1ErT3gJ",
+      instagramUrl: "www.instagram.com/p/DM1m1ErT3gJ",
     },
     {
       name: "Midokiri Ceremonial Matcha Strawberry Latte",
@@ -438,7 +472,8 @@ const special: Flavor = {
     {
       name: "Raspberry Yogurt",
       price: 350,
-      description: "โยเกิร์ตสไตล์กรีกชนะรางวัลจาก The Estate Dairy ราดซอส",
+      description:
+        "โยเกิร์ตสไตล์กรีกชนะรางวัลจาก The Estate Dairy ราดซอสราสเบอรี่สายพันธุ์ Berry Jewel กลิ่นเปรี้ยวหอมพิเศษ",
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "",

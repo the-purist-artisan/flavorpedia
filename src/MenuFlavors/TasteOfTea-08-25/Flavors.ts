@@ -129,7 +129,12 @@ const fruits: Flavor = {
       description:
         "มะพร้าวน้ำหอม สวนลุงแดง บางคล้า ฉะเชิงเทรา หอมหวานกลิ่นใบเตย ไวท์ช็อกโกแลต เอกลักษณ์ ไม่เหมือนพื้นที่อื่น",
       tastingNotes: "",
-      isNewFlavor: false,
+    },
+    {
+      name: "Thap Sakae Coconut Milk Sorbet",
+      description:
+        "มะพร้าวแกง จากไร่พงศ์พระยา ทับสะแก ปีนเก็บคัดลูกแก่ได้ที่ คั้นน้ำกะทิสดด้วยวิธีสกัดเย็น",
+      price: 250,
       instagramUrl: "https://www.instagram.com/p/DMmlDhGSw4h/",
     },
   ],
@@ -176,11 +181,11 @@ const matcha: Flavor = {
       name: "Okunoyama Asahi",
       price: 600,
       description:
-        "มัทฉะเกรดพิธี สายพันธุ์ Asahi จากไร่เดียวกับ Narino Premium จัดหาโดย MTCH",
+        "มัทฉะเกรดพิธีและแข่งขัน สายพันธุ์ Asahi จากไร่เดียวกับ Narino Premium มีการพรางแสง 35 วัน และเก็บด้วยมือ จัดหาโดย MTCH",
       tastingNotes:
-        "ความนุ่มนวลของผักสด ใบไม้สด หวานธรรมชาติ หอมกลิ่นดอกไม้นานาชนิด",
+        "ความนุ่มนวลของผักสด ใบไม้สด หวานอูมามิธรรมชาติ หอมกลิ่นดอกไม้นานาชนิด ความขมปลายที่สะอาด",
       isNewFlavor: true,
-      instagramUrl: "",
+      instagramUrl: "https://www.instagram.com/p/DM394UazzVz/",
     },
     {
       name: "Yame No Sora",
@@ -204,10 +209,11 @@ const matcha: Flavor = {
     {
       name: "Uji Tawara Kyoto",
       price: 450,
-      description: "มัทฉะตัวใหม่ล่าสุดจาก ที่ชงเป็นลาเต้แล้วนัวสุดๆ โดย MTCH",
+      description:
+        "มัทฉะตัวใหม่ล่าสุด สายพันธุ์ Uji Hikari ที่ชงเป็นลาเต้แล้วนัวสุดๆ โดย MTCH ",
       tastingNotes: "ถั่ั่วเขียวคั่ว อัลมอนด์ มันฝรั่งบดคลุกเนย",
       isNewFlavor: true,
-      instagramUrl: "",
+      instagramUrl: "https://www.instagram.com/p/DMZhcidxmlE/",
     },
     {
       name: "Shincha Komorebi",
@@ -216,7 +222,7 @@ const matcha: Flavor = {
         "ชินฉะ หรือ ชาใหม่ จากรอบการเก็บเกี่ยวครั้งแรกในเดือนพฤษภาคม 2025 เบลนด์จากชาสามสายพันธุ์ Yabukita, Okumidori และ Samidori จัดหาโดย MTCH",
       tastingNotes: "นมผง ขนมเมอแรงค์ เค้กอัลมอนด์ วานิลลา กลิ่นหอมยาวนาน",
       isNewFlavor: false,
-      instagramUrl: "",
+      instagramUrl: "https://www.instagram.com/p/DLBnGzrvDzh/",
     },
     {
       name: "Yame Saemidori",

@@ -133,7 +133,7 @@ const fruits: Flavor = {
     {
       name: "Thap Sakae Coconut Milk Sorbet",
       description:
-        "มะพร้าวแกง จากไร่พงศ์พระยา ทับสะแก ปีนเก็บคัดลูกแก่ได้ที่ คั้นเป็นน้ำกะทิสด,
+        "มะพร้าวแกง จากไร่พงศ์พระยา ทับสะแก ปีนเก็บคัดลูกแก่ได้ที่คั้นเป็นน้ำกะทิสด",
       price: 250,
       instagramUrl: "https://www.instagram.com/p/DMmlDhGSw4h/",
     },

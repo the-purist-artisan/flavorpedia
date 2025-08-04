@@ -129,6 +129,7 @@ const fruits: Flavor = {
       description:
         "มะพร้าวน้ำหอม สวนลุงแดง บางคล้า ฉะเชิงเทรา หอมหวานกลิ่นใบเตย ไวท์ช็อกโกแลต เอกลักษณ์ ไม่เหมือนพื้นที่อื่น",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Thap Sakae Coconut Milk Sorbet",
@@ -447,6 +448,7 @@ const special: Flavor = {
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/DM1m1ErT3gJ",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Midokiri Ceremonial Matcha Strawberry Latte",
@@ -456,6 +458,7 @@ const special: Flavor = {
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/DMzYTJOTrJ8",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Ceremonial Matcha Coconut Sorbet",
@@ -465,6 +468,7 @@ const special: Flavor = {
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/DGUtOV5Sx46/",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Mint Stracctiatella",
@@ -489,6 +493,7 @@ const special: Flavor = {
       price: 350,
       description:
         "ไอศกรีมดัดแปลงจากขนมเปียกปูนโบราณ ทำจากกาบมะพร้าวเผา เบสกะทิสดทับสะแก ยกระดับความเป็นขนมไทย",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };

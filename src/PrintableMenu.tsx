@@ -45,6 +45,8 @@ export default function PrintableMenu({
     .map((f) => f.items.length)
     .reduceRight((p, c) => p + c);
 
+  const SHOULD_FILTER_SOLDOUT = false;
+
   return (
     <div className="">
       <div
@@ -118,7 +120,7 @@ export default function PrintableMenu({
             </div>
             {/* Menu items */}
             {flavor.items
-              .filter((f) => !f.isSoldOut)
+              .filter((f) => !SHOULD_FILTER_SOLDOUT || !f.isSoldOut)
               .map((item) => {
                 return (
                   <div key={item.name} className="flex flex-col">

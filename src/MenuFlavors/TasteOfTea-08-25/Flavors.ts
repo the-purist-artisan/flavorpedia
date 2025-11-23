@@ -41,6 +41,7 @@ const fruits: Flavor = {
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/DMZ5q15SThF",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Shimizu Hakuto Peach Sorbet",
@@ -137,6 +138,7 @@ const fruits: Flavor = {
         "มะพร้าวแกง จากไร่พงศ์พระยา ทับสะแก ปีนเก็บคัดลูกแก่ได้ที่คั้นเป็นน้ำกะทิสด",
       price: 250,
       instagramUrl: "https://www.instagram.com/p/DMmlDhGSw4h/",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -187,6 +189,7 @@ const matcha: Flavor = {
         "ความนุ่มนวลของผักสด ใบไม้สด หวานอูมามิธรรมชาติ หอมกลิ่นดอกไม้นานาชนิด ความขมปลายที่สะอาด",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/DM394UazzVz/",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Yame No Sora",
@@ -197,6 +200,7 @@ const matcha: Flavor = {
         "หอมมันถั่วแมคาเดเมียคั่วกลาง ผลไม้สุกแบบกล้วย อูมามิทะเลข้าวเกรียบกุ้ง ซับซ้อนยาวนาน",
       isNewFlavor: false,
       instagramUrl: "https://www.instagram.com/p/DMXeIK9ScYb",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Yame C-02",
@@ -262,6 +266,7 @@ const easternTea: Flavor = {
         "ผลไม้สุก ดอกไม้หลากหลายชนิด มีชั้นรสชาติหลายชั้น ความเครื่องเทศอ่อน ทิ้งปลายรสอูมามิ ไร้ความขม",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/C_4kVOUvzaF/",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Dong Fang Mei Ren (東方美人)",
@@ -373,6 +378,7 @@ const classic: Flavor = {
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "https://www.instagram.com/p/DMsmaFkzoCq/",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Queensland Macadamia",
@@ -478,6 +484,7 @@ const special: Flavor = {
       tastingNotes: "",
       isNewFlavor: false,
       instagramUrl: "https://www.instagram.com/p/C8OlSFLvNhp/",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Raspberry Yogurt",
@@ -487,6 +494,7 @@ const special: Flavor = {
       tastingNotes: "",
       isNewFlavor: true,
       instagramUrl: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Black Coconut Ash",

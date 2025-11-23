@@ -17,6 +17,7 @@ import { tastOfTea032025 } from "./MenuFlavors/TasteOfTea-03-25/Flavors";
 import { online042025 } from "./MenuFlavors/Online-04-25/Flavors";
 import { tcf0725 } from "./MenuFlavors/CoffeeFest-07-25/Flavors";
 import { tot0825 } from "./MenuFlavors/TasteOfTea-08-25/Flavors";
+import { tot1225 } from "./MenuFlavors/TasteOfTea-12-25/Flavors";
 
 export default function App() {
   return (
@@ -134,8 +135,22 @@ export default function App() {
             />
           }
         />
-        {/* Access route "/print" with inspected device of 600 x 932px */}
         <Route
+          path="/tot-12-25"
+          element={
+            <Menu
+              headerText="Taste of Tea"
+              otherInformation={{
+                eventDate: "3-9 December 2025",
+                eventLocation: "Central World",
+              }}
+              flavors={tot1225}
+              shouldShowTastingNotesHeader={true}
+            />
+          }
+        />
+        {/* Access route "/print" with inspected device of 600 x 932px */}
+        {/* <Route
           path="/print"
           element={
             <PrintableMenu
@@ -144,7 +159,7 @@ export default function App() {
               shouldShowTastingNotesHeader={true}
             />
           }
-        />
+        /> */}
       </Routes>
     </>
   );

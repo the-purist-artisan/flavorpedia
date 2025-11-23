@@ -1,0 +1,50 @@
+# .github/workflows/manual-gh-pages.yml
+
+name: 'Manual Deploy to GitHub Pages'
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      # Input field to specify the branch to deploy from
+      branch:
+        description: 'The branch to build and deploy'
+        required: true
+        default: 'main' # Or your default branch
+
+# Sets permissions for the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+        with:
+          # Checks out the branch you specified in the input
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Setup Node.js 🏗️
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Change to your project's Node.js version
+          cache: 'npm'       # Use 'yarn' if you use Yarn
+
+      - name: Install Dependencies 📦
+        run: npm ci # Use 'yarn install --frozen-lockfile' for Yarn
+
+      - name: Build Project ⚙️
+        run: npm run build # Or your custom build command
+
+      - name: Deploy to GitHub Pages 🚀
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          # The GITHUB_TOKEN is automatically created and passed by GitHub
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # The directory where your static files are after building
+          publish_dir: ./build
+          

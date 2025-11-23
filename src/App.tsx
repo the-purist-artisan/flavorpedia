@@ -7,6 +7,7 @@ import { chineseNewYearFlavors } from "./MenuFlavors/ChineseNewYear/Flavors";
 import { tasteOfTeaFlavors } from "./MenuFlavors/TasteOfTea/Flavors";
 import { midtownCoffeeAndSpirit } from "./MenuFlavors/CoffeeAndSpirits/Flavors";
 import Menu from "./Menu";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import PrintableMenu from "./PrintableMenu";
 import { sweetBakery0824 } from "./MenuFlavors/SweetBakery-08-24/Flavors";
 import { thailandCoffeeFest2024 } from "./MenuFlavors/CoffeeFest-07-24/Flavors";
@@ -15,6 +16,7 @@ import { tastOfTea122024 } from "./MenuFlavors/TasteOfTea-12-24/Flavors";
 import { tastOfTea032025 } from "./MenuFlavors/TasteOfTea-03-25/Flavors";
 import { online042025 } from "./MenuFlavors/Online-04-25/Flavors";
 import { tcf0725 } from "./MenuFlavors/CoffeeFest-07-25/Flavors";
+import { tot0825 } from "./MenuFlavors/TasteOfTea-08-25/Flavors";
 
 export default function App() {
   return (
@@ -102,7 +104,6 @@ export default function App() {
             />
           }
         />
-
         <Route
           path="/online-04-25"
           element={
@@ -120,9 +121,17 @@ export default function App() {
           }
         />
         <Route
-          path="/online-04-25"
+          path="/tot-08-25"
           element={
-            <Menu headerText="Online April 2025" flavors={online042025} />
+            <Menu
+              headerText="Taste of Tea"
+              otherInformation={{
+                eventDate: "8-13 August 2025",
+                eventLocation: "Central Ladprao",
+              }}
+              flavors={tot0825}
+              shouldShowTastingNotesHeader={true}
+            />
           }
         />
         {/* Access route "/print" with inspected device of 600 x 932px */}
@@ -130,8 +139,8 @@ export default function App() {
           path="/print"
           element={
             <PrintableMenu
-              headerText="Thailand Coffee Fest<br>July 2025"
-              flavors={tcf0725}
+              headerText="Taste of Tea"
+              flavors={tot0825}
               shouldShowTastingNotesHeader={true}
             />
           }

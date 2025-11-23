@@ -11,6 +11,7 @@ export interface Item {
   isSoldOut?: SOLDOUT_TYPE;
   preorderPrice?: number;
   isNewFlavor?: boolean;
+  instagramUrl?: string;
 }
 
 export interface Flavor {

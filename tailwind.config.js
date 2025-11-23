@@ -41,9 +41,11 @@ module.exports = {
       },
       fontSize: {
         "key-header": "44px",
+        "sub-header": "24px",
       },
       lineHeight: {
         "key-header": "40px",
+        "sub-header": "28px",
       },
     },
   },

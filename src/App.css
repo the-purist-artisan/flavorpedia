@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#customInstagramModal {
+  min-width: 330px;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  border-radius: 0.75rem;
+}

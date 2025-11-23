@@ -2,6 +2,7 @@ import { Flavor, SOLDOUT_TYPE } from "../types";
 
 // Use this web to do conversion from csv and put it in parsedFlavours:
 // https://csvjson.com/csv2json
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const parsedFlavours = [];
 
 const fruits: Flavor = {

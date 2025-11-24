@@ -416,6 +416,7 @@ const classic: Flavor = {
         "วานิลลาสีน้ำเงิน (Vanille Bleue) จากเกาะเรอูนียง กรรมสิทธิ์การผลิตเฉพาะโดย Escale Bleue  ที่ทำให้ฝักยังคงสดและกินได้ทั้งเปลือก ให้กลิ่นหอมควันไฟ ดอกไม้ และไม้รมควัน มากกว่าวานิลลาทั่วไป คว้ารางวัล Superior Taste Award",
       tastingNotes: "ไม้รมควัน ชา lapsang souchong สมุนไพร ช็อกโกแลค คาราเมล",
       instagramUrl: "https://www.instagram.com/p/DDHfreQSFo5/",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
   ],
 };
@@ -445,6 +446,7 @@ const chocolate: Flavor = {
       tastingNotes:
         "ผลไม้สุกเขตร้อน เช่น มะม่วง มะนาวเทศ หรือสับปะรดสุก กลางคำคล้ายอัลมอนด์ เฮเซลนัต พื้นหลังมีความอุ่นแบบเครื่องเทศอ่อน ๆ",
       instagramUrl: "https://www.instagram.com/p/DQyHWUckgzG",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Agnes and Pierre Chiapas Mexique Chocolate",
@@ -491,6 +493,7 @@ const special: Flavor = {
         "เบสไอศกรีมจากน้ำมันมะกอก Grand Cru ของ Frantoio Pugliese Galantino ที่ให้บอดี้เนื้อเนียนนุ่มลื่นเป็นพิเศษ ท็อปด้วยน้ำมันมะกอกสายพันธุ์ Coratina กลิ่นหอมสดชื่นของหญ้าและใบมะเขือเทศ สอดแทรกเลเยอร์ด้วยบัลซามิกวินิการ์ Extravecchino อายุ 25 ปี รสข้นหนืดหอมลูกพรุนและไม้บ่ม ตัดปลายลิ้นด้วยดอกเกลืออย่างสมบูรณ์",
       tastingNotes: "",
       instagramUrl: "https://www.instagram.com/p/DREdHdiEsUO",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Milk Chocolate with Candied Kamquat",
@@ -509,6 +512,7 @@ const special: Flavor = {
         "วานิลลา Tahitian รสชาติซับซ้อนด้วยความหอมหวาน และกลิ่นดอกไม้ และ เครื่องเทศ ตัดกับช็อกโกแลตชิพ Amedei ที่มีความละมุนและมิติล้ำลึก ใช้เทคนิคแบบ stracciatella โดยราด shards of melted Amedei chocolate ลงในไอศกรีมที่กำลังปั่นอย่างช้าๆ จนแข็งตัวเป็นเส้นบางกรุบละลายได้เมื่อสัมผัสลิ้น",
       tastingNotes: "",
       instagramUrl: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Baron Bigod Tart",
@@ -518,6 +522,7 @@ const special: Flavor = {
         "ชีสรางวัล World Cheese Awards และได้รับการโหวตเป็นชีสสไตล์ Brie ที่ดีที่สุดในสหราชอาณาจักร ทำจากนมวัวสายพันธุ์ Montbeliarde ดัดแปลงเป็นขนมแทรกด้วย แป้งทาร์ตสุดพิเศษ (มีส่วนประกอบของถั่ว)",
       tastingNotes: "",
       instagramUrl: "https://www.instagram.com/p/DRPTuIwkuAD",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Hazelnuts and White Chocolate Truffle",
@@ -536,6 +541,7 @@ const special: Flavor = {
         "คุกกี้ดาร์กช็อกโกแลตสูตรเข้มข้นที่คัดสรรโกโก้คุณภาพเยี่ยม อบสดใหม่เพื่อให้ได้รสสัมผัสกรุบกรอบโดย Sauvage ตัดกับความหอมละมุนของครีมวานิลลาตาฮิติอย่างลงตัว สร้างมิติใหม่ของรสชาติที่หรูหราและน่าจดจำ",
       tastingNotes: "",
       instagramUrl: "https://www.instagram.com/p/DRWDU1qE5Ex/?img_index=1",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Chianti Mulled Wine Sorbet (On-site Only)",

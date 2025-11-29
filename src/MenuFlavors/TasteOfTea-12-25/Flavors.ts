@@ -484,6 +484,7 @@ const special: Flavor = {
         "โยเกิร์ตสไตล์กรีกชนะรางวัลจาก The Estate Dairy ราดซอสบลูเบอร์รี No.1 สายพันธุ์พิเศษ",
       tastingNotes: "",
       instagramUrl: "https://www.instagram.com/p/DAK3sW6vIgY/?img_index=1",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       name: "Grand Cru Olive Oil with 25-Year Aged Balsmic Vinegar",

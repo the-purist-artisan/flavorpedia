@@ -150,16 +150,16 @@ export default function App() {
           }
         />
         {/* Access route "/print" with inspected device of 600 x 932px */}
-        {/* <Route
+        <Route
           path="/print"
           element={
             <PrintableMenu
               headerText="Taste of Tea"
-              flavors={tot0825}
+              flavors={tot1225}
               shouldShowTastingNotesHeader={true}
             />
           }
-        /> */}
+        />
       </Routes>
     </>
   );

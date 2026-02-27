@@ -18,6 +18,7 @@ import { online042025 } from "./MenuFlavors/Online-04-25/Flavors";
 import { tcf0725 } from "./MenuFlavors/CoffeeFest-07-25/Flavors";
 import { tot0825 } from "./MenuFlavors/TasteOfTea-08-25/Flavors";
 import { tot1225 } from "./MenuFlavors/TasteOfTea-12-25/Flavors";
+import { tot0326 } from "./MenuFlavors/TasteOfTea-03-26/Flavors";
 
 export default function App() {
   return (
@@ -149,17 +150,31 @@ export default function App() {
             />
           }
         />
-        {/* Access route "/print" with inspected device of 600 x 932px */}
         <Route
-          path="/print"
+          path="/tot-03-26"
           element={
-            <PrintableMenu
+            <Menu
               headerText="Taste of Tea"
-              flavors={tot1225}
+              otherInformation={{
+                eventDate: "11-17 March 2026",
+                eventLocation: "Central World",
+              }}
+              flavors={tot0326}
               shouldShowTastingNotesHeader={true}
             />
           }
         />
+        {/* Access route "/print" with inspected device of 600 x 932px */}
+        {/* <Route
+          path="/print"
+          element={
+            <PrintableMenu
+              headerText="Taste of Tea"
+              flavors={tot0326}
+              shouldShowTastingNotesHeader={true}
+            />
+          }
+        /> */}
       </Routes>
     </>
   );

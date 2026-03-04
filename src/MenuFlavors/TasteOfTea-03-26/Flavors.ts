@@ -113,6 +113,7 @@ const fruits: Flavor = {
       tastingNotes: "",
       price: 400,
       instagramUrl: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       isNewFlavor: true,

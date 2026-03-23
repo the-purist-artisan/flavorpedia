@@ -105,16 +105,16 @@ const fruits: Flavor = {
       price: 400,
       instagramUrl: "https://www.instagram.com/p/DU7WQrCkteN",
     },
-    {
-      isNewFlavor: true,
-      name: "Kan Yao Song Huad Durian",
-      description:
-        "ทุเรียนก้านยาวเบตงทรง 'หวด' ทรงผลในอุดมคติที่หายากที่สุด บ่งบอกถึงความสมบูรณ์ของเนื้อ เติบโตในดินแร่ธาตุสูง ให้เนื้อสัมผัสเนียนละเอียดดั่งคัสตาร์ด เส้นใยน้อย รสชาติหวานมันกลมกล่อมแบบ Creamy & Savoury กลิ่นหอมดอกไม้เฉพาะตัว ไม่ฉุนจัด รสสัมผัสผู้ดีที่หาตัวจับยา",
-      tastingNotes: "",
-      price: 400,
-      instagramUrl: "",
-      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
-    },
+    // {
+    //   isNewFlavor: true,
+    //   name: "Kan Yao Song Huad Durian",
+    //   description:
+    //     "ทุเรียนก้านยาวเบตงทรง 'หวด' ทรงผลในอุดมคติที่หายากที่สุด บ่งบอกถึงความสมบูรณ์ของเนื้อ เติบโตในดินแร่ธาตุสูง ให้เนื้อสัมผัสเนียนละเอียดดั่งคัสตาร์ด เส้นใยน้อย รสชาติหวานมันกลมกล่อมแบบ Creamy & Savoury กลิ่นหอมดอกไม้เฉพาะตัว ไม่ฉุนจัด รสสัมผัสผู้ดีที่หาตัวจับยา",
+    //   tastingNotes: "",
+    //   price: 400,
+    //   instagramUrl: "",
+    //   isSoldOut: SOLDOUT_TYPE.SOLDOUT,
+    // },
     {
       isNewFlavor: true,
       name: "Amarin Saitama Strawberry Sorbet",

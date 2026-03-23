@@ -133,7 +133,7 @@ export default function PrintableMenu({
 
                     {/* Taste note and price */}
                     {item.tastingNotes ? (
-                      <div className="mt-1 font-ibm-plex-thai text-sm font-bold leading-[18px] whitespace-pre-wrap">
+                      <div className="mt-1 font-ibm-plex-thai text-xl font-bold leading-[32px] whitespace-pre-wrap">
                         {shouldShowTastingNotesHeader
                           ? `Tasting notes: ${item.tastingNotes}`
                           : item.tastingNotes}

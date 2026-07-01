@@ -19,6 +19,7 @@ const fruits: Flavor = {
       description:
         "สตรอว์เบอร์รีจากฝรั่งเศส สายพันธุ์เก่าแก่ แต่มีความพรีเมี่ยมได้ที่รับการยอมรับจากเชฟมิชลินทั่วโลก มีกลิ่นหอมดอกไม้ซิตรัส รสเปรี้ยวนำหวาน ทิ้งท้ายกลิ่นหอมยาวนาน",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 450,
       instagramUrl: "https://www.instagram.com/p/DXozv8_krfD",
     },
@@ -29,6 +30,7 @@ const fruits: Flavor = {
         "หนามดำ สายพันธุ์ดังจากมาเลเซีย รสชาติซับซ้อน คัสตาร์ด คาราเมลดาร์คช็อกโกแลตปลายเป็นไวน์",
       tastingNotes: "",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "https://www.instagram.com/p/DWxoRmNkmFU",
     },
     {
@@ -38,7 +40,16 @@ const fruits: Flavor = {
         "ฉายา Hermes แห่งวงการทุเรียน รสชาติหวานมันเข้มข้น ดุดัน Full-bodied คาราเมลถั่ว หาทานยาก และราคาสูงกว่าทุเรียนทั่วไปกว่า 2 เท่าตัว จากสวนจันทวิสูตร",
       tastingNotes: "",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "https://www.instagram.com/p/C5QggKMy-qq/",
+    },
+    {
+      name: "Amalfi Lemon Sorbet",
+      price: 400,
+      description:
+        "เลมอนที่ขึ้นชื่อว่าอร่อยที่สุดตลอดกาลจากเมือง Amalfi โดดเด่นด้วยเปลือกที่ทานได้ อุดมด้วย Aromatic Oil หอมฟุ้งโทนทะเลสดชื่นโดยไม่ขม มอบรสเปรี้ยวสะอาดและมีชีวิตชีวา",
+      instagramUrl: "https://www.instagram.com/p/DDMG8qTSNgo",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
     },
     {
       isNewFlavor: false,
@@ -56,6 +67,7 @@ const fruits: Flavor = {
         "จันทบุรี 10 สวนอากง รวมความนกหยิบและชะนี มีความครีมมี่สูง หอมนวลลงตัว ตามด้วยโน้ตผลไม้หลากหลายชนิด",
       tastingNotes: "",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "",
     },
     {
@@ -82,6 +94,7 @@ const fruits: Flavor = {
       description:
         "มะม่วงอกร่องโบราณ จากสวนอร่ามรัตน์ บ้านแพ้ว เก็บระยะสุกปากตะกร้อ หวานหอมฟุ้งยาวนาน",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 300,
       instagramUrl: "",
     },
@@ -128,6 +141,7 @@ const matcha: Flavor = {
       description:
         "มัทฉะพิเศษจาก Yame โดย MTCH ที่ดึงเอกลักษณ์ของสายพันธุ์ Saemidori ออกมาได้อย่างสมบูรณ์แบบ โดดเด่นด้วยอโรม่าธรรมชาติของดอกมะลิป่าและลิลลี่ แฝงกลิ่นขนมปังปิ้งอ่อนๆ และทิ้งท้ายด้วยความหอมมันนวลๆ แบบถั่วอย่างลงตัว",
       tastingNotes: "ดอกไม้หลากสี ขนมปังปิ้งอ่อนๆ ความหอมมันแบบถั่ว",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 400,
       instagramUrl: "",
     },
@@ -138,6 +152,7 @@ const matcha: Flavor = {
         'มัทฉะเกรดพิธีชง จากไร่ชาในตำนาน "นานะสึโมริ" แห่งเมืองอุจิ รสชาติสมดุลระหวางความอูมามิและความหอมหวาน ถือเป็นมาตรฐานรสชาติของอุจิที่แท้จริง โดย MTCH',
       tastingNotes: "ผักโขมครีม สาหร่าย ไวท์ช็อกโกแลต อูมามิ",
       price: 450,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "https://www.instagram.com/p/DXrTx8Gkp2i",
     },
   ],
@@ -157,6 +172,7 @@ const easternTea: Flavor = {
         "ชาอู่หลงคลาสสิกจากภูเขาหวู่อี๋ แบรนด์ Sea Dyke ใช้ใบชาจากพุ่มเก่าแก่ ให้รสชาติซับซ้อนของอโรม่าแร่ธาตุ ผสานการคั่วที่มอบโทนกลิ่นไม้ชื้นและผิวโกโก้จางๆ",
       tastingNotes:
         "กลิ่นไม้ชื้น ผิวโกโก้ สัมผัสแร่ธาตุหิน (เหยียนอวิ้น) ความหวานลุ่มลึก",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 400,
       instagramUrl: "https://www.instagram.com/p/DXebtazktJI/",
     },
@@ -216,6 +232,7 @@ const classic: Flavor = {
         "พิสตาชีโอจากเมือง Bronte ใกล้เนินเขาของภูเขาไฟ Etna ในอิตาลี ที่เป็นแหล่งเพาะปลูกพิสตาชีโอมายาวนานหลายร้อยปี จนขนานนามว่าเป็น “ทองสีเขียว” แร่ธาตุจากภูเขาไฟทำให้รสชาติของถั่วเข้ม พุ่ง และหอมไม่เหมือนใคร",
       tastingNotes: "",
       price: 350,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "https://www.instagram.com/p/C8JghMoPU4L/",
     },
     {
@@ -224,6 +241,7 @@ const classic: Flavor = {
       description:
         "แมคคาเดเมียจากดินภูเขาไฟสีแดงในออสเตรเลีย ถิ่นกำเนิดดั้งเดิม ให้รสชาติที่มันเนยและเข้มข้นกว่าแมคคาเดเมียทั่วไป มีกลิ่นหอมของดินและถั่วคั่วชัดเจน",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 350,
       instagramUrl: "https://www.instagram.com/p/DQWqO67kv0Q",
     },
@@ -234,6 +252,7 @@ const classic: Flavor = {
         "วานิลลาระดับตำนานคัดสรรโดย Sylvanilla จากเม็กซิโก นี่ไม่ใช่วานิลลาสายหวานละมุนทั่วไป แต่ฉีกกรอบสู่มิติที่เข้ม ลึก และซับซ้อน โดดเด่นด้วยอโรม่าของเรซิ่น บัลซามิก และเครื่องเทศ ผสานมิติของผลไม้สุกหมักบ่มที่ปลายกลิ่น เป็นรสชาติที่รังสรรค์มาเพื่อเปิดประสบการณ์วานิลลาในอีกโลกหนึ่ง",
       tastingNotes:
         "เครื่องเทศ ชะเอมเทศ น้ำส้มสายชูหมักบัลซามิก กลิ่นดอกไม้ที่ซับซ้อน และทิ้งกลิ่นยาวนาน",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 650,
       instagramUrl: "https://www.instagram.com/p/DXmLLlfEo26/",
     },
@@ -254,6 +273,7 @@ const chocolate: Flavor = {
         "ช็อกโกแลตระดับโลกจากไต้หวัน เจ้าของรางวัลเหรียญทองสูงสุด คัดสรรโกโก้จากแหล่งเพาะปลูกผิงตง แปรรูปแบบ Tree-to-bar ให้รสชาติที่เป็นเอกลักษณ์ของผลไม้เมืองร้อน เครื่องเทศ และคาราเมล",
       tastingNotes:
         "ผลไม้สุกเขตร้อน เช่น มะม่วง มะนาวเทศ หรือสับปะรดสุก กลางคำคล้ายอัลมอนด์ เฮเซลนัต พื้นหลังมีความอุ่นแบบเครื่องเทศอ่อน ๆ",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 400,
       instagramUrl: "https://www.instagram.com/p/DQyHWUckgzG",
     },
@@ -273,6 +293,7 @@ const special: Flavor = {
       description:
         "รสชาติพิเศษ หาทานได้ยากไม่กี่ครั้งต่อปี มี 2 เลเยอร์ของรสชาติ ทำจากลิ้นจี่สดสายพันธุ์กระโหลกใบขิง ราสเบอร์รี่สายพันธุ์ Berry Jewel และกุหลาบ Damask ถอดและตีความใหม่จากขนมมาการองสุดคลาสสิคของ Pierre Hermes",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 500,
       instagramUrl: "https://www.instagram.com/p/DXs-tGjkexP",
     },

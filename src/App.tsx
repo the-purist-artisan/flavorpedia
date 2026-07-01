@@ -19,6 +19,7 @@ import { tcf0725 } from "./MenuFlavors/CoffeeFest-07-25/Flavors";
 import { tot0825 } from "./MenuFlavors/TasteOfTea-08-25/Flavors";
 import { tot1225 } from "./MenuFlavors/TasteOfTea-12-25/Flavors";
 import { tot0326 } from "./MenuFlavors/TasteOfTea-03-26/Flavors";
+import { online0526 } from "./MenuFlavors/Online-05-26/Flavors";
 
 export default function App() {
   return (
@@ -160,6 +161,20 @@ export default function App() {
                 eventLocation: "Central World",
               }}
               flavors={tot0326}
+              shouldShowTastingNotesHeader={true}
+            />
+          }
+        />
+        <Route
+          path="/online-05-26"
+          element={
+            <Menu
+              headerText="Pre-order<br>May 2026"
+              otherInformation={{
+                eventDate: "01 May 2026",
+                eventLocation: "Online",
+              }}
+              flavors={online0526}
               shouldShowTastingNotesHeader={true}
             />
           }

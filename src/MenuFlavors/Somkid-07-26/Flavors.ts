@@ -30,6 +30,7 @@ const matcha: Flavor = {
         'มัทฉะฤดูกาลแรกของปี 2026 ระดับ Koicha จากเมืองยาเมะ จังหวัดฟุกุโอกะ แหล่งปลูกที่ขึ้นชื่อเรื่องชาเนื้อเนียนนุ่มและไร้ความขม โดดเด่นด้วยคาแรกเตอร์การคั่วไฟ ที่ควบคุมความร้อนได้อย่างสง่างามจนได้ชื่อว่า "Honō" (เปลวไฟ) ให้มิติอูมามิที่หนักแน่นและจู่โจมตอบโจทย์ผู้หลงใหลในมัทฉะโทนถั่วทุกมิติ จัดหาโดย PAGUcha',
       tastingNotes:
         "พิสตาชีโอคั่ว, เกาลัดอบ, ถ่านไฟอ่อนๆ, ปลาเนื้อขาวย่าง, อูมามิ, ธัญพืชคั่ว, ขนมปังปิ้ง",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 450,
       instagramUrl: "https://www.instagram.com/p/DZ150VxIC17",
     },
@@ -49,6 +50,7 @@ const fruits: Flavor = {
       description:
         "เชอร์รีสายพันธุ์ดั้งเดิม Mora di Vignola จากแคว้น Emilia-Romagna อิตาลี (I.G.P.) พิเศษด้วยการคัดมือและบินตรงถึงไทยภายในวันเดียวเพื่อความสดสูงสุด ให้โปรไฟล์ของ Black Cherry, Red Berry และ Floral ที่เข้มข้น พร้อมความหวานและกรดผลไม้ที่สมดุล",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 450,
       instagramUrl: "https://www.instagram.com/p/DaIZloRIGDJ",
     },
@@ -103,6 +105,7 @@ const fruits: Flavor = {
       description:
         "เลมอนที่ขึ้นชื่อว่าอร่อยที่สุดตลอดกาลจากเมือง Amalfi โดดเด่นด้วยเปลือกที่ทานได้ อุดมด้วย Aromatic Oil หอมฟุ้งโทนทะเลสดชื่นโดยไม่ขม มอบรสเปรี้ยวสะอาดและมีชีวิตชีวา",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 400,
       instagramUrl: "https://www.instagram.com/p/DZ7jsDcIKua",
     },
@@ -306,6 +309,7 @@ const special: Flavor = {
       description:
         "ถอดแรงบันดาลใจจากขนมคลาสสิก ตีความใหม่โดยเชฟแอมแห่ง Sauvage\nเมอแรงก์ถูกสร้างขึ้นใหม่ให้ บาง เบา กรอบ และแทบไม่หวานด้วยเทคนิคพิเศษ แต่ยังหอมผิว Amalfi Lemon เพื่อเติมสัมผัส กลิ่น และมิติ โดยไม่กลบรสชาติของไอศกรีม Amalfi Lemon Curd ที่ซ่อนอยู่ตรงกลาง ให้ความสดชัด สะอาด และเปรี้ยวหอมอย่างเต็มที่",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 550,
       instagramUrl: "",
     },
@@ -335,6 +339,7 @@ const special: Flavor = {
       description:
         "โยเกิร์ตจากวัว Jersey (White by Serene) โดดเด่นด้วยมิติรสชาติอูมามิ ครีมมี่ และสดชื่นเหนือระดับจากน้ำนมของแม่วัวที่เลี้ยงดูอย่างดีในทุ่งหญ้าอุดมสมบูรณ์ เมื่อนำมาจับคู่กับซอสบลูเบอร์รีสายพันธุ์ Sekoya Crunch ที่หวานนำเปรี้ยว หอมฟุ้ง",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 350,
       instagramUrl: "https://www.instagram.com/p/DAK3sW6vIgY",
     },

@@ -21,6 +21,7 @@ const matcha: Flavor = {
       tastingNotes:
         "ให้คาแรกเตอร์ของ ความเขียวสดชื่นของ สาหร่ายย่างหวาน หน่อไม้ฝรั่ง เปลือกเมลอนกลิ่นหอม และอูมามิที่นุ่มนวล เนื้อชาแน่น สดชื่น และสมดุลอย่างมาก",
       price: 500,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "",
     },
     {
@@ -50,7 +51,6 @@ const fruits: Flavor = {
       description:
         "เชอร์รีสายพันธุ์ดั้งเดิม Mora di Vignola จากแคว้น Emilia-Romagna อิตาลี (I.G.P.) พิเศษด้วยการคัดมือและบินตรงถึงไทยภายในวันเดียวเพื่อความสดสูงสุด ให้โปรไฟล์ของ Black Cherry, Red Berry และ Floral ที่เข้มข้น พร้อมความหวานและกรดผลไม้ที่สมดุล",
       tastingNotes: "",
-      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 450,
       instagramUrl: "https://www.instagram.com/p/DaIZloRIGDJ",
     },
@@ -69,6 +69,7 @@ const fruits: Flavor = {
       description:
         "องุ่น Delaware จากจังหวัด Shimane ประเทศญี่ปุ่น องุ่นสายพันธุ์คลาสสิกที่คนญี่ปุ่นรักมายาวนาน ผลเล็กแต่กลิ่นหอมจัดของ องุ่นแดง น้ำองุ่น และลูกอมองุ่นญี่ปุ่น รสหวานฉ่ำ กรดสดใส มีกลิ่นฟุ้งเป็นเอกลักษณ์",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 450,
       instagramUrl: "",
     },
@@ -78,6 +79,7 @@ const fruits: Flavor = {
       description:
         "เมลอนเนื้อส้มสายพันธุ์ Quincy จากจังหวัดอิบารากิ ประเทศญี่ปุ่น คัดสรรในช่วงที่ผลสุกเปล่งปลั่งที่สุด ให้มิติความหวานหอมลึกล้ำ ซับซ้อนด้วยโน้ตของน้ำผึ้ง ผลไม้สุก และกลิ่นดอกไม้บางๆ ผ่านกระบวนการเฉพาะที่ทำให้เนื้อสัมผัสยังเนียนฉ่ำและคงความหอมเข้มข้นไว้ได้ในทุกคำ",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 400,
       instagramUrl: "https://www.instagram.com/p/DZw9fIZoFSf",
     },
@@ -87,6 +89,7 @@ const fruits: Flavor = {
       description:
         "เมลอนเนื้อเขียวสายพันธุ์ Andes จากจังหวัดอิบารากิ ประเทศญี่ปุ่น แหล่งปลูกชั้นนำที่เก็บเกี่ยวในช่วงพีคที่สุด โดดเด่นด้วยกลิ่นหอมสดชื่น คมชัด เป็นเอกลักษณ์ของเมล่อนญี่ปุ่น นำมาทำเป็น Sorbet ด้วยเทคนิคพิเศษที่ควบคุมปริมาณน้ำและน้ำตาลอย่างสมดุล จนได้เนื้อสัมผัสเนียนฉ่ำ กักเก็บความหอมละมุนไว้ได้อย่างสมบูรณ์แบบ",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 400,
       instagramUrl: "https://www.instagram.com/p/DZw9fIZoFSf",
     },
@@ -97,6 +100,7 @@ const fruits: Flavor = {
         "สตรอว์เบอร์รีสายพันธุ์พิเศษ Ania จากอิตาลี ระดับท็อปคลาสในคอลเลกชัน Waitrose No.1 ของอังกฤษ โดดเด่นด้วยกลิ่นหอมของสตรอว์เบอร์รีป่า แยมผลไม้ และราสป์เบอร์รี่",
       tastingNotes: "",
       price: 400,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "https://www.instagram.com/p/DaDRvrZoKSu",
     },
     {
@@ -133,6 +137,7 @@ const fruits: Flavor = {
       description:
         "ลองกองจากปราจีนบุรี โดดเด่นด้วยสมดุลรสหวานอมเปรี้ยวที่กลมกล่อม ซ่อนมิติความหอมของน้ำผึ้งอ่อน ดอกไม้สีขาว องุ่นขาว และลูกแพร์ ผ่านกระบวนการที่มีความพิถีพิถัน ต้องใช้มือแกะและคัดเมล็ดออกอย่างทะนุถนอมเพื่อหลีกเลี่ยงความขม มอบสัมผัสของเนื้อลองกองเน้นๆ ที่หอมหวานสดชื่นในทุกคำ",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 300,
       instagramUrl: "https://www.instagram.com/p/DZ5HLPsoJcM",
     },
@@ -152,8 +157,8 @@ const coffee: Flavor = {
       description:
         "เมล็ดกาแฟ Geisha จาก Elida Estate ประเทศปานามา ปลูกบนความสูง 1,850 เมตร ผ่านกระบวนการแบบ Washed Process และคั่วอย่างพิถีพิถันโดย Vendetta Roaster และเปลี่ยนเป็นไอศกรีมเบสนมด้วยเทคนิคการสกัดกลิ่นที่ยังคงความละเอียดอ่อนของกาแฟ Filter ไว้ได้อย่างสมบูรณ์ ให้มิติรสชาติพุ่งกระแทกเป็นระลอกคลื่น พร้อมทิ้งสัมผัสหวานหอมของเกสรดอกไม้ตลบอบอวลใน Aftertaste อย่างยาวนาน",
       tastingNotes: "พีช, ดอกส้มสีขาว, แอปริคอต, เบอร์กาม็อต, น้ำผึ้ง",
-      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 600,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "https://www.instagram.com/p/DZpUDy6oClY",
     },
   ],
@@ -174,6 +179,7 @@ const easternTea: Flavor = {
       tastingNotes:
         "แอปริคอตสุก พีช ลำไย แอปริคอตแห้ง น้ำผึ้ง และกล้วยไม้ พุ่งออกมาตั้งแต่แรกเปิดถุง ให้ความรู้สึกของผลไม้สุกฉ่ำหวานมากกว่าสายดอกไม้ เนื้อชาแน่น นุ่ม หวานตามธรรมชาติ และทิ้งความหอมยาวนานติดปลายจมูกและในคอหลังดื่ม",
       price: 750,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "https://www.instagram.com/p/DaQAGxwEqTf",
     },
     {
@@ -184,6 +190,7 @@ const easternTea: Flavor = {
       tastingNotes:
         "ผลไม้สุกอย่างลูกพรุนและพีช ดอกไม้ อบไฟกลาง น้ำผึ้งฉ่ำ คาราเมล  ทิ้งท้ายด้วยกลิ่นถั่วคั่วและโกโก้",
       price: 600,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "https://www.instagram.com/p/DZmH0TuICpk",
     },
   ],
@@ -204,6 +211,7 @@ const westernTea: Flavor = {
         'ใบชาเอิร์ลเกรย์เบลนด์อันเป็นเอกลักษณ์จากแบรนด์ T2 ประเทศออสเตรเลีย โดดเด่นด้วยนิยามความหอมแบบ "Oh-so-fruity" ที่ฉีกกรอบเอิร์ลเกรย์ดั้งเดิม ผสานกลิ่นสิทรัสอันเป็นเอกลักษณ์ของเบอร์กาม็อตเข้ากับความสดชื่นของสวนผลไม้และดอกไม้ละลานตา',
       tastingNotes: "ผลไม้ กุหลาบ ดอกทานตะวัน กระเจี๊ยบ",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "https://www.instagram.com/p/C76q3M6SbjO",
     },
     {
@@ -213,6 +221,7 @@ const westernTea: Flavor = {
         "ชาดำจากแบรนด์ชาคู่ราชวงศ์อังกฤษ โดดเด่นด้วยการเบลนด์ความหอมอโรม่าของเบอร์กาม็อตเข้ากับความสว่างของส้มซีทรัส ที่ให้ความหอมเบาสบาย และสดชื่น",
       tastingNotes:
         "น้ำมันเบอกาม็อทสุดคลาสสิกสไตล์ผู้ดีอังกฤษ ปิดท้ายด้วยเปลือกส้ม",
+        isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 300,
       instagramUrl: "",
     },
@@ -223,6 +232,7 @@ const westernTea: Flavor = {
         "ชาดำเบลนด์พิเศษจากแบรนด์อาร์ติซานของฝรั่งเศส ที่ถ่ายทอดการบรรจบกันของสองมหานคร โดดเด่นด้วยมิติความหอมหวานนุ่มลึกของคาราเมลเนยสไตล์ฝรั่งเศส ผสานความสดชื่นฉ่ำหวานของผลไม้สีแดงอย่างสตรอว์เบอร์รี่ ราสป์เบอร์รี และเชอร์รี",
       tastingNotes: "ผลไม้สีแดง ราสป์เบอร์รี เชอร์รี ครีมเนยคาราเมล",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "",
     },
   ],
@@ -252,6 +262,7 @@ const classic: Flavor = {
       description:
         "ถั่วพิสตาชีโอ D.O.P. จากเมือง Bronte โดยฟาร์ม Don Tanu ที่คัดสรรคุณภาพอย่างเสถียร นำมาคั่วอย่างแม่นยำเพื่อรักษามิติความหอมสดชื่น ก่อนเข้ากระบวนการโม่หิน (Melanger) แบบควบคุมอุณหภูมิจนได้ความละเอียดที่สมดุลที่สุด ให้เนื้อสัมผัสเนียนละเอียด ปลดปล่อยน้ำมันธรรมชาติอย่างพอดี รักษารสชาติให้หอมละมุนและคลีนที่สุดโดยไม่เสียคาแรกเตอร์จากความร้อนสะสม",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 350,
       instagramUrl: "https://www.instagram.com/p/DaAyCzVIClH",
     },
@@ -261,6 +272,7 @@ const classic: Flavor = {
       description:
         "แมคคาเดเมียเกรดประกวด Red Rock จากเมือง Bundaberg ออสเตรเลีย ปลูกบนดินแดงที่อุดมด้วยแร่ธาตุ รอบนี้ยกระดับความคราฟต์ด้วยกระบวนการโม่หินเพื่อสกัดรสชาติแบบ Low Impact อย่างทะนุถนอม ให้สัมผัสครีมมี่นุ่มลื่น โดดเด่นด้วยมิติความหอมอบอุ่นของเนยคั่ว ไวท์ช็อกโกแลต เมเปิล และขนมปังบริยอชอบอบใหม่ ให้รสชาติหอมมัน กลมกล่อม และล้ำลึกเหนือระดับ",
       tastingNotes: "",
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 350,
       instagramUrl: "https://www.instagram.com/p/DQWqO67kv0Q",
     },
@@ -271,6 +283,7 @@ const classic: Flavor = {
         "เฮเซลนัท I.G.P. จากฟาร์มคราฟต์ Scoiattolo Rosso แห่งแคว้น Piedmont ประเทศอิตาลี ดินแดนที่ได้รับการยกย่องว่าเป็นแหล่งปลูกเฮเซลนัทที่ดีที่สุดในโลก ด้วยแร่ธาตุในดินและสภาพภูมิอากาศเฉพาะตัว ทำให้ได้ถั่วที่มีโครงสร้างรสชาติโดดเด่น มอบความหอมมันละมุนละไมราวกับเนย ซ่อนมิติความหวานของวานิลลาอ่อนๆ และน้ำผึ้งตามธรรมชาติ",
       tastingNotes: "",
       price: 300,
+      isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       instagramUrl: "",
     },
   ],
@@ -290,6 +303,7 @@ const chocolate: Flavor = {
         "เมล็ดโกโก้ระดับรางวัลจากหุบเขา Sambirano ประเทศมาดากัสการ์ แหล่งปลูกที่เปรียบดั่ง Burgundy แห่งโลกช็อกโกแลต ยกระดับความคราฟต์ไปอีกขั้นด้วยการนำ Cacao Nibs มาโม่หินเอง แทนการใช้ช็อกโกแลตสำเร็จรูป เพื่อถ่ายทอดรสชาติของแหล่งปลูก เป็น Sorbet ที่ให้โน้ตของผลไม้สีแดงสุกและให้บอดี้ที่หนักแน่นที่ทิ้งทวนความสะอาด",
       tastingNotes:
         "เบอร์รี่สีแดงสุก, ราสป์เบอร์รี่, เชอร์รี่, ผลไม้ฉ่ำหวาน, บอดี้หนักแน่น",
+        isSoldOut: SOLDOUT_TYPE.SOLDOUT,
       price: 400,
       instagramUrl: "https://www.instagram.com/p/DaF9T3oIBbV",
     },
